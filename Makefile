@@ -79,18 +79,18 @@ check: check-dirs
 
 # Build all the markdown files to html
 # TODO: Get title from the markdown file
-$(ALL_HTML_FILES): $(ALL_MD_FILES)
+%.$(HTML_OUT_EXT): %.$(MD_EXT)
 	@echo "Building HTML $@ from md: $<"
-	markdown2html-converter $< \
+	@markdown2html-converter $< \
 		--title "Techstarter: Fabio Keller" \
 		--html-path $@ \
 		--force \
 		--no-safe
 
 # Build all the generated html files to pdf
-$(ALL_PDF_FILES): $(ALL_HTML_FILES)
+$(ALL_PDF_FILES): %.$(PDF_OUT_EXT): %.$(HTML_OUT_EXT)
 	@echo "Building PDF $@ from html: $<"
-	chromium \
+	@chromium \
 		--headless \
 		--disable-gpu \
 		--run-all-compositor-stages-before-draw \

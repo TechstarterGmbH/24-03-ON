@@ -5,5 +5,5 @@
 tests/example.*
 !tests/example.md
 
-*.generated.md
+*.generated.html
 *.pdf
