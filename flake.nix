@@ -7,10 +7,12 @@
       pkgs = import nixpkgs { system = defaultSystem; };
 
       markdownToHtmlCli = import ./nix/markdown2html-converter.nix { inherit pkgs; };
+      marpCli = import ./nix/marp.nix { inherit pkgs; };
       
       defaultPkgs = with pkgs; [
         chromium
         markdownToHtmlCli
+        marpCli
         pre-commit
       ];
     in
