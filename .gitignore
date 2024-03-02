@@ -4,3 +4,6 @@
 
 tests/example.*
 !tests/example.md
+
+*.generated.md
+*.pdf

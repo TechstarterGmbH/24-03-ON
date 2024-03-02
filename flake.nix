@@ -9,7 +9,9 @@
       markdownToHtmlCli = import ./nix/markdown2html-converter.nix { inherit pkgs; };
       
       defaultPkgs = with pkgs; [
+        chromium
         markdownToHtmlCli
+        pre-commit
       ];
     in
     {
