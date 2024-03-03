@@ -8,3 +8,4 @@ tests/example.*
 *.generated.html
 *.pdf
 *.slides.pdf
+*.slides.html
