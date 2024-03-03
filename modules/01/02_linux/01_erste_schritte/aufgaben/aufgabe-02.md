@@ -8,13 +8,13 @@ In dieser Praxisaufgabe wirst du das Terminal verwenden, um eine Reihe von Datei
 
 0. Öffne ein Terminal in deiner Ubuntu-VM.
 1. **Verzeichnis erstellen**: Erstelle ein neues Verzeichnis namens `MeineDokumente`.
-1. **In das Verzeichnis wechseln**: Wechsle in das neu erstellte Verzeichnis `MeineDokumente`.
-1. **Dateien erstellen**: Innerhalb von `MeineDokumente`, erstelle drei leere Dateien: `Text1.txt`, `Text2.txt` und `Text3.txt`. ACHTNG: Diesen Befehl haben wir noch nicht kennengelernt und muss hier recherchiert werden: [Ubuntu Docs](https://wiki.ubuntuusers.de/touch/)
-1. **Verzeichnisinhalt auflisten**: Zeige den Inhalt des Verzeichnisses `MeineDokumente` an, um zu überprüfen, ob die Dateien erfolgreich erstellt wurden.
-1. **Unterverzeichnis erstellen**: Erstelle ein neues Verzeichnis innerhalb von `MeineDokumente` namens `Archiv`.
-1. **Datei verschieben**: Verschiebe die Datei `Text3.txt` in das Verzeichnis `Archiv`. ACHTUNG: Diesen Befehl haben wir noch nicht kennengelernt und muss hier recherchiert werden: [Ubuntu Docs](https://wiki.ubuntuusers.de/mv/)
-1. **Pfad des aktuellen Verzeichnisses anzeigen**: Verwende den `pwd` Befehl, um sicherzustellen, dass du dich im richtigen Verzeichnis befindest.
-1. **Datei löschen**: Lösche die Datei `Text2.txt` aus `MeineDokumente`.
+2. **In das Verzeichnis wechseln**: Wechsle in das neu erstellte Verzeichnis `MeineDokumente`.
+3. **Dateien erstellen**: Innerhalb von `MeineDokumente`, erstelle drei leere Dateien: `Text1.txt`, `Text2.txt` und `Text3.txt`. ACHTNG: Diesen Befehl haben wir noch nicht kennengelernt und muss hier recherchiert werden: [Ubuntu Docs](https://wiki.ubuntuusers.de/touch/)
+4. **Verzeichnisinhalt auflisten**: Zeige den Inhalt des Verzeichnisses `MeineDokumente` an, um zu überprüfen, ob die Dateien erfolgreich erstellt wurden.
+5. **Unterverzeichnis erstellen**: Erstelle ein neues Verzeichnis innerhalb von `MeineDokumente` namens `Archiv`.
+6. **Datei verschieben**: Verschiebe die Datei `Text3.txt` in das Verzeichnis `Archiv`. ACHTUNG: Diesen Befehl haben wir noch nicht kennengelernt und muss hier recherchiert werden: [Ubuntu Docs](https://wiki.ubuntuusers.de/mv/)
+7. **Pfad des aktuellen Verzeichnisses anzeigen**: Verwende den `pwd` Befehl, um sicherzustellen, dass du dich im richtigen Verzeichnis befindest.
+8. **Datei löschen**: Lösche die Datei `Text2.txt` aus `MeineDokumente`.
 
 ## Befehlsübersicht
 
