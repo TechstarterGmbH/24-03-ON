@@ -7,3 +7,4 @@ tests/example.*
 
 *.generated.html
 *.pdf
+*.slides.pdf

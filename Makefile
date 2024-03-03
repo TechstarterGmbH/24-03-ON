@@ -18,6 +18,8 @@ SLIDES_MD_EXT := slides.md
 HTML_OUT_EXT := generated.html
 PDF_OUT_EXT := pdf
 
+SLIDES_OUT_EXT := slides.pdf
+
 # The output directory for the generated files
 MODULE_DIR := $(CWD)/modules
 
@@ -38,10 +40,12 @@ ALL_PDF_FILES := $(ALL_MD_FILES:%.$(MD_EXT)=%.$(PDF_OUT_EXT))
 # All the slides markdown files to process
 ALL_SLIDES_MD_FILES := $(shell find $(PROCESS_DIR) -name "*.$(SLIDES_MD_EXT)" | grep -v node_modules)
 
+ALL_SLIDES_PDF_FILES := $(ALL_SLIDES_MD_FILES:%.$(SLIDES_MD_EXT)=%.$(SLIDES_OUT_EXT))
+
 
 # ---( Targets )---------------------------------------------------------------
 
-.PHONY: all clean test help debug check
+.PHONY: all clean test help debug check docs slides
 
 # ---( Misc )------------------------------------------------------------------
 
@@ -56,6 +60,7 @@ debug:
 	@echo "ALL_HTML_FILES: $(ALL_HTML_FILES)"
 	@echo "ALL_PDF_FILES: $(ALL_PDF_FILES)"
 	@echo "ALL_SLIDES_MD_FILES: $(ALL_SLIDES_MD_FILES)"
+	@echo "ALL_SLIDES_PDF_FILES: $(ALL_SLIDES_PDF_FILES)"
 
 
 # ---( Check )------------------------------------------------------------------
@@ -99,5 +104,27 @@ $(ALL_PDF_FILES): %.$(PDF_OUT_EXT): %.$(HTML_OUT_EXT)
 		--print-to-pdf=$@ \
 		$<
 
-all: check $(ALL_PDF_FILES)
+$(ALL_SLIDES_PDF_FILES): %.$(SLIDES_OUT_EXT): %.$(SLIDES_MD_EXT)
+	@echo "Building pdf $@ from md $<"
+	@marp $< --pdf --allow-local-files --output $@
+
+#---( Collections )------------------------------------------------------------------
+
+docs: $(ALL_PDF_FILES)
+
+docs-clean:
+	@echo "Cleaning all generated files"
+	@rm -f $(ALL_HTML_FILES) $(ALL_PDF_FILES)
+
+slides: $(ALL_SLIDES_PDF_FILES)
+
+slides-clean:
+	@echo "Cleaning all generated slides"
+	@rm -f $(ALL_SLIDES_PDF_FILES)
+
+all: check docs slides
 	@echo "All files built"
+
+clean: docs-clean slides-clean
+
+all-clean: clean all
