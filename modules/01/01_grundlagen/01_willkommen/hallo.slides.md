@@ -98,6 +98,12 @@ class: invert
 
 ---
 
+## Maximilian: Teaching Assistant
+
+![w:400](./assets/imgs/max.jpg)
+
+---
+
 ## Was erwartet euch?
 
 - **Intensives Training**: 1 Jahr; 7.5 Stunden pro Tag
