@@ -1,32 +1,6 @@
 # Schritt-für-Schritt Guide: Virtuelle Maschine mit Ubuntu in VirtualBox
 
-## Einleitung
-
-In diesem Guide lernst du, wie du eine virtuelle Maschine (VM) mit Ubuntu in VirtualBox auf einem Windows-System einrichtest.
-Eine virtuelle Maschine ermöglicht es dir, ein Betriebssystem innerhalb eines anderen Betriebssystems auszuführen, was ideal ist, um neue Betriebssysteme zu testen oder Software in isolierten Umgebungen zu entwickeln.
-
-Schaue dir für eine Ausführlichere Anleitung folgenden Guilde an [VirtualBox Guide](https://kofler.info/ubuntu-22-04-in-virtualbox-7-unter-windows/)
-
-## Schritt 1: VirtualBox installieren
-
-1. Gehe zu [VirtualBox Download-Seite](https://www.virtualbox.org/wiki/Downloads) und lade die neueste Version für Windows herunter.
-1. Führe die heruntergeladene Datei aus und folge den Installationsanweisungen.
-
-## Schritt 2: Ubuntu ISO-Datei herunterladen
-
-1. Besuche die [Ubuntu-Download-Seite](https://ubuntu.com/download/desktop) und lade die Version 22.04.4 LTS von Ubuntu herunter.
-
-## Schritt 3: Virtuelle Maschine erstellen
-
-1. Öffne VirtualBox und klicke auf "Neu", um eine neue virtuelle Maschine zu erstellen.
-1. Gib der VM einen Namen (z.B. "Ubuntu VM") und wähle als Typ "Linux" und als Version "Ubuntu (64-bit)" aus.
-1. Weise der VM mindestens 4 GB RAM zu.
-1. Erstelle eine neue virtuelle Festplatte mit mindestens 25 GB.
-1. Stelle sicher, dass der Haken bei `Skip unattended installation` NICHT gesetzt ist.
-1. Setze ein Password und Username für die Installation.
-1. Die VM wird nun erstellt und du kannst sie starten.
-
-## Schritt 4: Erste Schritte in Ubuntu
+## Schritt 1: Erste Schritte in Ubuntu
 
 ### Der Desktop
 
@@ -95,3 +69,23 @@ Schaue dir für eine Ausführlichere Anleitung folgenden Guilde an [VirtualBox G
 - Achtung: `rm` löscht Dateien dauerhaft, ohne sie in einen Papierkorb zu verschieben. Sei also vorsichtig beim Einsatz dieses Befehls.
 - Beispiel: Um eine Datei namens "Beispiel.txt" zu löschen, gib `rm Beispiel.txt` ein und drücke Enter.
 - Um ein Verzeichnis zu löschen, verwende den Parameter `-r` für rekursives Löschen: `rm -r Verzeichnisname`
+
+#### `echo [Text]` - Ausgabe von Text
+
+- `echo` wird verwendet, um Text auf dem Bildschirm auszugeben.
+- Ersetze `[Text]` durch den gewünschten Text.
+- Beispiel: Gib `echo Hallo, Welt!` ein und drücke Enter, um den Text "Hallo, Welt!" auf dem Bildschirm anzuzeigen.
+
+#### `cat [Dateiname]` - Anzeigen des Inhalts einer Datei
+
+- `cat` steht für "concatenate" (verketten).
+- Dieser Befehl wird verwendet, um den Inhalt einer Datei anzuzeigen.
+- Ersetze `[Dateiname]` mit dem Namen der zu lesenden Datei.
+- Beispiel: Um den Inhalt einer Datei namens "Beispiel.txt" anzuzeigen, gib `cat Beispiel.txt` ein und drücke Enter.
+
+#### `man [Befehl]` - Anzeigen der Handbuchseite eines Befehls
+
+- `man` steht für "manual" (Handbuch).
+- Mit diesem Befehl kannst du die Handbuchseite eines bestimmten Befehls anzeigen.
+- Ersetze `[Befehl]` durch den Namen des Befehls, dessen Handbuchseite du lesen möchtest.
+- Beispiel: Gib `man ls` ein, um die Handbuchseite des Befehls `ls` anzuzeigen.
