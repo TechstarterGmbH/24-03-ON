@@ -26,6 +26,8 @@ MODULE_DIR := $(CWD)/modules
 # The directory where the markdown files are located to process
 PROCESS_DIR ?= $(MODULE_DIR)
 
+# The browser to use for the pdf generation
+CHROME_BIN ?= chromium
 
 # ---( Dynamic Variables )------------------------------------------------------
 
@@ -95,7 +97,7 @@ check: check-dirs
 # Build all the generated html files to pdf
 $(ALL_PDF_FILES): %.$(PDF_OUT_EXT): %.$(HTML_OUT_EXT)
 	@echo "Building PDF $@ from html: $<"
-	@chromium \
+	@$(CHROME_BIN) \
 		--headless \
 		--disable-gpu \
 		--run-all-compositor-stages-before-draw \
