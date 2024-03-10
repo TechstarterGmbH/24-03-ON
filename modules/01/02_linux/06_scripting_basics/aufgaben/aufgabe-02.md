@@ -24,4 +24,4 @@ Füge Code zum Script hinzu, der eine Überschrift und das aktuelle Datum an den
 
 ### Schritt 3: Sortierte Daten anhängen
 
-Stellt sicher, dass die sortierten Daten unter der Überschrift und dem Datumsstempel in der Datei erscheinen.
+Stelle sicher, dass die sortierten Daten unter der Überschrift und dem Datumsstempel in der Datei erscheinen.
