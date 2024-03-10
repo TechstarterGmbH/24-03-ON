@@ -23,7 +23,6 @@
       ];
 
       macPkgs = with pkgsMac; [
-        chromium
         markdownToHtmlCliMac
         marpCliMac
         pre-commit
