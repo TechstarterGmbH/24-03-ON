@@ -84,7 +84,7 @@ class: invert
 
 ## Einführung in nano
 
-![](./assets/imgs/nano.png)
+![w:400](./assets/imgs/nano.png)
 
 ---
 
