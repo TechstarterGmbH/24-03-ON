@@ -1,0 +1,12 @@
+Wie viele Kontinente gibt es?;7
+Was ist die Hauptstadt von Deutschland?;Berlin
+In welchem Jahr landete der erste Mensch auf dem Mond?;1969
+Wie viele Elemente enthält das Periodensystem?;118
+Wer schrieb "Romeo und Julia"?;Shakespeare
+Was ist das chemische Symbol für Gold?;Au
+Wie viele Farben hat ein Regenbogen?;7
+Wie viele Spieler hat eine Fußballmannschaft auf dem Feld?;11
+Was ist der längste Fluss der Welt?;Amazonas
+Was ist die Hauptstadt von Frankreich?;Paris
+Wie viele Buchstaben hat das deutsche Alphabet?;26
+Was ist die tiefste Stelle der Weltmeere?;Marianengraben
