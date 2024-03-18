@@ -15,6 +15,7 @@
         markdownToHtmlCli
         marpCli
         pre-commit
+        python3Packages.deepl
       ];
 
     in
