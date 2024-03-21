@@ -12,6 +12,7 @@
       
       defaultPkgs = with pkgs; [
         chromium
+        diffutils
         markdownToHtmlCli
         marpCli
         pre-commit
