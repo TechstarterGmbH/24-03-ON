@@ -2,6 +2,8 @@
 
 .direnv/
 
+.tmp/
+
 tests/example.*
 !tests/example.md
 
