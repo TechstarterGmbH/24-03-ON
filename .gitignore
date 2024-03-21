@@ -11,3 +11,4 @@ tests/example.*
 *.pdf
 *.slides.pdf
 *.slides.html
+*.en.md
