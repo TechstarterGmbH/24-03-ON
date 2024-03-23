@@ -42,12 +42,17 @@ TRANS_OUT_MD_EXT := en.md
 
 TRANS_OUT_LANG ?= EN-US
 
+S3_INVENTORY_FILE := $(TMP_DIR)/s3_inventory.csv
+
 # ---( Dynamic Variables )------------------------------------------------------
 
 # All the markdown files to process
 # ALL_MD_FILES := $(shell find $(PROCESS_DIR) -name "*.$(MD_EXT)" | grep -v "$(SLIDES_MD_EXT)" | grep -v node_modules)
 #
 ALL_MD_FILES := $(shell find $(PROCESS_DIR) -type f -iname "*.$(MD_EXT)" | grep -v "$(SLIDES_MD_EXT)" | grep -v node_modules)
+
+# Really all markdown files
+ALL_MD_AND_SLIDES_FILES := $(shell find $(PROCESS_DIR) -type f -iname "*.$(MD_EXT)" | grep -v node_modules)
 
 ALL_HTML_FILES := $(ALL_MD_FILES:%.$(MD_EXT)=%.$(HTML_OUT_EXT))
 ALL_PDF_FILES := $(ALL_MD_FILES:%.$(MD_EXT)=%.$(PDF_OUT_EXT))
@@ -67,8 +72,15 @@ ALL_FILES_TO_TRANSLATE := $(shell cat $(FULL_TRANS_FILE))
 ALL_TRANS_OUT_FILES := $(ALL_FILES_TO_TRANSLATE:%.$(MD_EXT)=%.$(TRANS_OUT_MD_EXT))
 
 # ---( TF Vars )---------------------------------------------------------------
-TF_DIR := $(CWD)/infrastructure/terraform
 
+TF_DIR := $(CWD)/infrastructure/terraform
+#
+# ---( S3 Vars )---------------------------------------------------------------
+
+S3_BUCKET ?= 
+S3_PREFIX ?=
+S3_ACCESS_KEY ?=
+S3_SECRET_KEY ?=
 
 # ---( Targets )---------------------------------------------------------------
 
@@ -209,3 +221,25 @@ tf-apply:
 	@echo "Applying Terraform"
 	@terraform -chdir=${TF_DIR} apply
 
+
+#-----------------------------------------------------------------------------------
+# ---( S3 Deploy )-----------------------------------------------------------------------
+#-----------------------------------------------------------------------------------
+
+$(S3_INVENTORY_FILE): $(ALL_MD_AND_SLIDES_FILES)
+	@echo "Creating s3 inventory file"
+	@echo "Bucket,Key" > $@
+	for file in $(ALL_MD_AND_SLIDES_FILES); do \
+		echo "Adding file: $$file"; \
+		# path_part=$$(echo $$PWD | sed 's/\//\\\//g'); \
+		# echo "Path part: $$path_part"; \
+		file_part=$$(echo $$file | tr -d $(CWD)/); \
+		echo "File part: $$file_part"; \
+		echo "$(S3_BUCKET),$$file_part" >> $@; \
+	done
+
+s3-inventory: $(S3_INVENTORY_FILE)
+
+s3-inventory-clean:
+	@echo "Cleaning s3 inventory file"
+	@rm -f $(S3_INVENTORY_FILE)
