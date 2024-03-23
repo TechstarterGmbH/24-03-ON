@@ -66,6 +66,9 @@ ALL_FILES_TO_TRANSLATE := $(shell cat $(FULL_TRANS_FILE))
 # All files that are translated
 ALL_TRANS_OUT_FILES := $(ALL_FILES_TO_TRANSLATE:%.$(MD_EXT)=%.$(TRANS_OUT_MD_EXT))
 
+# ---( TF Vars )---------------------------------------------------------------
+TF_DIR := $(CWD)/infrastructure/terraform
+
 
 # ---( Targets )---------------------------------------------------------------
 
@@ -189,3 +192,20 @@ all: check docs slides
 clean: docs-clean slides-clean
 
 all-clean: clean all
+
+#-----------------------------------------------------------------------------------
+# ---( Terraform )-----------------------------------------------------------------------
+#-----------------------------------------------------------------------------------
+
+tf-init:
+	@echo "Initializing Terraform"
+	@terraform -chdir=${TF_DIR} init
+
+tf-plan:
+	@echo "Planning Terraform"
+	@terraform -chdir=${TF_DIR} plan
+
+tf-apply:
+	@echo "Applying Terraform"
+	@terraform -chdir=${TF_DIR} apply
+

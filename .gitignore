@@ -12,3 +12,7 @@ tests/example.*
 *.slides.pdf
 *.slides.html
 *.en.md
+
+.terraform/
+terraform.*
+.terraform.*
