@@ -92,7 +92,7 @@ ALL_SLIDES_PDF_FILES := $(ALL_SLIDES_MD_FILES:%.$(SLIDES_MD_EXT)=%.$(SLIDES_OUT_
 ALL_TRANSL_FILES := $(shell find $(PROCESS_DIR) -name "$(TRANS_FILE_NAME)")
 
 # All files that need to be translated
-ALL_FILES_TO_TRANSLATE := $(shell cat $(FULL_TRANS_FILE))
+ALL_FILES_TO_TRANSLATE := $(shell test -f $(FULL_TRANS_FILE) && cat $(FULL_TRANS_FILE))
 
 # All files that are translated
 ALL_TRANS_OUT_FILES := $(ALL_FILES_TO_TRANSLATE:%.$(MD_EXT)=%.$(TRANS_OUT_MD_EXT))
@@ -301,11 +301,12 @@ container-login:
 	@test -z $(REGISTRY_URL) && echo "Error: REGISTRY_URL is not set" && exit 1 || true
 	@test -z $(REGISTRY_PASS) && echo "Error: REGISTRY_PASS is not set" && exit 1 || true
 	@mkdir -p $(TMP_DIR)
+	@echo $(REGISTRY_PASS) | skopeo login --authfile $(REGISTRY_AUTH_FILE) --username $(REGISTRY_USER) --password-stdin $(REGISTRY_URL)
 
 $(RUNNER_IMAGE): flake.nix
 	@echo "Building runner image"
 	@mkdir -p $(IMAGES_DIR)
-	nix build .#techstarterContainer --out-link $@
+	nix build .#techstarterRunnerContainer --out-link $@
 
 images-runner-build: $(RUNNER_IMAGE)
 
