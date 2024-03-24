@@ -6,6 +6,10 @@ jobs:
     runs-on: ubuntu-latest
     container: nixos/nix:2.21.0
     steps:
-      - uses: actions/checkout@v4
-      - run: "ls -la && pwd"
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: List files
+        run: |
+          ls -la
+          pwd
 
