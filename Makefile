@@ -65,7 +65,8 @@ REGISTRY_PASS ?=
 REGISTRY_NAMESPACE ?= TechstarterGmbH
 REGISTRY_RUNNER_IMAGE_NAME ?= $(PROJECT_NAME)-runner
 REGISTRY_RUNNER_IMAGE_TAG ?= latest
-REGISTRY_RUNNER_FQDN := $(REGISTRY_URL)/$(REGISTRY_NAMESPACE)/$(REGISTRY_RUNNER_IMAGE_NAME):$(REGISTRY_RUNNER_IMAGE_TAG)
+REGISTRY_RUNNER_FQDN_RAW := $(REGISTRY_URL)/$(REGISTRY_NAMESPACE)/$(REGISTRY_RUNNER_IMAGE_NAME):$(REGISTRY_RUNNER_IMAGE_TAG)
+REGISTRY_RUNNER_FQDN := $(shell echo $(REGISTRY_RUNNER_FQDN_RAW) | tr '[:upper:]' '[:lower:]')
 
 REGISTRY_AUTH_FILE ?= ${TMP_DIR}/registry_auth.json
 
@@ -300,7 +301,6 @@ container-login:
 	@test -z $(REGISTRY_URL) && echo "Error: REGISTRY_URL is not set" && exit 1 || true
 	@test -z $(REGISTRY_PASS) && echo "Error: REGISTRY_PASS is not set" && exit 1 || true
 	@mkdir -p $(TMP_DIR)
-	echo $(REGISTRY_PASS) | skopeo login --password-stdin --authfile $(REGISTRY_AUTH_FILE) $(REGISTRY_URL) -u $(REGISTRY_USER)
 
 $(RUNNER_IMAGE): flake.nix
 	@echo "Building runner image"
@@ -315,3 +315,11 @@ images-runner-clean:
 
 images-runner-push: $(RUNNER_IMAGE)
 	@echo "Pushing runner image"
+	skopeo --insecure-policy copy --authfile $(REGISTRY_AUTH_FILE) \
+		"docker-archive:$(RUNNER_IMAGE)" \
+		"docker://$(REGISTRY_RUNNER_FQDN)"
+
+images-runner-inspect:
+	@echo "Inspecting runner image"
+	@skopeo inspect  --authfile $(REGISTRY_AUTH_FILE) \
+		"docker://$(REGISTRY_RUNNER_FQDN)"

@@ -14,6 +14,7 @@
         chromium
         coreutils
         diffutils
+        gnumake
         markdownToHtmlCli
         marpCli
         pre-commit
@@ -32,7 +33,7 @@
       };
 
       packages."${defaultSystem}".techstarterContainer = pkgs.dockerTools.buildLayeredImage {
-        name = "techstarter";
+        name = "techstarter-runner";
         tag = "latest";
         contents = defaultPkgs;
         config = {
