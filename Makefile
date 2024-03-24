@@ -44,6 +44,12 @@ TRANS_OUT_LANG ?= EN-US
 
 S3_INVENTORY_FILE := $(TMP_DIR)/s3_inventory.csv
 
+S3_INVENTORY_HASH_FILE := $(TMP_DIR)/s3_inventory_hash.csv
+
+S3_INVENTORY_HASH_ALL_FILE := $(TMP_DIR)/s3_inventory_hash_all
+
+S3_INVENTORY_HASH_PROGRAM := md5sum
+
 # ---( Dynamic Variables )------------------------------------------------------
 
 # All the markdown files to process
@@ -228,18 +234,39 @@ tf-apply:
 
 $(S3_INVENTORY_FILE): $(ALL_MD_AND_SLIDES_FILES)
 	@echo "Creating s3 inventory file"
-	@echo "Bucket,Key" > $@
+	@mkdir -p $(TMP_DIR)
+	@test -f $@ && rm $@ || true
 	for file in $(ALL_MD_AND_SLIDES_FILES); do \
 		echo "Adding file: $$file"; \
-		# path_part=$$(echo $$PWD | sed 's/\//\\\//g'); \
-		# echo "Path part: $$path_part"; \
-		file_part=$$(echo $$file | tr -d $(CWD)/); \
+		file_part=$$(echo $$file | sed "s|^$(CWD)/||"); \
 		echo "File part: $$file_part"; \
-		echo "$(S3_BUCKET),$$file_part" >> $@; \
+		echo "$$file_part" >> $@; \
 	done
 
-s3-inventory: $(S3_INVENTORY_FILE)
+$(S3_INVENTORY_HASH_FILE): $(S3_INVENTORY_FILE)
+	@echo "Creating s3 inventory hash file"
+	@mkdir -p $(TMP_DIR)
+	@test -f $@ && rm $@ || true
+	@theargs=$$(cat $(S3_INVENTORY_FILE) | tr '\n' ' '); \
+	echo "The args: $$theargs"; \
+	$(S3_INVENTORY_HASH_PROGRAM) $$theargs > $@
+
+$(S3_INVENTORY_HASH_ALL_FILE): $(S3_INVENTORY_HASH_FILE)
+	@echo "Creating s3 inventory hash all file"
+	@mkdir -p $(TMP_DIR)
+	@test -f $@ && rm $@ || true
+	@hash_col=$$(cat $(S3_INVENTORY_HASH_FILE) | awk '{print $$1}'); \
+	echo "Hash col: $$hash_col"; \
+	final_hash=$$(echo $$hash_col | $(S3_INVENTORY_HASH_PROGRAM) | awk '{print $$1}'); \
+	echo "Final hash: $$final_hash"; \
+	echo "$$final_hash" > $@
+
+s3-inventory: $(S3_INVENTORY_HASH_ALL_FILE)
 
 s3-inventory-clean:
 	@echo "Cleaning s3 inventory file"
 	@rm -f $(S3_INVENTORY_FILE)
+	@echo "Cleaning s3 inventory hash file"
+	@rm -f $(S3_INVENTORY_HASH_FILE)
+	@echo "Cleaning s3 inventory hash all file"
+	@rm -f $(S3_INVENTORY_HASH_ALL_FILE)
