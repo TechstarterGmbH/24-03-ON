@@ -9,11 +9,13 @@
       markdownToHtmlCli = import ./nix/markdown2html-converter.nix { inherit pkgs; };
 
       marpCli = import ./nix/marp.nix { inherit pkgs; };
+
       
       defaultPkgs = with pkgs; [
         chromium
         coreutils
         diffutils
+        direnv
         gnumake
         markdownToHtmlCli
         marpCli
@@ -24,7 +26,10 @@
 
       buildPkgs = with pkgs; [
         skopeo
+        git
       ];
+
+      buildImage = import ./nix/image-builder.nix { inherit pkgs; buildPackages = defaultPkgs; };
 
     in
     {
@@ -32,14 +37,6 @@
         nativeBuildInputs = defaultPkgs ++ buildPkgs;
       };
 
-      packages."${defaultSystem}".techstarterContainer = pkgs.dockerTools.buildLayeredImage {
-        name = "techstarter-runner";
-        tag = "latest";
-        contents = defaultPkgs;
-        config = {
-          # Cmd = [ "bash" ];
-          Entrypoint = [ "${pkgs.bashInteractive}/bin/bash" ];
-        };
-      };
+      packages."${defaultSystem}".techstarterRunnerContainer = buildImage;
     };
 }
