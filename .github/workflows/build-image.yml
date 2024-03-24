@@ -1,0 +1,11 @@
+name: build-image
+run-name: ${{ github.actor }} is building runner-image
+on: [push]
+jobs:
+  build-runner-image:
+    runs-on: ubuntu-latest
+    container: nixos/nix:2.21.0
+    steps:
+      - uses: actions/checkout@v4
+      - run: "ls -la && pwd"
+
