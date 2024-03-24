@@ -7,6 +7,8 @@ CWD := $(shell pwd)
 
 TMP_DIR := $(CWD)/.tmp
 
+PROJECT_NAME := 24-03-ON
+
 # ---( Variables )-------------------------------------------------------------
 
 # Markdown file extension to process
@@ -49,6 +51,23 @@ S3_INVENTORY_HASH_FILE := $(TMP_DIR)/s3_inventory_hash.csv
 S3_INVENTORY_HASH_ALL_FILE := $(TMP_DIR)/s3_inventory_hash_all
 
 S3_INVENTORY_HASH_PROGRAM := md5sum
+
+#---( Image stuff )----------------------------------------------------------------------------
+
+IMAGES_DIR := $(TMP_DIR)/images
+
+RUNNER_IMAGE := $(IMAGES_DIR)/runner
+BUILDER_IMAGE := $(IMAGES_DIR)/builder
+
+REGISTRY_URL ?= ghcr.io
+REGISTRY_USER ?= 0xfab10
+REGISTRY_PASS ?=
+REGISTRY_NAMESPACE ?= TechstarterGmbH
+REGISTRY_RUNNER_IMAGE_NAME ?= $(PROJECT_NAME)-runner
+REGISTRY_RUNNER_IMAGE_TAG ?= latest
+REGISTRY_RUNNER_FQDN := $(REGISTRY_URL)/$(REGISTRY_NAMESPACE)/$(REGISTRY_RUNNER_IMAGE_NAME):$(REGISTRY_RUNNER_IMAGE_TAG)
+
+REGISTRY_AUTH_FILE ?= ${TMP_DIR}/registry_auth.json
 
 # ---( Dynamic Variables )------------------------------------------------------
 
@@ -270,3 +289,29 @@ s3-inventory-clean:
 	@rm -f $(S3_INVENTORY_HASH_FILE)
 	@echo "Cleaning s3 inventory hash all file"
 	@rm -f $(S3_INVENTORY_HASH_ALL_FILE)
+
+#-----------------------------------------------------------------------------------
+# ---( Images )-----------------------------------------------------------------------
+#-----------------------------------------------------------------------------------
+
+container-login:
+	@echo "Logging into the container registry"
+	@test -z $(REGISTRY_USER) && echo "Error: REGISTRY_USER is not set" && exit 1 || true
+	@test -z $(REGISTRY_URL) && echo "Error: REGISTRY_URL is not set" && exit 1 || true
+	@test -z $(REGISTRY_PASS) && echo "Error: REGISTRY_PASS is not set" && exit 1 || true
+	@mkdir -p $(TMP_DIR)
+	echo $(REGISTRY_PASS) | skopeo login --password-stdin --authfile $(REGISTRY_AUTH_FILE) $(REGISTRY_URL) -u $(REGISTRY_USER)
+
+$(RUNNER_IMAGE): flake.nix
+	@echo "Building runner image"
+	@mkdir -p $(IMAGES_DIR)
+	nix build .#techstarterContainer --out-link $@
+
+images-runner-build: $(RUNNER_IMAGE)
+
+images-runner-clean:
+	@echo "Cleaning runner image"
+	@rm -f $(RUNNER_IMAGE)
+
+images-runner-push: $(RUNNER_IMAGE)
+	@echo "Pushing runner image"
