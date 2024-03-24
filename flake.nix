@@ -12,6 +12,7 @@
       
       defaultPkgs = with pkgs; [
         chromium
+        coreutils
         diffutils
         markdownToHtmlCli
         marpCli
@@ -20,10 +21,24 @@
         terraform
       ];
 
+      buildPkgs = with pkgs; [
+        skopeo
+      ];
+
     in
     {
       devShells."${defaultSystem}".default = pkgs.mkShell {
-        nativeBuildInputs = defaultPkgs;
+        nativeBuildInputs = defaultPkgs ++ buildPkgs;
+      };
+
+      packages."${defaultSystem}".techstarterContainer = pkgs.dockerTools.buildLayeredImage {
+        name = "techstarter";
+        tag = "latest";
+        contents = defaultPkgs;
+        config = {
+          # Cmd = [ "bash" ];
+          Entrypoint = [ "${pkgs.bashInteractive}/bin/bash" ];
+        };
       };
     };
 }
