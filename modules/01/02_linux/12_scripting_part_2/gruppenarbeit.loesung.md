@@ -44,7 +44,7 @@ while IFS=';' read -r frage antwort
 do
     echo "Frage: $frage"
     echo -n "Ihre Antwort: "
-    read benutzerAntwort
+    read benutzerAntwort < /dev/tty
 done < "$quizDatei"
 ```
 
@@ -64,7 +64,7 @@ while IFS=';' read -r frage antwort
 do
     echo "Frage: $frage"
     echo -n "Ihre Antwort: "
-    read benutzerAntwort
+    read benutzerAntwort < /dev/tty
     
     if [ "$benutzerAntwort" = "$antwort" ]; then
         echo "Richtig!"
@@ -115,7 +115,8 @@ while IFS=';' read -r frage antwort
 do
     echo "Frage: $frage"
     echo -n "Ihre Antwort: "
-    read benutzerAntwort
+    read benutzerAntwort < /dev/tty
+    
     
     if [ "$benutzerAntwort" = "$antwort" ]; then
         echo "Richtig!"

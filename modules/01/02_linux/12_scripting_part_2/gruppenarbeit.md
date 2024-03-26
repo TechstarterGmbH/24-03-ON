@@ -29,6 +29,7 @@ done < "$quizDatei"
 5. **Benutzereingaben**:
    - Lest die Antworten des Benutzers über die Kommandozeile ein. Vergleicht diese mit den richtigen Antworten aus der Datei.
    - Tipp: Verwende `read` um die Benutzereingabe zu lesen.
+    `read benutzerAntwort < /dev/tty`
 
 6. **Ergebnisausgabe**:
    - Am Ende des Quizzes gebt die Anzahl der richtig beantworteten Fragen aus. Basierend auf der Leistung könnt ihr auch unterschiedliches Feedback geben.
