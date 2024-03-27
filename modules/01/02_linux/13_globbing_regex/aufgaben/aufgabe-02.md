@@ -11,7 +11,7 @@ Ziel dieser Aufgabe ist es dein Wissen über Shell Globbing und Regular Expressi
 
 ## 2. Regular Expressions
 
-1. Öffne folgende Seite in deinem Browser: (https://1000randomnames.com/)[https://1000randomnames.com/] und kopiere die Namen in die Zwischenablage.
+1. Öffne folgende Seite in deinem Browser: [https://1000randomnames.com/](https://1000randomnames.com/) und kopiere die Namen in die Zwischenablage.
 2. In einem weiteren Browser Tab [regex101.com](https://regex101.com/) und füge die Namen ein.
 3. Finde alle Namen, die mit einem `B` beginnen.
 4. Finde alle Namen, die entweder mit einem `A` oder einem `B` oder `C` beginnen.
