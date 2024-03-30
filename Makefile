@@ -9,6 +9,8 @@ TMP_DIR := $(CWD)/.tmp
 
 PROJECT_NAME := 24-03-ON
 
+RUNNING_IN_CI := $(shell test -n "$$TECHSTARTER_CI" && printf "true" || printf "")
+
 # ---( Variables )-------------------------------------------------------------
 
 # Markdown file extension to process
@@ -32,6 +34,13 @@ PROCESS_DIR ?= $(MODULE_DIR)
 
 # The browser to use for the pdf generation
 CHROME_BIN ?= chromium
+
+# Extra chromium flags for the pdf generation
+EXTRA_CHROME_FLAGS := 
+
+ifeq ($(RUNNING_IN_CI), true)
+	EXTRA_CHROME_FLAGS += --no-sandbox
+endif
 
 # The translation file extension
 TRANS_FILE_NAME := translationfile
@@ -166,13 +175,16 @@ check: check-dirs
 # Build all the generated html files to pdf
 $(ALL_PDF_FILES): %.$(PDF_OUT_EXT): %.$(HTML_OUT_EXT)
 	@echo "Building PDF $@ from html: $<"
-	@$(CHROME_BIN) \
+	$(CHROME_BIN) \
 		--headless \
 		--disable-gpu \
+		--disable-software-rasterizer \
+		--disable-dev-shm-usage \
 		--run-all-compositor-stages-before-draw \
 		--no-pdf-header-footer \
 		--print-to-pdf-no-header \
 		--print-to-pdf=$@ \
+		$(EXTRA_CHROME_FLAGS) \
 		$<
 
 $(ALL_SLIDES_PDF_FILES): %.$(SLIDES_OUT_EXT): %.$(SLIDES_MD_EXT)

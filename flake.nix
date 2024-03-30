@@ -16,6 +16,8 @@
         coreutils
         diffutils
         direnv
+        findutils
+        gnugrep
         gnumake
         markdownToHtmlCli
         marpCli
