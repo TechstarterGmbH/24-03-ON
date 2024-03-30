@@ -314,6 +314,10 @@ images-runner-clean:
 	@echo "Cleaning runner image"
 	@rm -f $(RUNNER_IMAGE)
 
+images-runner-load-local: $(RUNNER_IMAGE)
+	@echo "Loading runner image locally"
+	@docker load -i $(RUNNER_IMAGE)
+
 images-runner-push: $(RUNNER_IMAGE)
 	@echo "Pushing runner image"
 	skopeo --insecure-policy copy --authfile $(REGISTRY_AUTH_FILE) \
