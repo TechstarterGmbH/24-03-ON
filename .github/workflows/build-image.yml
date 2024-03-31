@@ -1,0 +1,18 @@
+name: build-image
+run-name: ${{ github.actor }} is building runner-image
+on:
+  push:
+    paths:
+      - '**.nix'
+jobs:
+  build-runner-image:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: DeterminateSystems/nix-installer-action@main
+      - uses: DeterminateSystems/magic-nix-cache-action@main
+      - uses: DeterminateSystems/flake-checker-action@main
+      - name: Run the actual build and push
+        env:
+          REGISTRY_PASS: ${{ secrets.REGISTRY_PASS }}
+        run: nix-shell -p gnumake git --run "./infrastructure/scripts/container-build.sh"

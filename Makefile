@@ -7,6 +7,10 @@ CWD := $(shell pwd)
 
 TMP_DIR := $(CWD)/.tmp
 
+PROJECT_NAME := 24-03-ON
+
+RUNNING_IN_CI := $(shell test -n "$$TECHSTARTER_CI" && printf "true" || printf "")
+
 # ---( Variables )-------------------------------------------------------------
 
 # Markdown file extension to process
@@ -31,6 +35,13 @@ PROCESS_DIR ?= $(MODULE_DIR)
 # The browser to use for the pdf generation
 CHROME_BIN ?= chromium
 
+# Extra chromium flags for the pdf generation
+EXTRA_CHROME_FLAGS := 
+
+ifeq ($(RUNNING_IN_CI), true)
+	EXTRA_CHROME_FLAGS += --no-sandbox
+endif
+
 # The translation file extension
 TRANS_FILE_NAME := translationfile
 
@@ -42,12 +53,41 @@ TRANS_OUT_MD_EXT := en.md
 
 TRANS_OUT_LANG ?= EN-US
 
+S3_INVENTORY_FILE := $(TMP_DIR)/s3_inventory.csv
+
+S3_INVENTORY_HASH_FILE := $(TMP_DIR)/s3_inventory_hash.csv
+
+S3_INVENTORY_HASH_ALL_FILE := $(TMP_DIR)/s3_inventory_hash_all
+
+S3_INVENTORY_HASH_PROGRAM := md5sum
+
+#---( Image stuff )----------------------------------------------------------------------------
+
+IMAGES_DIR := $(TMP_DIR)/images
+
+RUNNER_IMAGE := $(IMAGES_DIR)/runner
+BUILDER_IMAGE := $(IMAGES_DIR)/builder
+
+REGISTRY_URL ?= ghcr.io
+REGISTRY_USER ?= 0xfab10
+REGISTRY_PASS ?=
+REGISTRY_NAMESPACE ?= TechstarterGmbH
+REGISTRY_RUNNER_IMAGE_NAME ?= $(PROJECT_NAME)-runner
+REGISTRY_RUNNER_IMAGE_TAG ?= latest
+REGISTRY_RUNNER_FQDN_RAW := $(REGISTRY_URL)/$(REGISTRY_NAMESPACE)/$(REGISTRY_RUNNER_IMAGE_NAME):$(REGISTRY_RUNNER_IMAGE_TAG)
+REGISTRY_RUNNER_FQDN := $(shell echo $(REGISTRY_RUNNER_FQDN_RAW) | tr '[:upper:]' '[:lower:]')
+
+REGISTRY_AUTH_FILE ?= ${TMP_DIR}/registry_auth.json
+
 # ---( Dynamic Variables )------------------------------------------------------
 
 # All the markdown files to process
 # ALL_MD_FILES := $(shell find $(PROCESS_DIR) -name "*.$(MD_EXT)" | grep -v "$(SLIDES_MD_EXT)" | grep -v node_modules)
 #
 ALL_MD_FILES := $(shell find $(PROCESS_DIR) -type f -iname "*.$(MD_EXT)" | grep -v "$(SLIDES_MD_EXT)" | grep -v node_modules)
+
+# Really all markdown files
+ALL_MD_AND_SLIDES_FILES := $(shell find $(PROCESS_DIR) -type f -iname "*.$(MD_EXT)" | grep -v node_modules)
 
 ALL_HTML_FILES := $(ALL_MD_FILES:%.$(MD_EXT)=%.$(HTML_OUT_EXT))
 ALL_PDF_FILES := $(ALL_MD_FILES:%.$(MD_EXT)=%.$(PDF_OUT_EXT))
@@ -61,11 +101,21 @@ ALL_SLIDES_PDF_FILES := $(ALL_SLIDES_MD_FILES:%.$(SLIDES_MD_EXT)=%.$(SLIDES_OUT_
 ALL_TRANSL_FILES := $(shell find $(PROCESS_DIR) -name "$(TRANS_FILE_NAME)")
 
 # All files that need to be translated
-ALL_FILES_TO_TRANSLATE := $(shell cat $(FULL_TRANS_FILE))
+ALL_FILES_TO_TRANSLATE := $(shell test -f $(FULL_TRANS_FILE) && cat $(FULL_TRANS_FILE))
 
 # All files that are translated
 ALL_TRANS_OUT_FILES := $(ALL_FILES_TO_TRANSLATE:%.$(MD_EXT)=%.$(TRANS_OUT_MD_EXT))
 
+# ---( TF Vars )---------------------------------------------------------------
+
+TF_DIR := $(CWD)/infrastructure/terraform
+#
+# ---( S3 Vars )---------------------------------------------------------------
+
+S3_BUCKET ?= 
+S3_PREFIX ?=
+S3_ACCESS_KEY ?=
+S3_SECRET_KEY ?=
 
 # ---( Targets )---------------------------------------------------------------
 
@@ -125,13 +175,16 @@ check: check-dirs
 # Build all the generated html files to pdf
 $(ALL_PDF_FILES): %.$(PDF_OUT_EXT): %.$(HTML_OUT_EXT)
 	@echo "Building PDF $@ from html: $<"
-	@$(CHROME_BIN) \
+	$(CHROME_BIN) \
 		--headless \
 		--disable-gpu \
+		--disable-software-rasterizer \
+		--disable-dev-shm-usage \
 		--run-all-compositor-stages-before-draw \
 		--no-pdf-header-footer \
 		--print-to-pdf-no-header \
 		--print-to-pdf=$@ \
+		$(EXTRA_CHROME_FLAGS) \
 		$<
 
 $(ALL_SLIDES_PDF_FILES): %.$(SLIDES_OUT_EXT): %.$(SLIDES_MD_EXT)
@@ -189,3 +242,101 @@ all: check docs slides
 clean: docs-clean slides-clean
 
 all-clean: clean all
+
+#-----------------------------------------------------------------------------------
+# ---( Terraform )-----------------------------------------------------------------------
+#-----------------------------------------------------------------------------------
+
+tf-init:
+	@echo "Initializing Terraform"
+	@terraform -chdir=${TF_DIR} init
+
+tf-plan:
+	@echo "Planning Terraform"
+	@terraform -chdir=${TF_DIR} plan
+
+tf-apply:
+	@echo "Applying Terraform"
+	@terraform -chdir=${TF_DIR} apply
+
+
+#-----------------------------------------------------------------------------------
+# ---( S3 Deploy )-----------------------------------------------------------------------
+#-----------------------------------------------------------------------------------
+
+$(S3_INVENTORY_FILE): $(ALL_MD_AND_SLIDES_FILES)
+	@echo "Creating s3 inventory file"
+	@mkdir -p $(TMP_DIR)
+	@test -f $@ && rm $@ || true
+	for file in $(ALL_MD_AND_SLIDES_FILES); do \
+		echo "Adding file: $$file"; \
+		file_part=$$(echo $$file | sed "s|^$(CWD)/||"); \
+		echo "File part: $$file_part"; \
+		echo "$$file_part" >> $@; \
+	done
+
+$(S3_INVENTORY_HASH_FILE): $(S3_INVENTORY_FILE)
+	@echo "Creating s3 inventory hash file"
+	@mkdir -p $(TMP_DIR)
+	@test -f $@ && rm $@ || true
+	@theargs=$$(cat $(S3_INVENTORY_FILE) | tr '\n' ' '); \
+	echo "The args: $$theargs"; \
+	$(S3_INVENTORY_HASH_PROGRAM) $$theargs > $@
+
+$(S3_INVENTORY_HASH_ALL_FILE): $(S3_INVENTORY_HASH_FILE)
+	@echo "Creating s3 inventory hash all file"
+	@mkdir -p $(TMP_DIR)
+	@test -f $@ && rm $@ || true
+	@hash_col=$$(cat $(S3_INVENTORY_HASH_FILE) | awk '{print $$1}'); \
+	echo "Hash col: $$hash_col"; \
+	final_hash=$$(echo $$hash_col | $(S3_INVENTORY_HASH_PROGRAM) | awk '{print $$1}'); \
+	echo "Final hash: $$final_hash"; \
+	echo "$$final_hash" > $@
+
+s3-inventory: $(S3_INVENTORY_HASH_ALL_FILE)
+
+s3-inventory-clean:
+	@echo "Cleaning s3 inventory file"
+	@rm -f $(S3_INVENTORY_FILE)
+	@echo "Cleaning s3 inventory hash file"
+	@rm -f $(S3_INVENTORY_HASH_FILE)
+	@echo "Cleaning s3 inventory hash all file"
+	@rm -f $(S3_INVENTORY_HASH_ALL_FILE)
+
+#-----------------------------------------------------------------------------------
+# ---( Images )-----------------------------------------------------------------------
+#-----------------------------------------------------------------------------------
+
+container-login:
+	@echo "Logging into the container registry"
+	@test -z $(REGISTRY_USER) && echo "Error: REGISTRY_USER is not set" && exit 1 || true
+	@test -z $(REGISTRY_URL) && echo "Error: REGISTRY_URL is not set" && exit 1 || true
+	@test -z $(REGISTRY_PASS) && echo "Error: REGISTRY_PASS is not set" && exit 1 || true
+	@mkdir -p $(TMP_DIR)
+	@echo $(REGISTRY_PASS) | skopeo login --authfile $(REGISTRY_AUTH_FILE) --username $(REGISTRY_USER) --password-stdin $(REGISTRY_URL)
+
+$(RUNNER_IMAGE): flake.nix
+	@echo "Building runner image"
+	@mkdir -p $(IMAGES_DIR)
+	nix build .#techstarterRunnerContainer --out-link $@
+
+images-runner-build: $(RUNNER_IMAGE)
+
+images-runner-clean:
+	@echo "Cleaning runner image"
+	@rm -f $(RUNNER_IMAGE)
+
+images-runner-load-local: $(RUNNER_IMAGE)
+	@echo "Loading runner image locally"
+	@docker load -i $(RUNNER_IMAGE)
+
+images-runner-push: $(RUNNER_IMAGE)
+	@echo "Pushing runner image"
+	skopeo --insecure-policy copy --authfile $(REGISTRY_AUTH_FILE) \
+		"docker-archive:$(RUNNER_IMAGE)" \
+		"docker://$(REGISTRY_RUNNER_FQDN)"
+
+images-runner-inspect:
+	@echo "Inspecting runner image"
+	@skopeo inspect  --authfile $(REGISTRY_AUTH_FILE) \
+		"docker://$(REGISTRY_RUNNER_FQDN)"
