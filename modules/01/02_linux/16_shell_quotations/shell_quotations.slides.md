@@ -92,13 +92,18 @@ class: invert
 
 ### Unterschiede
 
+
 - `'` bewahrt den **literalen Wert** jedes Zeichens innerhalb der Anführungszeichen.
 - `"` erlaubt **Interpretation** von Variablen und Escape-Sequenzen.
+
+---
 
 ### Gemeinsamkeiten
 
 - Beide verhindern die Interpretation von **Leerzeichen** als Argumenttrenner.
 - Beide ermöglichen die Gruppierung von **Text als einen einzigen String**.
+
+---
 
 ### Wann man was verwendet
 
@@ -152,11 +157,11 @@ Datei soll exakt `meine$datei.txt` heißen.
 
 ---
 
-## echo export PATH=$PATH:/home/fabio/bin > ~/.bashrc
+## echo export PATH=$PATH:/home/fabio/bin >> ~/.bashrc
 
 ---
 
-## echo 'export PATH=$PATH:/home/fabio/bin' > ~/.bashrc
+## echo 'export PATH=$PATH:/home/fabio/bin' >> ~/.bashrc
 
 - Simple Quotations -> `$PATH` wird als Text interpretiert.
 
