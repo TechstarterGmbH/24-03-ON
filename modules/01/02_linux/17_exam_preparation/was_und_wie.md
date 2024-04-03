@@ -12,7 +12,7 @@
 
 ### Was kommt auf mich zu?
 
-- **60 Fragen**
+- **40 Fragen**
 - **60 Minuten Zeit**
 - **500 aus 800 Punkten** sind nötig, um zu bestehen
 - Fragen-typen:
