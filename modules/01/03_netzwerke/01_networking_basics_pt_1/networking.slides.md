@@ -47,12 +47,6 @@ class: invert
 
 ---
 
-### Warum verwenden wir Netzwerke?
-
-- **Zweck**: Um Informationen effizient zu teilen, Zugriff auf das Internet zu haben und Ressourcen wie Drucker und Dateien gemeinsam zu nutzen.
-
----
-
 ### Beispiele von Computernetzwerken in der Praxis
 
 - **Heimnetzwerke**: Verbinden persönliche Geräte für den Zugriff auf das Internet und gemeinsame Ressourcen.
