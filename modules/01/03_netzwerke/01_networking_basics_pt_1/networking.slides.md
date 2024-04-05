@@ -291,6 +291,16 @@ Stelle dir vor, das Internet ist wie ein riesiges Wohngebiet und jede IP-Adresse
 
 ---
 
+#### Private vs Öffentliche IP-Adressen
+
+- **Private IP-Adressen**: Werden in lokalen Netzwerken verwendet und sind nicht im Internet sichtbar. Beispiele sind
+  - 10.0.0.0 – 10.255.255.255
+  - 172.16.0.0 – 172.31.255.255
+  - 192.168.0.0 – 192.168.255.255
+- **Öffentliche IP-Adressen**: Werden im Internet verwendet und sind eindeutig für jedes Gerät. Sie sind begrenzt und müssen von der Internet Assigned Numbers Authority (IANA) verwaltet werden.
+
+---
+
 ### Subnetting und Classless Inter-Domain Routing (CIDR)
 
 ---
@@ -300,6 +310,8 @@ Stelle dir vor, das Internet ist wie ein riesiges Wohngebiet und jede IP-Adresse
 - **Definition**: Die Aufteilung eines IP-Netzwerks in kleinere Netzwerksegmente.
 - **Zweck**: Hilft bei der Organisation und effizienten Nutzung von IP-Adressen innerhalb von Organisationen und Netzwerken.
 - **Metapher**: Subnetting ist wie die Aufteilung eines großen Grundstücks in kleinere Parzellen, um sie effizienter zu nutzen und zu verwalten.
+
+---
 
 ##### Subnetmasken
 
