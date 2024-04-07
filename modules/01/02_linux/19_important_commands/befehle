@@ -1,0 +1,76 @@
+Einführung in die Verwendung wichtiger Linux Befehle
+Was macht der Befehl?
+Wichtige Parameter / Flags
+
+## Hilfe
+- man
+- info
+- /usr/share/doc/
+
+## Shell
+- echo
+- history
+- export
+- type
+
+## Dateien / Verzeichnisse
+- mv
+- cp
+- rm
+- mkdir
+- rmdir
+- ls, ls -l, ls -al, ls -hl
+
+## Finden
+- Was ist rekursive Auflistung?
+- find
+- locate
+
+## Archive / Komprimierung
+- tar
+- wichtige tar Optionen (xfvc)
+- gzip
+- bzip2
+- xz
+- zip
+- unzip
+
+## Text
+- cat
+- head
+- tail
+- less
+- sort
+- cut
+- wc
+
+## Systemüberwachung
+- ps
+- top
+- free
+- syslog
+- dmesg
+
+## Networking
+- route
+- ip route show
+- ifconfig
+- ip addr show
+- netstat
+- ss
+- ping
+- host
+
+## User / Group
+- id
+- last
+- who
+- w
+- sudo
+- su
+- useradd
+- groupadd
+
+## Berechtigungen
+- chmod
+- chown
