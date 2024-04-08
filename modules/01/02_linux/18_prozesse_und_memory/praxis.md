@@ -28,3 +28,7 @@
   - **Warnung:** Sei vorsichtig bei der Auswahl des zu beendenden Prozesses. Das Beenden bestimmter Prozesse kann zu Datenverlust oder Systeminstabilität führen.
   - Verwende den Befehl `kill PID`, wobei du `PID` durch die Prozess-ID ersetzt, die du im vorherigen Schritt notiert hast. Dies sendet ein Signal, um den Prozess zu beenden.
   - Überprüfe mit `ps aux | grep sleep`, ob der Prozess beendet wurde. Wenn der Prozess immer noch läuft, kannst du `kill -9 PID` verwenden, um den Prozess zu erzwingen, aber verwende diese Option mit Vorsicht.
+
+6. **Anzeigen des Memory-Verbrauchs**
+  - Verwende den Befehl `free -h` um den Speicherverbrauch deines Systems anzuzeigen.
+  - Beobachte die Ausgabe und identifiziere die Spalten: total, used, free, shared, buff/cache, available.
