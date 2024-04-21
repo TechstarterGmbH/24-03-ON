@@ -140,7 +140,7 @@ Beispiel SQL-Code
 
 ```sql
 -- Starte die Transaktion
-BEGIN TRANSACTION;
+START TRANSACTION;
 
 SELECT * FROM products WHERE id = 123;
 INSERT INTO payments (customer_id, amount) VALUES (456, 100.00);
@@ -157,7 +157,7 @@ Beispiel SQL-Code mit Rollback
 
 ```sql
 -- Starte die Transaktion
-BEGIN TRANSACTION;
+START TRANSACTION;
 
 SELECT * FROM products WHERE id = 123;
 INSERT INTO payments (customer_id, amount) VALUES (456, 100.00);
