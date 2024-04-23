@@ -20,14 +20,12 @@
 
 ##### CD-Tabelle (cd)
 
-| -------------- | -------------- | -------------- |
 | CD_ID (PK)     | Titel          | Künstler_ID (FK) |
 | -------------- | -------------- | -------------- |
 | 1              | Rubber Soul        | 1              |
 
 ##### Künstler-Tabelle (artist)
 
-| -------------- | -------------- |
 | Künstler_ID (PK) | Name         |
 | -------------- | -------------- |
 | 1              | The Beatles   |
@@ -120,7 +118,7 @@ Joins werden verwendet, um komplexe Abfragen über mehrere Tabellen hinweg durch
 Der `INNER JOIN` liefert nur die Zeilen, die eine Übereinstimmung in beiden Tabellen haben.
 
 ```sql
-SELECT *
+SELECT cd.title, artist.name
 FROM cd
 INNER JOIN artist
 ON cd.artist_id = artist.artist_id;
@@ -130,11 +128,9 @@ ON cd.artist_id = artist.artist_id;
 | ------------- | ------------ |
 | Rubber Soul   | The Beatles  |
 
-
 #### Left Join
 
 Der `LEFT JOIN` gibt alle Zeilen aus der linken Tabelle und die übereinstimmenden Zeilen der rechten Tabelle zurück.
-
 
 ```sql
 SELECT *
