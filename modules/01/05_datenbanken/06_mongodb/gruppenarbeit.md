@@ -41,7 +41,7 @@ city: "Anytown" <string>
 zip: 12345 <int32>
 ```
 
-7. Kannst du verschiedene Addresstypen in deinem Adressbuch speichern?
+7. Erstelle weitere Dokumente wil im letzten Schritt. Kannst du verschiedene Addresstypen in deinem Adressbuch speichern?
   - Manchmal mit country, manchmal ohne
   - Manchmal mit phone, manchmal ohne
 8. **Read**: Im Reiter Find kannst du nach Dokumenten suchen.
@@ -49,4 +49,3 @@ zip: 12345 <int32>
   - Jetzt sollte das Dokument mit dem Namen "John Doe" angezeigt werden.
 9. **Update**: Ändere die Straße von "123 Main Street" auf "456 Elm Street".
 10. **Delete**: Lösche das Dokument mit dem Namen "John Doe".
-
