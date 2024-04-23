@@ -64,9 +64,9 @@ class: invert
 
 #### Was ist NoSQL?
 
-- NoSQL-Datenbanken sind nicht-relaational und bieten flexible Schemata.
+- NoSQL-Datenbanken sind nicht-relational und bieten flexible Schemata.
 - **Viele verschiedene Datenmodelle**: Unterstützt eine breite Palette von Datenformaten und Speichermodellen.
-- **Metapher**: NoSQL ist wie ein persönliches Notizbuch, in dem man seie Notizen in jeder beliebigen Form und Struktur festhalten können.
+- **Metapher**: NoSQL ist wie ein persönliches Notizbuch, in dem man seie Notizen in jeder beliebigen Form und Struktur festhalten kann.
 
 ---
 
@@ -93,14 +93,14 @@ class: invert
 
 - **Beispiele**: Apache Cassandra, Google BigTable
 - **Eigenschaften**: Optimiert für das Lesen und Schreiben großer Mengen von Daten über viele Maschinen hinweg.
-- **Metapher**: Denken Sie an eine Datenbank wie eine gigantische Tabelle, die auf viele Räume verteilt ist, wobei jeder Raum eine Spalte mit Daten beherbergt.
+- **Metapher**: Denke an eine Datenbank wie eine gigantische Tabelle, die auf viele Räume verteilt ist, wobei jeder Raum eine Spalte mit Daten beherbergt.
 
 ---
 
-#### Schlüssel-Wert Datenbanken
+#### Schlüssel-Wert (Key-Value) Datenbanken
 
-- **Beispiele**: Redis, Amazon DynamoDB
+- **Beispiele**: Redis
 - **Eigenschaften**: Speichern Daten als Schlüssel-Wert-Paare. Schnelle Lese- und Schreibzugriffe.
-- **Metapher**: Wie eine Umkleidekabine mit vielen Schließfächern, in denen Sie Gegenstände schnell verstauen und abrufen können.
+- **Metapher**: Wie eine Umkleidekabine mit vielen Schließfächern, in denen man Gegenstände schnell verstauen und abrufen können.
 
 ---
