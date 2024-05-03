@@ -26,12 +26,16 @@ class: invert
 - **Zweck:** Bietet sichere, skalierbare Rechenleistung für Entwickler und Unternehmen, um jede Anwendung in der Cloud auszuführen.
 - Revolutioniert die Art und Weise, wie Unternehmen IT-Ressourcen bereitstellen und verwalten.
 
+---
+
 ### 1.2 Übersicht über AWS EC2 Funktionen
 
 - **Elastizität:** Starte und stoppe Instanzen (weltweit innerhalb von Sekunden), wie es der Arbeitslast deiner Anwendungen entspricht.
 - **Steuerung der Netzwerkzugriffe:** Definiere IP-Bereiche, erstelle Subnetze und konfiguriere Routing-Tabellen und Netzwerkgateways.
 - **Sicherheit und Compliance:** Konfiguriere Firewall-Einstellungen und manage Zugangsberechtigungen.
 - **Amazon Machine Images (AMIs):** Wie die virtuelle DVD, von der du dein Betriebssystem installierst. (z.B. Amazon Linux, Ubuntu, Windows Server)
+
+---
 
 ### 1.3 Vorteile von AWS EC2
 

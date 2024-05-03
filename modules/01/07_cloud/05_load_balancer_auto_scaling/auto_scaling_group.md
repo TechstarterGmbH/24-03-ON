@@ -97,4 +97,3 @@ stress --cpu 4
 ```
 
 - Beobachte, wie die CPU-Auslastung steigt und die Auto-Scaling Group automatisch neue Instanzen hinzufügt.
-
