@@ -1,0 +1,31 @@
+Frage,Antwort A,Antwort B,Antwort C,Antwort D,Richtige Antwort
+Was ist die Hauptfunktion von AWS IAM?,Verwalten von Benutzern und Berechtigungen,Überwachen von Netzwerkaktivitäten,Erstellen von SSL-Zertifikaten,Schutz vor DDoS-Angriffen,A
+Welche Funktion bietet AWS Single Sign-On?,Zugriff auf mehrere AWS-Konten verwalten,Zentrale Verwaltung von Sicherheitsrichtlinien,Erstellen von Benutzern und Gruppen,Verwalten von Benutzern und Gruppen,A
+Welcher Dienst ermöglicht die Integration von AWS-Ressourcen mit Active Directory?,AWS IAM,AWS Directory Service,AWS KMS,AWS Secrets Manager,B
+Welche Sicherheitsfunktion bietet Amazon Cognito?,MFA und Benutzerattribute validieren,Verwalten von API-Schlüsseln,Automatisierung der Geheimnisrotation,Verwalten von Benutzerpools,A
+Welcher Dienst hilft bei der Verwaltung von SSL/TLS-Zertifikaten?,AWS KMS,AWS Secrets Manager,AWS CloudHSM,AWS Certificate Manager,D
+Welche Funktion hat AWS KMS?,Verwalten kryptographischer Schlüssel,Erstellen von SSL-Zertifikaten,Erstellen von IAM-Rollen,Erstellen und Verwalten von kryptographischen Schlüsseln,D
+Was ist der Hauptvorteil von AWS CloudHSM?,Sicheres Erstellen und Verwalten von Schlüsseln,Skalierbarkeit,Kostenreduktion,Automatisierung der Geheimnisrotation,A
+Wofür wird AWS Secrets Manager verwendet?,Speichern und Abrufen von Geheimnissen,Speichern und Abrufen von SSL-Zertifikaten,Überwachen von API-Schlüsseln,Erstellen von IAM-Rollen,A
+Welche Hauptfunktion bietet Amazon GuardDuty?,Erkennung bösartiger Aktivitäten,Schutz sensibler Daten,Überwachen von API-Schlüsseln,Erstellen von IAM-Rollen,A
+Was macht Amazon Macie?,Erkennt PII in S3,Erstellt SSL/TLS-Zertifikate,Speichert MFA-Daten,Verwalten von IAM-Rollen,A
+Welche Art von Schwachstellen kann Amazon Inspector erkennen?,Schwachstellen in EC2-Instanzen,Schwachstellen in S3-Buckets,Schwachstellen in IAM-Rollen,Schwachstellen in IAM-Richtlinien,A
+Wofür wird Amazon Detective verwendet?,Untersuchung von Sicherheitsvorfällen,Verwalten von Zertifikaten,Automatisierung der Geheimnisrotation,Überwachen von API-Schlüsseln,A
+Welche Funktion hat AWS Network Firewall?,Überwachung des Netzwerkverkehrs,Überwachen von API-Schlüsseln,Erstellen von IAM-Rollen,Skalierbarkeit und Verfügbarkeit,A
+Was ermöglicht AWS Firewall Manager?,Zentrale Verwaltung von Firewall-Richtlinien,Erstellen von SSL-Zertifikaten,Überwachen von API-Schlüsseln,Überwachen von IAM-Richtlinien,A
+Welche Bedrohungen kann AWS WAF abwehren?,SQL Injection und XSS,DDoS-Angriffe,SQL-Datenbanken,MFA-Daten,A
+Was ist AWS Shield Standard?,Schutz vor DDoS-Angriffen,Erstellen von IAM-Rollen,Speichern von API-Schlüsseln,Automatisierung der Geheimnisrotation,A
+Was bietet AWS Artifact?,Compliance-Berichte bereitstellen,Automatisierte Audit-Workflows,Verwalten von IAM-Rollen,Bereitstellen von Compliance-Dokumenten,A
+Welche Funktion hat AWS Audit Manager?,Automatisiertes Erstellen von Auditberichten,Verwalten von Firewall-Richtlinien,Erstellen von SSL-Zertifikaten,Erstellen von IAM-Richtlinien,A
+Was ist der Hauptzweck von AWS Security Hub?,Überwachung von Sicherheitswarnungen,Erstellen von IAM-Rollen,Überwachen von API-Schlüsseln,Überwachen von IAM-Richtlinien,A
+Wofür wird AWS RAM verwendet?,Teilen von AWS-Ressourcen zwischen Konten,Erstellen von SSL-Zertifikaten,Erstellen von IAM-Benutzern,Verwalten von IAM-Rollen,A
+Was ist Multi-Faktor-Authentifizierung (MFA)?,Zusätzliche Sicherheitsschicht,Speichern von API-Schlüsseln,Speichern von Geheimnissen,Automatisierung der Geheimnisrotation,A
+Welche Rolle spielt AWS KMS bei der Verschlüsselung?,Verwaltung von Verschlüsselungsschlüsseln,Speichern von SSL-Zertifikaten,Überwachen von API-Schlüsseln,Erstellen von SSL-Zertifikaten,A
+Was ist der Hauptvorteil von AWS Secrets Manager?,Automatische Rotation von Geheimnissen,Erstellen von IAM-Benutzern,Verwalten von Benutzern und Gruppen,Automatisierung der Geheimnisrotation,A
+Welche Funktion bietet AWS Directory Service?,Verzeichnisoptionen bereitstellen,Verwalten von Benutzern und Berechtigungen,Automatisieren von Zertifikatsverlängerungen,Integration mit Active Directory,A
+Was ist der Zweck von AWS Certificate Manager (ACM)?,Verwalten von SSL/TLS-Zertifikaten,Schutz vor DDoS-Angriffen,Erstellen von IAM-Benutzern,Erstellen und Verwalten von SSL/TLS-Zertifikaten,A
+Welche Funktion hat AWS GuardDuty?,Bedrohungserkennung,Schutz sensibler Daten,Erstellen von SSL-Zertifikaten,Erstellen von IAM-Richtlinien,A
+Wofür wird AWS Shield verwendet?,Schutz vor DDoS-Angriffen,Überwachen von API-Schlüsseln,Erstellen von IAM-Rollen,Schutz vor SQL-Injection,A
+Welche Hauptfunktion bietet Amazon Inspector?,Erkennung von Schwachstellen,Verwalten von Verschlüsselungsschlüsseln,Erstellen von SSL-Zertifikaten,Überwachen von IAM-Richtlinien,A
+Welche Funktion hat Amazon Macie?,Schutz sensibler Daten,Erkennung von PII,Erstellen von IAM-Benutzern,Schutz sensibler Daten,A
+Welche Art von Bedrohungen kann Amazon GuardDuty erkennen?,Erkennung von bösartigen Aktivitäten,Überwachung von Netzwerkaktivitäten,Überwachen von API-Schlüsseln,Überwachen von IAM-Richtlinien,A
