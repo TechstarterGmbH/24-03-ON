@@ -1,0 +1,21 @@
+Question,Option 1,Option 2,Option 3,Option 4,Correct Answer
+Was ist Machine Learning?,Ein Algorithmus, der automatisch programmiert wird,Ein Teilbereich der KI, der Computern ermöglicht, aus Daten zu lernen und Vorhersagen zu treffen,Ein Tool zur Datenvisualisierung,Ein neuer Programmiersprachenstandard,Ein Teilbereich der KI, der Computern ermöglicht, aus Daten zu lernen und Vorhersagen zu treffen
+Was ist ein Modell im Machine Learning?,Eine Sammlung von Daten,Ein Algorithmus, der lernt, Muster in den Daten zu erkennen,Ein Datenbankmanagementsystem,Eine Programmiersprache,Ein Algorithmus, der lernt, Muster in den Daten zu erkennen
+Was ist der Prozess des Lernens aus Daten im Machine Learning?,Vorhersage,Modellierung,Training,Datenanalyse,Training
+Welche Funktion hat Amazon Comprehend?,Datenbankmanagement,Natürliche Sprachverarbeitung (NLP),Bildverarbeitung,Sprachsynthese,Natürliche Sprachverarbeitung (NLP)
+Was ist die Hauptanwendung von Amazon Kendra?,Erstellen von Chatbots,Text-to-Speech,Finden von Informationen in großen Datenbeständen,Übersetzen von Texten,Finden von Informationen in großen Datenbeständen
+Welche Technologie liegt Amazon Lex zugrunde?,Textverarbeitung,Sprach- und Textverarbeitung,Datenspeicherung,Bildanalyse,Sprach- und Textverarbeitung
+Welche Funktion hat Amazon Polly?,Text-to-Speech (TTS),Datenanalyse,Bildverarbeitung,Machine Learning,Text-to-Speech (TTS)
+Welche Art von Inhalten kann Amazon Rekognition analysieren?,Textdateien,Bilder und Videos,Datenbanken,Programme,Bilder und Videos
+Welche Funktion bietet Amazon SageMaker?,Erstellen, Trainieren und Bereitstellen von ML-Modellen,Datenbankverwaltung,Textübersetzung,Sprachsynthese,Erstellen, Trainieren und Bereitstellen von ML-Modellen
+Was extrahiert Amazon Textract aus Dokumenten?,Bilder,Videos,Text und Daten,Musik,Text und Daten
+Welche Art von Dateien kann Amazon Transcribe transkribieren?,Bilder,Textdateien,Audio- und Videodateien,Datenbanken,Audio- und Videodateien
+Was ermöglicht Amazon Translate?,Datenanalyse,Echtzeit-Übersetzung von Texten in verschiedene Sprachen,Bildbearbeitung,Spracherkennung,Echtzeit-Übersetzung von Texten in verschiedene Sprachen
+Welche Art von Anwendung ist Amazon Connect?,Cloud-basiertes Call-Center,Machine Learning-Plattform,Textübersetzungsdienst,Bildverarbeitungssoftware,Cloud-basiertes Call-Center
+Welche Funktion hat Amazon Simple Email Service (SES)?,Text-to-Speech,Datenanalyse,E-Mail-Versand und -Empfang,Bildverarbeitung,E-Mail-Versand und -Empfang
+Welche Art von Geräten unterstützt AWS IoT Core?,Nur Smartphones,Alle physischen Geräte mit Internetverbindung,Nur Computer,Nur Tablets,Alle physischen Geräte mit Internetverbindung
+Welche Art von Daten verarbeitet AWS IoT Core?,Nur Textdaten,Nur Bilddaten,Echtzeit-Gerätedaten,Nur Audiodaten,Echtzeit-Gerätedaten
+Welche Funktion bietet AWS IoT Greengrass?,Nur Datenanalyse,Machine Learning an der Edge,Lokale Datenverarbeitung und Gerätekommunikation,Sprachsynthese,Lokale Datenverarbeitung und Gerätekommunikation
+Welche Kommunikationstechnologien unterstützt AWS IoT Core?,Nur HTTP,Nur MQTT und HTTP,MQTT, HTTP und WebSockets,Nur WebSockets,MQTT, HTTP und WebSockets
+Was ist ein Hauptvorteil der Nutzung von Amazon SageMaker?,Nur Datenspeicherung,Vollständige Verwaltung des ML-Modell-Lebenszyklus,Nur Textverarbeitung,Nur Bildanalyse,Vollständige Verwaltung des ML-Modell-Lebenszyklus
+Welche Funktion hat die Stimmungsanalyse in Amazon Comprehend?,Erkennen der Stimmung eines Textes (positiv, negativ, neutral, gemischt),Übersetzen von Texten,Erstellen von Chatbots,Verwalten von Datenbanken,Erkennen der Stimmung eines Textes (positiv, negativ, neutral, gemischt)
