@@ -11,8 +11,3 @@ repos:
         exclude: .slides.md$
       - id: check-yaml
       - id: check-added-large-files
-
-  # - repo: https://github.com/executablebooks/mdformat
-  #   rev: 0.7.17  # Use the ref you want to point at
-  #   hooks:
-  #   - id: mdformat
