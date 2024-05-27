@@ -51,7 +51,7 @@ unzip -tq <archive>
 # To list files and directories an archive:
 unzip -l <archive>
 
- tldr:unzip 
+ tldr:unzip
 # unzip
 # Extract files/directories from ZIP archives.
 # See also: `zip`.

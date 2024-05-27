@@ -71,4 +71,3 @@ echo "<html><h1>Lets go Techstarter!</h1></html>" > /var/www/html/index.html
 2. **Testen der Verbindung:**
   - Öffne einen Webbrowser und gib eine der Anycast-IP-Adressen ein.
   - Du solltest die Nachricht `Lets go Techstarter!` sehen.
-

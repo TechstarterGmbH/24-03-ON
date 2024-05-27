@@ -8,7 +8,7 @@ Erstelle nach jeder Aufgabe einen Screenshot und gebe diesen als Lösung ab.
 
 1. Öffne das Terminal.
 2. Navigiere in dein Home-Verzeichnis, falls du nicht bereits dort bist, mit `cd`.
-3. Liste alle Dateien und Verzeichnisse in deinem Home-Verzeichnis auf mit `ls -la`. 
+3. Liste alle Dateien und Verzeichnisse in deinem Home-Verzeichnis auf mit `ls -la`.
 4. Erstelle einen neuen Ordner namens `LinuxPraxis` mit `mkdir LinuxPraxis`.
 5. Wechsle in den neuen Ordner mit `cd LinuxPraxis`.
 

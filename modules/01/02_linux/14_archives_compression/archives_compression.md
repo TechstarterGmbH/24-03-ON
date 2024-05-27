@@ -4,7 +4,7 @@
 
 ### Archivierung
 
-- **Was ist Archivierung?** 
+- **Was ist Archivierung?**
   - Vergleichbar mit einem digitalen Lagerhaus, in dem Daten organisiert gespeichert werden.
   - Ermöglicht die langfristige Aufbewahrung von Informationen.
 

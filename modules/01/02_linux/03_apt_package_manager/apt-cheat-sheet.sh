@@ -35,7 +35,7 @@ apt purge <package>...
 # To list all packages installed:
 apt list --installed
 
- tldr:apt 
+ tldr:apt
 # apt
 # Package management utility for Debian based distributions.
 # Recommended replacement for `apt-get` when used interactively in Ubuntu versions 16.04 and later.

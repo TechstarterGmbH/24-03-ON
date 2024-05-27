@@ -42,7 +42,3 @@ Participants can discuss their solutions, and the exercises can be extended or m
 Diese Übung konzentriert sich auf Befehle zur Textverarbeitung (`grep`, `wc`), einfache Skripterstellung, Ausführbarkeit von Skripten und Erstellung sowie Verwendung von Aliasen.
 
 Teilnehmer können ihre Lösungen besprechen, und die Übungen können je nach Fortschritt und Interesse der Gruppe erweitert oder angepasst werden.
-
-
-
-

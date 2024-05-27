@@ -33,4 +33,3 @@ collection.update_one({"name": "John Doe"}, {"$set": {"street": "456 Elm Street"
 
 # Löschen eines Dokuments mit dem Namen "John Doe"
 collection.delete_one({"name": "John Doe"})
-

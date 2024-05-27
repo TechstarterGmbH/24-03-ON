@@ -16,7 +16,7 @@ gzip -r documents_directory
 # To create a *.gz compressed file and keep the original
 gzip < test.txt > test.txt.gz
 
- tldr:gzip 
+ tldr:gzip
 # gzip
 # Compress/uncompress files with gzip compression (LZ77).
 # More information: <https://www.gnu.org/software/gzip/manual/gzip.html>.

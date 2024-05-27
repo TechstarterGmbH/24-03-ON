@@ -64,7 +64,7 @@ echo "Hello from $(cat /etc/hostname)" | sudo tee /var/www/html/index.html # Wir
     - Wähle die erstellten EC2-Instanzen aus. (Haken setzen)
     - Klicke auf `Include as pending below`.
     - Klicke auf `Create target group`.
-  
+
 4. **Erstelle einen Application Load Balancer (ALB)**
   - Gehe in der AWS Management Console zu EC2 > Load Balancing > Load Balancers.
   - Wähle `Create Load Balancer` und wähle den Typ `Application Load Balancer` -> `Create`.

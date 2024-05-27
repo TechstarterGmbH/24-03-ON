@@ -59,7 +59,7 @@
 - **Merkmale**:
   - Einfache, kostengünstige Möglichkeit für Webanwendungen.
   - Fertige Blueprints, z.B. für WordPress.
-  
+
 ### AWS Local Zones
 
 - Nutze AWS-Infrastruktur näher an deinem Standort (nicht nur in den Availability Zones)

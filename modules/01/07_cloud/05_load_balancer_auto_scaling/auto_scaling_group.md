@@ -19,7 +19,7 @@ Wir wollen, dass unser System automatisch neue EC2-Instanzen hinzufügt oder ent
   - Welche AMI, Instanztyp, Key Pair, etc. sollen verwendet werden?
   - **Launch Configuration:** Einzelne Instanzkonfiguration.
   - **Launch Template:** Flexiblere und erweiterte Konfigurationsoptionen.
-2. **Überwachungssystem (CloudWatch):** 
+2. **Überwachungssystem (CloudWatch):**
   - Überwacht die Leistung der Instanzen und löst bei Bedarf Skalierungsaktionen aus.
 3. **Regel für das Skalieren (Scaling Policy):**
   - Bestimmt, unter welchen Bedingungen skaliert wird (z.B. CPU-Auslastung).

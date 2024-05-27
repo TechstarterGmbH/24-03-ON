@@ -20,7 +20,7 @@ while IFS=';' read -r frage antwort
 do
     echo "Frage: $frage"
     echo "Antwort: $antwort"
-done < "$quizDatei" 
+done < "$quizDatei"
 ```
 
 4. **Bedingte Anweisungen**:

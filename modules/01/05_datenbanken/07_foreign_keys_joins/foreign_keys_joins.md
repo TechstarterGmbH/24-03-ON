@@ -66,7 +66,7 @@ CREATE TABLE IF NOT EXISTS cd (
   cd_id INT AUTO_INCREMENT,
   title VARCHAR(50),
   artist_id INT,
-  
+
   PRIMARY KEY (cd_id),
   FOREIGN KEY (artist_id) REFERENCES artist(artist_id)
 );
