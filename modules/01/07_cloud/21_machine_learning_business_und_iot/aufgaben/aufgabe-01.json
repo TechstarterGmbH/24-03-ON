@@ -1,0 +1,466 @@
+{
+  "id": "machine_learning_aws_quiz",
+  "title": "Machine Learning und AWS Quiz",
+  "tasks": [
+    {
+      "id": "task_1",
+      "title": "Was ist Machine Learning?",
+      "description": "Wählen Sie die richtige Antwort.",
+      "answers": [
+        {
+          "text": "Ein Algorithmus, der automatisch programmiert wird",
+          "isCorrect": false
+        },
+        {
+          "text": "Ein Teilbereich der KI, der Computern ermöglicht, aus Daten zu lernen und Vorhersagen zu treffen",
+          "isCorrect": true
+        },
+        {
+          "text": "Ein Tool zur Datenvisualisierung",
+          "isCorrect": false
+        },
+        {
+          "text": "Ein neuer Programmiersprachenstandard",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_2",
+      "title": "Was ist ein Modell im Machine Learning?",
+      "description": "Wählen Sie die richtige Antwort.",
+      "answers": [
+        {
+          "text": "Eine Sammlung von Daten",
+          "isCorrect": false
+        },
+        {
+          "text": "Ein Algorithmus, der lernt, Muster in den Daten zu erkennen",
+          "isCorrect": true
+        },
+        {
+          "text": "Ein Datenbankmanagementsystem",
+          "isCorrect": false
+        },
+        {
+          "text": "Eine Programmiersprache",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_3",
+      "title": "Was ist der Prozess des Lernens aus Daten im Machine Learning?",
+      "description": "Wählen Sie die richtige Antwort.",
+      "answers": [
+        {
+          "text": "Vorhersage",
+          "isCorrect": false
+        },
+        {
+          "text": "Modellierung",
+          "isCorrect": false
+        },
+        {
+          "text": "Training",
+          "isCorrect": true
+        },
+        {
+          "text": "Datenanalyse",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_4",
+      "title": "Welche Funktion hat Amazon Comprehend?",
+      "description": "Wählen Sie die richtige Antwort.",
+      "answers": [
+        {
+          "text": "Datenbankmanagement",
+          "isCorrect": false
+        },
+        {
+          "text": "Natürliche Sprachverarbeitung (NLP)",
+          "isCorrect": true
+        },
+        {
+          "text": "Bildverarbeitung",
+          "isCorrect": false
+        },
+        {
+          "text": "Sprachsynthese",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_5",
+      "title": "Was ist die Hauptanwendung von Amazon Kendra?",
+      "description": "Wählen Sie die richtige Antwort.",
+      "answers": [
+        {
+          "text": "Erstellen von Chatbots",
+          "isCorrect": false
+        },
+        {
+          "text": "Text-to-Speech",
+          "isCorrect": false
+        },
+        {
+          "text": "Finden von Informationen in großen Datenbeständen",
+          "isCorrect": true
+        },
+        {
+          "text": "Übersetzen von Texten",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_6",
+      "title": "Welche Technologie liegt Amazon Lex zugrunde?",
+      "description": "Wählen Sie die richtige Antwort.",
+      "answers": [
+        {
+          "text": "Textverarbeitung",
+          "isCorrect": false
+        },
+        {
+          "text": "Sprach- und Textverarbeitung",
+          "isCorrect": true
+        },
+        {
+          "text": "Datenspeicherung",
+          "isCorrect": false
+        },
+        {
+          "text": "Bildanalyse",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_7",
+      "title": "Welche Funktion hat Amazon Polly?",
+      "description": "Wählen Sie die richtige Antwort.",
+      "answers": [
+        {
+          "text": "Text-to-Speech (TTS)",
+          "isCorrect": true
+        },
+        {
+          "text": "Datenanalyse",
+          "isCorrect": false
+        },
+        {
+          "text": "Bildverarbeitung",
+          "isCorrect": false
+        },
+        {
+          "text": "Machine Learning",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_8",
+      "title": "Welche Art von Inhalten kann Amazon Rekognition analysieren?",
+      "description": "Wählen Sie die richtige Antwort.",
+      "answers": [
+        {
+          "text": "Textdateien",
+          "isCorrect": false
+        },
+        {
+          "text": "Bilder und Videos",
+          "isCorrect": true
+        },
+        {
+          "text": "Datenbanken",
+          "isCorrect": false
+        },
+        {
+          "text": "Programme",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_9",
+      "title": "Welche Funktion bietet Amazon SageMaker?",
+      "description": "Wählen Sie die richtige Antwort.",
+      "answers": [
+        {
+          "text": "Erstellen, Trainieren und Bereitstellen von ML-Modellen",
+          "isCorrect": true
+        },
+        {
+          "text": "Datenbankverwaltung",
+          "isCorrect": false
+        },
+        {
+          "text": "Textübersetzung",
+          "isCorrect": false
+        },
+        {
+          "text": "Sprachsynthese",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_10",
+      "title": "Was extrahiert Amazon Textract aus Dokumenten?",
+      "description": "Wählen Sie die richtige Antwort.",
+      "answers": [
+        {
+          "text": "Bilder",
+          "isCorrect": false
+        },
+        {
+          "text": "Videos",
+          "isCorrect": false
+        },
+        {
+          "text": "Text und Daten",
+          "isCorrect": true
+        },
+        {
+          "text": "Musik",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_11",
+      "title": "Welche Art von Dateien kann Amazon Transcribe transkribieren?",
+      "description": "Wählen Sie die richtige Antwort.",
+      "answers": [
+        {
+          "text": "Bilder",
+          "isCorrect": false
+        },
+        {
+          "text": "Textdateien",
+          "isCorrect": false
+        },
+        {
+          "text": "Audio- und Videodateien",
+          "isCorrect": true
+        },
+        {
+          "text": "Datenbanken",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_12",
+      "title": "Was ermöglicht Amazon Translate?",
+      "description": "Wählen Sie die richtige Antwort.",
+      "answers": [
+        {
+          "text": "Datenanalyse",
+          "isCorrect": false
+        },
+        {
+          "text": "Echtzeit-Übersetzung von Texten in verschiedene Sprachen",
+          "isCorrect": true
+        },
+        {
+          "text": "Bildbearbeitung",
+          "isCorrect": false
+        },
+        {
+          "text": "Spracherkennung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_13",
+      "title": "Welche Art von Anwendung ist Amazon Connect?",
+      "description": "Wählen Sie die richtige Antwort.",
+      "answers": [
+        {
+          "text": "Cloud-basiertes Call-Center",
+          "isCorrect": true
+        },
+        {
+          "text": "Machine Learning-Plattform",
+          "isCorrect": false
+        },
+        {
+          "text": "Textübersetzungsdienst",
+          "isCorrect": false
+        },
+        {
+          "text": "Bildverarbeitungssoftware",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_14",
+      "title": "Welche Funktion hat Amazon Simple Email Service (SES)?",
+      "description": "Wählen Sie die richtige Antwort.",
+      "answers": [
+        {
+          "text": "Text-to-Speech",
+          "isCorrect": false
+        },
+        {
+          "text": "Datenanalyse",
+          "isCorrect": false
+        },
+        {
+          "text": "E-Mail-Versand und -Empfang",
+          "isCorrect": true
+        },
+        {
+          "text": "Bildverarbeitung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_15",
+      "title": "Welche Art von Geräten unterstützt AWS IoT Core?",
+      "description": "Wählen Sie die richtige Antwort.",
+      "answers": [
+        {
+          "text": "Nur Smartphones",
+          "isCorrect": false
+        },
+        {
+          "text": "Alle physischen Geräte mit Internetverbindung",
+          "isCorrect": true
+        },
+        {
+          "text": "Nur Computer",
+          "isCorrect": false
+        },
+        {
+          "text": "Nur Tablets",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_16",
+      "title": "Welche Art von Daten verarbeitet AWS IoT Core?",
+      "description": "Wählen Sie die richtige Antwort.",
+      "answers": [
+        {
+          "text": "Nur Textdaten",
+          "isCorrect": false
+        },
+        {
+          "text": "Nur Bilddaten",
+          "isCorrect": false
+        },
+        {
+          "text": "Echtzeit-Gerätedaten",
+          "isCorrect": true
+        },
+        {
+          "text": "Nur Audiodaten",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_17",
+      "title": "Welche Funktion bietet AWS IoT Greengrass?",
+      "description": "Wählen Sie die richtige Antwort.",
+      "answers": [
+        {
+          "text": "Nur Datenanalyse",
+          "isCorrect": false
+        },
+        {
+          "text": "Machine Learning an der Edge",
+          "isCorrect": false
+        },
+        {
+          "text": "Lokale Datenverarbeitung und Gerätekommunikation",
+          "isCorrect": true
+        },
+        {
+          "text": "Sprachsynthese",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_18",
+      "title": "Welche Kommunikationstechnologien unterstützt AWS IoT Core?",
+      "description": "Wählen Sie die richtige Antwort.",
+      "answers": [
+        {
+          "text": "Nur HTTP",
+          "isCorrect": false
+        },
+        {
+          "text": "Nur MQTT und HTTP",
+          "isCorrect": false
+        },
+        {
+          "text": "MQTT, HTTP und WebSockets",
+          "isCorrect": true
+        },
+        {
+          "text": "Nur WebSockets",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_19",
+      "title": "Was ist ein Hauptvorteil der Nutzung von Amazon SageMaker?",
+      "description": "Wählen Sie die richtige Antwort.",
+      "answers": [
+        {
+          "text": "Nur Datenspeicherung",
+          "isCorrect": false
+        },
+        {
+          "text": "Vollständige Verwaltung des ML-Modell-Lebenszyklus",
+          "isCorrect": true
+        },
+        {
+          "text": "Nur Textverarbeitung",
+          "isCorrect": false
+        },
+        {
+          "text": "Nur Bildanalyse",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_20",
+      "title": "Welche Funktion hat die Stimmungsanalyse in Amazon Comprehend?",
+      "description": "Wählen Sie die richtige Antwort.",
+      "answers": [
+        {
+          "text": "Erkennen der Stimmung eines Textes (positiv, negativ, neutral, gemischt)",
+          "isCorrect": true
+        },
+        {
+          "text": "Übersetzen von Texten",
+          "isCorrect": false
+        },
+        {
+          "text": "Erstellen von Chatbots",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwalten von Datenbanken",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
