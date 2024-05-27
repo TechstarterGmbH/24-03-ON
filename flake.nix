@@ -27,6 +27,7 @@
         commonPackages = with pkgs; [
           chromium
           diffutils
+          direnv
           markdownToHtmlCli
           marpCli
           pre-commit
