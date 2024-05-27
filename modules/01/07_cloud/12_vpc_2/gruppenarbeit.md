@@ -31,7 +31,7 @@
 
 ### Team: AWS Direct Connect
 
-- Lest den folgenden Artikel (Inlusive Unterseiten): [AWS Direct Connect](https://aws.amazon.com/de/directconnect/) 
+- Lest den folgenden Artikel (Inlusive Unterseiten): [AWS Direct Connect](https://aws.amazon.com/de/directconnect/)
 - Bereitet eine Präsentation vor, in der ihr die folgenden Punkte erläutert:
   - Was ist AWS Direct Connect?
   - Warum ist AWS Direct Connect notwendig?

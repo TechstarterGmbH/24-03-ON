@@ -29,4 +29,3 @@
   - Erstelle ein User Data Script, das den Parameter aus dem Parameter Store liest und in einer Datei speichert.
 2. Verbinde dich mit einer der EC2 Instanzen, die von der Auto Scaling Group gestartet wurde und überprüfe, ob die Datei erstellt wurde.
 3. Erstelle einen Alarm in Amazon CloudWatch, der dich benachrichtigt, wenn die CPU-Auslastung über 50% steigt
-

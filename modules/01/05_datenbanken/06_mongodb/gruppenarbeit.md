@@ -29,7 +29,7 @@ In MongoDB sind Dokumente die grundlegenden Dateneinheiten, die in einer Collect
 
 1. **Besuche die MongoDB Atlas Webseite**: Gehe auf die offizielle MongoDB Atlas Webseite und erstelle einen Account.
 2. **Erstelle einen kostenlosen Cluster / Datenbank**: Wähle den kostenlosen Plan und erstelle einen Cluster in der Region deiner Wahl.
-3. **Öffne die Einstellungen der Datenbank**: Unter `Deployment -> Database` klicke auf den Namen deines Clusters. 
+3. **Öffne die Einstellungen der Datenbank**: Unter `Deployment -> Database` klicke auf den Namen deines Clusters.
 4. **High Availability**: Unter dem Reiter `Overview` siehst du Informationen zu den verschiedenen Replicas und Nodes in deinem Cluster.
 5. **Erstelle eine neue Collection**: Klicke auf `Collections` und danach auf `+ Create Database` `Database Name: MeinAdressbuch` und `Collection Name: Adressbuch`.
 6. **Füge Dokumente hinzu**: Klicke auf `Insert Document` und füge einige Beispieldokumente hinzu.

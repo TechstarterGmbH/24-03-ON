@@ -1,4 +1,4 @@
-cheat.sheets:tar 
+cheat.sheets:tar
 # tar
 # GNU version of the tar archiving utility
 
@@ -22,7 +22,7 @@ tar --delete -f xdm_edited.tar.gz xdm
 # If a destination (path given to `-C`) is not provided, the CWD will be used.
 tar -C /mnt -xvf Tarball.tar
 
- cheat:tar 
+ cheat:tar
 ---
 tags: [ compression ]
 ---
@@ -67,7 +67,7 @@ tar -J ... -> tar -Ipixz ...
 # To append a new file to an old tar archive:
 tar -rf <archive.tar> <new-file-to-append>
 
- tldr:tar 
+ tldr:tar
 # tar
 # Archiving utility.
 # Often combined with a compression method, such as gzip or bzip2.

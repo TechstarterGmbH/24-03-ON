@@ -65,14 +65,14 @@ do
     echo "Frage: $frage"
     echo -n "Ihre Antwort: "
     read benutzerAntwort < /dev/tty
-    
+
     if [ "$benutzerAntwort" = "$antwort" ]; then
         echo "Richtig!"
         ((richtigeAntworten++))
     else
         echo "Falsch. Die richtige Antwort ist: $antwort"
     fi
-    
+
     ((gesamtFragen++))
 done < "$quizDatei"
 ```
@@ -116,15 +116,15 @@ do
     echo "Frage: $frage"
     echo -n "Ihre Antwort: "
     read benutzerAntwort < /dev/tty
-    
-    
+
+
     if [ "$benutzerAntwort" = "$antwort" ]; then
         echo "Richtig!"
         ((richtigeAntworten++))
     else
         echo "Leider falsch. Die richtige Antwort ist: $antwort"
     fi
-    
+
     ((gesamtFragen++))
 done < "$quizDatei"
 

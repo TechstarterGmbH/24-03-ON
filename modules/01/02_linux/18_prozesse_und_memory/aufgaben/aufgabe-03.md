@@ -14,4 +14,3 @@
   - Programmiersprachen
 - Schreibe dir eine Zusammenfassung der genannten Programme und ihrer Verwendungszwecke.
 - Nutze diese Zusammenfassung um dich ab jetzt weiter auf die Prüfung vorzubereiten.
-

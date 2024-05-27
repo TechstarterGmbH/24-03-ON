@@ -22,4 +22,3 @@
 - [Linux Basics auf YouTube (Hintergrund Cyber Security hacking)](https://www.youtube.com/watch?v=bjkyaeseb7g&list=PLNmsVeXQZj7oaopPUB0SEmzZLf3aE5msy)
 - [Bash Grundlagen Playlist auf YouTube](https://www.youtube.com/watch?v=S7SAsLh60dE&list=PLNmsVeXQZj7r-Tw-cNntRgvwA7nXPAjP4)
 - [Linux Essentials for Hacker Youtube Playlist](https://www.youtube.com/watch?v=T0Db6dVYyoA&list=PLBf0hzazHTGMh2fe2MFf3lCgk0rKmS2by)
-

@@ -86,7 +86,7 @@ Quiz:
 
 1. Was ist der Unterschied zwischen Hardlinks und Symbolic Links?
 2. Wie können Sie die Anzahl der Verweise auf eine Datei anzeigen?
-3. 
+3.
 ---
 ### Hardware
 

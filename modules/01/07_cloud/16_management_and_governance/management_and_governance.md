@@ -123,7 +123,7 @@ Resources:
   - **Dashboards:** Visualisierung von Metriken und Logs.
 
 #### Praxisbeispiel: Erstellen eines Alarms
-  
+
 1. Erstelle eine EC2-Instance
 2. Gehe zur CloudWatch-Konsole.
 3. Gehe zum Alarm-Tab und klicke auf "Create Alarm".

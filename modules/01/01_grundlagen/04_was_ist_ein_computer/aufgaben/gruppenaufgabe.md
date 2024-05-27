@@ -2,7 +2,7 @@
 
 ## Aufgabenstellung
 
-Ihr werdet in zwei Gruppen eingeteilt: 
+Ihr werdet in zwei Gruppen eingeteilt:
 - Gruppe A beschäftigt sich mit On-Premise-Servern
 - Gruppe B die Cloud-Server erforscht.
 
@@ -43,7 +43,7 @@ Jede Gruppe soll die Schlüsselaspekte ihres Themas erforschen und in einer Prä
 ### Für Gruppe A (On-Premise):
 
 - [On-Premise-Server: Vor- und Nachteile](https://www.ahd.de/on-premises-als-grundlage-fuer-eine-moderne-it-strategie/)
-  
+
 ### Für Gruppe B (Cloud):
 
 - [Cloud-Server: Ein umfassender Überblick](https://www.ahd.de/was-ist-cloud-computing-definition-und-vorteile/)

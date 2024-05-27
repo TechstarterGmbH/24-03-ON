@@ -4,7 +4,7 @@ Ziel dieser Aufgabe ist es dein Wissen über Shell Globbing und Regular Expressi
 
 ## 1. Shell Globbing
 
-1. Wechsele zum `/etc` Verzeichnis 
+1. Wechsele zum `/etc` Verzeichnis
 2. Liste alle Dateien auf, die mit `.conf` enden.
 3. Verbinde den Inhalt aller `.conf` Dateien, die mit a beginnen. (Tipp: Wie kannst du den Inhalt einer Datei anzeigen? Kann dieses Programm auch mehrere Dateien gleichzeitig anzeigen?)
 4. Liste den Inhalt alles Verzeichnisse, die mit `.d` enden.

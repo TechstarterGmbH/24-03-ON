@@ -95,7 +95,7 @@ Die nächsten Schritte wieder im Tab ausführen, in dem du das VPC erstellt hast
   - **Name**: `MySecurityGroupForEc2`
   - **Description**: `Security Group for EC2 instances in the MyVPC VPC`
   - **VPC**: `MyVPC`
-  - **Inbound rules**: 
+  - **Inbound rules**:
     - Add Rule
       - **Type**: `SSH`
       - **Source**: `Anywhere`

@@ -27,10 +27,12 @@
         commonPackages = with pkgs; [
           chromium
           diffutils
+          direnv
           markdownToHtmlCli
           marpCli
           pre-commit
           python3Packages.deepl
+          python3Packages.mdformat
 
           # gfi
           gfi.defaultPackage.${system}

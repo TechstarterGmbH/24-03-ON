@@ -82,4 +82,3 @@
   - Bereitstellung von Netzwerkdiensten für Endanwender-Programme
   - HTTP, FTP, DNS, SMTP, DHCP
 - **Protokolle:** HTTP (Hypertext Transfer Protocol), FTP (File Transfer Protocol), DNS (Domain Name System)
-

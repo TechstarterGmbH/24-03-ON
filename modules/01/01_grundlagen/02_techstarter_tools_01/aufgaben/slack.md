@@ -51,4 +51,4 @@
 
 ### 7. Schreibe eine private Nachricht an einen Kollegen
 
-- Schreibe eine private Nachricht an einen deiner neuen Kollegen 
+- Schreibe eine private Nachricht an einen deiner neuen Kollegen

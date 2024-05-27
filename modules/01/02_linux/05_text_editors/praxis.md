@@ -54,4 +54,3 @@ Du wirst auch lernen, wie du die `.bashrc`-Datei sicher bearbeitest und nützlic
 - Du solltest jetzt bei jedem neuen Terminalfenster eine bunte Nachricht sehen.
 
 Durch diesen Kurs hast du nicht nur gelernt, wie man mit Nano Textdateien bearbeitet, sondern auch, wie man die Shell für unterhaltsame und praktische Zwecke nutzt.
-

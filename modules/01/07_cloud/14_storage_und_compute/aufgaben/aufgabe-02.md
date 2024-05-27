@@ -27,7 +27,7 @@ Hier sind nochmal alle Schritte zusammengefasst, aber bitte an die offizielle An
 1. Erstelle eine MariaDB RDS Datenbank (Unter Templates -> Free Tier auswählen)
 2. Der Teil mit der Security Gruppe kann erstmal übersprungen werden
 3. Vorbereitung der Wordpress Dateien
-4. **WICHTIG*: 
+4. **WICHTIG*:
   - Gehe in den IAM Service und erstelle eine neue Rolle
   - Für den Service EC2
   - Attach Policies: `AWSElasticBeanstalkWebTier`, `AWSElasticBeanstalkMulticontainerDocker`, `AWSElasticBeanstalkWorkerTier`
