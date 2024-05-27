@@ -1,6 +1,7 @@
 .envrc.local
 
 .direnv/
+result
 
 .tmp/
 

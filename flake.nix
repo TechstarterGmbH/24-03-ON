@@ -1,28 +1,50 @@
 {
-  inputs.nixpkgs.url = "github:nixos/nixpkgs/23.11";
 
-  outputs = { self, nixpkgs }:
-    let
-      defaultSystem = "x86_64-linux";
-      pkgs = import nixpkgs { system = defaultSystem; };
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    flake-utils.url = "github:numtide/flake-utils";
+    gfi.url = "gitlab:0xfab10/google-forms-importer";
+  };
 
-      markdownToHtmlCli = import ./nix/markdown2html-converter.nix { inherit pkgs; };
+  outputs = { self, nixpkgs, flake-utils, gfi }: {
 
-      marpCli = import ./nix/marp.nix { inherit pkgs; };
-      
-      defaultPkgs = with pkgs; [
-        chromium
-        diffutils
-        markdownToHtmlCli
-        marpCli
-        pre-commit
-        python3Packages.deepl
-      ];
+    overlay = self: super: { };
 
-    in
-    {
-      devShells."${defaultSystem}".default = pkgs.mkShell {
-        nativeBuildInputs = defaultPkgs;
-      };
-    };
+  } //
+  flake-utils.lib.eachDefaultSystem
+    (system:
+      let
+        pkgs = import nixpkgs {
+          inherit system;
+          config.allowUnfree = true;
+          overlays = [ self.overlay ];
+        };
+
+        markdownToHtmlCli = import ./nix/markdown2html-converter.nix { inherit pkgs; };
+
+        marpCli = import ./nix/marp.nix { inherit pkgs; };
+
+        commonPackages = with pkgs; [
+          chromium
+          diffutils
+          markdownToHtmlCli
+          marpCli
+          pre-commit
+          python3Packages.deepl
+
+          # gfi
+          gfi.defaultPackage.${system}
+        ];
+
+        shell = pkgs.mkShell {
+          packages = commonPackages;
+        };
+
+      in
+      {
+        devShells.nixos = shell;
+
+        packages.gfi = gfi.defaultPackage.${system};
+      }
+    );
 }
