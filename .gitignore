@@ -13,3 +13,5 @@ tests/example.*
 *.slides.pdf
 *.slides.html
 *.en.md
+
+token.json
