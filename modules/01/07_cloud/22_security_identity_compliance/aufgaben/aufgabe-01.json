@@ -1,0 +1,536 @@
+{
+  "id": "aws_security_quiz",
+  "formId": "16xpzJpk33cT1ptxrMLWPnhazt6Cs4s8Oe0ApaFii7k8",
+  "title": "AWS Security Quiz",
+  "tasks": [
+    {
+      "id": "task_1",
+      "title": "Was ist die Hauptfunktion von AWS IAM?",
+      "answers": [
+        {
+          "text": "Verwalten von Benutzern und Berechtigungen",
+          "isCorrect": true
+        },
+        {
+          "text": "Überwachen von Netzwerkaktivitäten",
+          "isCorrect": false
+        },
+        {
+          "text": "Erstellen von SSL-Zertifikaten",
+          "isCorrect": false
+        },
+        {
+          "text": "Schutz vor DDoS-Angriffen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_2",
+      "title": "Welche Funktion bietet AWS Single Sign-On?",
+      "answers": [
+        {
+          "text": "Zugriff auf mehrere AWS-Konten verwalten",
+          "isCorrect": true
+        },
+        {
+          "text": "Zentrale Verwaltung von Firewall-Richtlinien",
+          "isCorrect": false
+        },
+        {
+          "text": "Erstellen von Benutzern und Gruppen",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwalten von IAM-Rollen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_3",
+      "title": "Welcher Dienst ermöglicht die Integration von AWS-Ressourcen mit Active Directory?",
+      "answers": [
+        {
+          "text": "AWS IAM",
+          "isCorrect": false
+        },
+        {
+          "text": "AWS Directory Service",
+          "isCorrect": true
+        },
+        {
+          "text": "AWS KMS",
+          "isCorrect": false
+        },
+        {
+          "text": "AWS Secrets Manager",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_4",
+      "title": "Welche Sicherheitsfunktion bietet Amazon Cognito?",
+      "answers": [
+        {
+          "text": "MFA und Benutzerattribute validieren",
+          "isCorrect": true
+        },
+        {
+          "text": "Verwalten von API-Schlüsseln",
+          "isCorrect": false
+        },
+        {
+          "text": "Automatisierung der Geheimnisrotation",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwalten von Benutzerpools",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_5",
+      "title": "Welcher Dienst hilft bei der Verwaltung von SSL/TLS-Zertifikaten?",
+      "answers": [
+        {
+          "text": "AWS KMS",
+          "isCorrect": false
+        },
+        {
+          "text": "AWS Secrets Manager",
+          "isCorrect": false
+        },
+        {
+          "text": "AWS CloudHSM",
+          "isCorrect": false
+        },
+        {
+          "text": "AWS Certificate Manager",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "task_6",
+      "title": "Welche Funktion hat AWS KMS?",
+      "answers": [
+        {
+          "text": "Verwalten kryptographischer Schlüssel",
+          "isCorrect": false
+        },
+        {
+          "text": "Erstellen von SSL-Zertifikaten",
+          "isCorrect": false
+        },
+        {
+          "text": "Erstellen von IAM-Rollen",
+          "isCorrect": false
+        },
+        {
+          "text": "Erstellen und Verwalten von kryptographischen Schlüsseln",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "task_7",
+      "title": "In welchem Service kannst du ein Hardware Security Module in der Cloud verwenden?",
+      "answers": [
+        {
+          "text": "AWS CloudHSM",
+          "isCorrect": true
+        },
+        {
+          "text": "AWS KMS",
+          "isCorrect": false
+        },
+        {
+          "text": "AWS Secrets Manager",
+          "isCorrect": false
+        },
+        {
+          "text": "AWS IAM",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_8",
+      "title": "Wofür wird AWS Secrets Manager verwendet?",
+      "answers": [
+        {
+          "text": "Speichern und Abrufen von SSL-Zertifikaten",
+          "isCorrect": false
+        },
+        {
+          "text": "Speichern und Abrufen von Geheimnissen",
+          "isCorrect": true
+        },
+        {
+          "text": "Überwachen von API-Schlüsseln",
+          "isCorrect": false
+        },
+        {
+          "text": "Erstellen von IAM-Rollen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_9",
+      "title": "Welche Hauptfunktion bietet Amazon GuardDuty?",
+      "answers": [
+        {
+          "text": "Erkennung bösartiger Aktivitäten",
+          "isCorrect": true
+        },
+        {
+          "text": "Schutz sensibler Daten",
+          "isCorrect": false
+        },
+        {
+          "text": "Überwachen von API-Schlüsseln",
+          "isCorrect": false
+        },
+        {
+          "text": "Erstellen von IAM-Rollen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_10",
+      "title": "Was macht Amazon Macie?",
+      "answers": [
+        {
+          "text": "Erkennt PII in S3",
+          "isCorrect": true
+        },
+        {
+          "text": "Erstellt SSL/TLS-Zertifikate",
+          "isCorrect": false
+        },
+        {
+          "text": "Speichert MFA-Daten",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwalten von IAM-Rollen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_11",
+      "title": "Welche Art von Schwachstellen kann Amazon Inspector erkennen?",
+      "answers": [
+        {
+          "text": "Schwachstellen in EC2-Instanzen",
+          "isCorrect": true
+        },
+        {
+          "text": "Schwachstellen in S3-Buckets",
+          "isCorrect": false
+        },
+        {
+          "text": "Schwachstellen in IAM-Rollen",
+          "isCorrect": false
+        },
+        {
+          "text": "Schwachstellen in IAM-Richtlinien",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_12",
+      "title": "Wofür wird Amazon Detective verwendet?",
+      "answers": [
+        {
+          "text": "Untersuchung von Sicherheitsvorfällen",
+          "isCorrect": true
+        },
+        {
+          "text": "Verwalten von Zertifikaten",
+          "isCorrect": false
+        },
+        {
+          "text": "Automatisierung der Geheimnisrotation",
+          "isCorrect": false
+        },
+        {
+          "text": "Überwachen von API-Schlüsseln",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_13",
+      "title": "Welche Funktion hat AWS Network Firewall?",
+      "answers": [
+        {
+          "text": "Überwachung des Netzwerkverkehrs",
+          "isCorrect": true
+        },
+        {
+          "text": "Überwachen von API-Schlüsseln",
+          "isCorrect": false
+        },
+        {
+          "text": "Erstellen von IAM-Rollen",
+          "isCorrect": false
+        },
+        {
+          "text": "Skalierbarkeit und Verfügbarkeit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_14",
+      "title": "Was ermöglicht AWS Firewall Manager?",
+      "answers": [
+        {
+          "text": "Zentrale Verwaltung von Firewall-Richtlinien",
+          "isCorrect": true
+        },
+        {
+          "text": "Erstellen von SSL-Zertifikaten",
+          "isCorrect": false
+        },
+        {
+          "text": "Überwachen von API-Schlüsseln",
+          "isCorrect": false
+        },
+        {
+          "text": "Überwachen von IAM-Richtlinien",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_15",
+      "title": "Welche Bedrohungen kann AWS WAF abwehren?",
+      "description": "Mehrere Antworten möglich.",
+      "answers": [
+        {
+          "text": "SQL Injection",
+          "isCorrect": true
+        },
+        {
+          "text": "DDoS-Angriffe",
+          "isCorrect": false
+        },
+        {
+          "text": "Cross Site Scripting (XSS)",
+          "isCorrect": true
+        },
+        {
+          "text": "MFA-Daten",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_16",
+      "title": "Was ist AWS Shield Standard?",
+      "answers": [
+        {
+          "text": "Schutz vor DDoS-Angriffen",
+          "isCorrect": true
+        },
+        {
+          "text": "Erstellen von IAM-Rollen",
+          "isCorrect": false
+        },
+        {
+          "text": "Speichern von API-Schlüsseln",
+          "isCorrect": false
+        },
+        {
+          "text": "Automatisierung der Geheimnisrotation",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_17",
+      "title": "Was bietet AWS Artifact?",
+      "answers": [
+        {
+          "text": "Compliance-Berichte bereitstellen",
+          "isCorrect": true
+        },
+        {
+          "text": "Automatisierte Audit-Workflows",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwalten von IAM-Rollen",
+          "isCorrect": false
+        },
+        {
+          "text": "Bereitstellen von Compliance-Dokumenten",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_18",
+      "title": "Welche Funktion hat AWS Audit Manager?",
+      "answers": [
+        {
+          "text": "Erstellen von IAM-Richtlinien",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwalten von Firewall-Richtlinien",
+          "isCorrect": false
+        },
+        {
+          "text": "Erstellen von SSL-Zertifikaten",
+          "isCorrect": false
+        },
+        {
+          "text": "Automatisiertes Erstellen von Auditberichten",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "task_19",
+      "title": "Was ist der Hauptzweck von AWS Security Hub?",
+      "answers": [
+        {
+          "text": "Überwachen von API-Schlüsseln",
+          "isCorrect": false
+        },
+        {
+          "text": "Erstellen von Firewall-Richtlinien",
+          "isCorrect": false
+        },
+        {
+          "text": "Überwachung von Sicherheitswarnungen aus verschiedenen AWS-Diensten",
+          "isCorrect": true
+        },
+        {
+          "text": "Überwachen von IAM-Richtlinien",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_20",
+      "title": "Wofür wird AWS RAM verwendet?",
+      "answers": [
+        {
+          "text": "Erstellen von SSL-Zertifikaten",
+          "isCorrect": false
+        },
+        {
+          "text": "Teilen von AWS-Ressourcen zwischen Konten",
+          "isCorrect": true
+        },
+        {
+          "text": "Erstellen von IAM-Benutzern",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwalten von IAM-Rollen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_21",
+      "title": "Welche Rolle spielt AWS KMS bei der Verschlüsselung?",
+      "answers": [
+        {
+          "text": "Verwaltung von Schlüsseln (Kryptographie)",
+          "isCorrect": true
+        },
+        {
+          "text": "Speichern von SSL-Zertifikaten",
+          "isCorrect": false
+        },
+        {
+          "text": "Überwachen von API-Schlüsseln",
+          "isCorrect": false
+        },
+        {
+          "text": "Erstellen von SSL-Zertifikaten",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_22",
+      "title": "Welche Funktion hat AWS Cognito?",
+      "answers": [
+        {
+          "text": "Erlaubt die anonyme Authentifizierung",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltet Benutzerpools und Identitäten (Authentifizierung)",
+          "isCorrect": true
+        },
+        {
+          "text": "Ermöglicht Zugriff auf den AWS Marketplace",
+          "isCorrect": false
+        },
+        {
+          "text": "Ermöglicht den Zugriff auf AWS Support",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_23",
+      "title": "Wie sind die Kosten für AWS AWS Shield Standard?",
+      "answers": [
+        {
+          "text": "3000 USD pro Monat",
+          "isCorrect": false
+        },
+        {
+          "text": "5000 USD pro Monat",
+          "isCorrect": false
+        },
+        {
+          "text": "Kostenlos und automatisch aktiviert",
+          "isCorrect": true
+        },
+        {
+          "text": "599 USD pro Monat",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_24",
+      "title": "Welche Funktion hat Amazon Macie?",
+      "answers": [
+        {
+          "text": "Schutz sensibler Daten",
+          "isCorrect": true
+        },
+        {
+          "text": "Erkennung von PII",
+          "isCorrect": true
+        },
+        {
+          "text": "Ermittlung von Stimmungslagen in Texten",
+          "isCorrect": false
+        },
+        {
+          "text": "Erstellung von API-Schlüsseln",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
