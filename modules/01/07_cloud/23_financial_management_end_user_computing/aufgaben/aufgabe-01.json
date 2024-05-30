@@ -1,0 +1,330 @@
+{
+  "id": "cloud_financial_management_quiz",
+  "formId": "1Q7WZfeipf46G5g9ER-BT6OObRMI-h3af1WhMDEupgww",
+  "title": "Cloud Financial Management Quiz",
+  "tasks": [
+    {
+      "id": "task_1",
+      "title": "Mit welchem Service kannst du schnell herausfinden und verstehen wie sich die Kosten zusammensetzen? (mehrere können richtig sein!)",
+      "answers": [
+        {
+          "text": "AWS Cost Explorer",
+          "isCorrect": true
+        },
+        {
+          "text": "AWS Organizations",
+          "isCorrect": false
+        },
+        {
+          "text": "AWS Billing Conductor",
+          "isCorrect": false
+        },
+        {
+          "text": "AWS Cost and Usage Report",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "task_3",
+      "title": "Für wen ist AWS Billing Conductor?",
+      "answers": [
+        {
+          "text": "Kleine Start-ups",
+          "isCorrect": false
+        },
+        {
+          "text": "Freiberufler",
+          "isCorrect": false
+        },
+        {
+          "text": "Große Organisationen mit komplexen Abrechnungsanforderungen",
+          "isCorrect": true
+        },
+        {
+          "text": "Privatpersonen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_5",
+      "title": "Welche Funktion hat AWS Billing Conductor?",
+      "answers": [
+        {
+          "text": "Ermöglicht es Kosten auf verschiedene Teilbereiche aufzuteilen",
+          "isCorrect": true
+        },
+        {
+          "text": "Hilft bei den Steuern",
+          "isCorrect": false
+        },
+        {
+          "text": "Alarmiert bei hohen Kosten",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltet Benutzerzugriffe auf Rechnungen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_7",
+      "title": "Was ist AWS Budgets?",
+      "answers": [
+        {
+          "text": "Ein Tool zur Überwachung von Cloud-Ausgaben, es ist hier einfach möglich Alarms zu erstellen",
+          "isCorrect": true
+        },
+        {
+          "text": "Ein Speicherdienst für Cloud-Ausgaben. Hier ist es auch möglich Berichte für Teams zu erstellen",
+          "isCorrect": false
+        },
+        {
+          "text": "Kostenübersicht für verschiedene Accounts einer Organisation",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_8",
+      "title": "Was ist der Zweck von AWS Budgets?",
+      "answers": [
+        {
+          "text": "Kosten im Griff zu behalten",
+          "isCorrect": true
+        },
+        {
+          "text": "Daten zu speichern",
+          "isCorrect": false
+        },
+        {
+          "text": "Netzwerk zu überwachen",
+          "isCorrect": false
+        },
+        {
+          "text": "Benutzerrechte zu verwalten",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_9",
+      "title": "Welche Benachrichtigungen bietet AWS Budgets?",
+      "answers": [
+        {
+          "text": "Automatische Benachrichtigungen bei Erreichen bestimmter Schwellenwerte",
+          "isCorrect": true
+        },
+        {
+          "text": "Benachrichtigungen bei Netzwerkproblemen",
+          "isCorrect": false
+        },
+        {
+          "text": "E-Mail-Benachrichtigungen bei Datenverlust",
+          "isCorrect": false
+        },
+        {
+          "text": "SMS-Benachrichtigungen bei Benutzeranmeldung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_10",
+      "title": "Was ermöglicht AWS Cost and Usage Report?",
+      "answers": [
+        {
+          "text": "Detailierte Berichte zur Nutzung von EC2 Instanzen",
+          "isCorrect": false
+        },
+        {
+          "text": "Detailierte Berichte zur Einhaltung von Compliance Richtlinien",
+          "isCorrect": false
+        },
+        {
+          "text": "Detaillierte Berichte zu AWS-Nutzungs- und Kosteninformationen",
+          "isCorrect": true
+        },
+        {
+          "text": "Verwaltung von Benutzerrechten",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_12",
+      "title": "Wie konfiguriert man den AWS Cost and Usage Report?",
+      "answers": [
+        {
+          "text": "Durch Erstellen eines S3 Buckets und Konfigurieren des Berichts",
+          "isCorrect": true
+        },
+        {
+          "text": "Kann einfach in der AWS Konsole heruntergeladen werden",
+          "isCorrect": false
+        },
+        {
+          "text": "Muss erst beim AWS Support beantragt werden",
+          "isCorrect": false
+        },
+        {
+          "text": "Wir automatisch per E-Mail versendet",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_13",
+      "title": "Was ist AWS Cost Explorer?",
+      "answers": [
+        {
+          "text": "Ein Tool um Sparpläne zu kaufen",
+          "isCorrect": false
+        },
+        {
+          "text": "Ein Tool zur Visualisierung und Analyse von AWS-Kosten und -Nutzung",
+          "isCorrect": true
+        },
+        {
+          "text": "Ein Tool um Jahresabrechnungen für große Organisationen zu erstellen",
+          "isCorrect": false
+        },
+        {
+          "text": "Ein Authentifizierungsdienst",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_14",
+      "title": "Ein Kunde möchte gerne wissen, wieso letzten Monat die AWS-Abrechnung so hoch war. Wie kannst du das schnell herausfinden?",
+      "answers": [
+        {
+          "text": "AWS Cost Finder",
+          "isCorrect": false
+        },
+        {
+          "text": "AWS Cost Explorer",
+          "isCorrect": true
+        },
+        {
+          "text": "AWS Cost Report Explorer (CRE)",
+          "isCorrect": false
+        },
+        {
+          "text": "AWS Cost and Billing Manager",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_15",
+      "title": "Welche Funktionen bietet AWS Cost Explorer?",
+      "answers": [
+        {
+          "text": "Visualisierung der Kundendaten in Graphen, dabei gibt es die Möglichkeit verschiedene Filter anzuwenden",
+          "isCorrect": false
+        },
+        {
+          "text": "Visualisierung der Kosten in Graphen, dabei gibt es die Möglichkeit verschiedene Filter anzuwenden",
+          "text": "Speicherung von Daten",
+          "isCorrect": true
+        },
+        {
+          "text": "Netzwerküberwachung",
+          "isCorrect": false
+        },
+        {
+          "text": "Benutzerzugriffsverwaltung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_16",
+      "title": "Was ist AWS Marketplace?",
+      "answers": [
+        {
+          "text": "Ein digitaler Katalog mit Software-Angeboten auf AWS",
+          "isCorrect": true
+        },
+        {
+          "text": "Ein digitaler Katalog mit Kubernetes Helm Charts",
+          "isCorrect": false
+        },
+        {
+          "text": "Ein digitaler Katalog mit Ansible Playbooks auf AWS",
+          "isCorrect": false
+        },
+        {
+          "text": "Ein digitaler Katalog mit Terraform Modules auf AWS",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_18",
+      "title": "Was ist End User Computing?",
+      "answers": [
+        {
+          "text": "Bereitstellung von Desktops und Anwendungen in der Cloud",
+          "isCorrect": true
+        },
+        {
+          "text": "Bereitstellung von Servern für High-Performance-Computing (HPC)",
+          "isCorrect": false
+        },
+        {
+          "text": "Netzwerküberwachung",
+          "isCorrect": false
+        },
+        {
+          "text": "Benutzerzugriffsverwaltung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_19",
+      "title": "Welchen Zweck erfüllt AppStream 2.0?",
+      "answers": [
+        {
+          "text": "Sicherer und skalierbarer Zugriff auf in einer virtuellen Desktop Session",
+          "isCorrect": true
+        },
+        {
+          "text": "Verbesserung der Netzwerkgeschwindigkeit",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung von Benutzerrechten",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "task_20",
+      "title": "Was ist Amazon WorkSpaces?",
+      "answers": [
+        {
+          "text": "Desktop-as-a-Service in AWS",
+          "isCorrect": true
+        },
+        {
+          "text": "Ein Speicherdienst",
+          "isCorrect": false
+        },
+        {
+          "text": "Eine Business Suite wie Google Workspace (Business)",
+          "isCorrect": false
+        },
+        {
+          "text": "Ein Authentifizierungsdienst",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
