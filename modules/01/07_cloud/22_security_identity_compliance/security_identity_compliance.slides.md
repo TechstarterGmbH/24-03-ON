@@ -8,11 +8,13 @@ class: invert
 
 ---
 
-![img](https://i.redd.it/ekpkjd0jiv221.jpg)
+![w:500](https://i.redd.it/ekpkjd0jiv221.jpg)
 
 ---
 
 # Identitäts- und Zugriffsmanagement
+
+---
 
 ## AWS Identity and Access Management (IAM)
 
