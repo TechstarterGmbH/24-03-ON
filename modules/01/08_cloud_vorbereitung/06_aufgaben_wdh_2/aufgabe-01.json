@@ -1,0 +1,337 @@
+{
+  "id": "wiederholung-2-iam-vpc-devtools-frontend-mobile-management-governance",
+  "formId": "1ITbUjKEuw7VNjz0PXunF_lSQC26dTd68V4-tTxjIyMY",
+  "title": "Wiederholung 2: IAM, VPC, DevTools, Frontend \u0026 Mobile, Management \u0026 Governance",
+  "tasks": [
+    {
+      "id": "wiederholung-2-iam-vpc-devtools-frontend-mobile-management-governance_was-ist-der-hauptzweck-von-aws-appconfig-",
+      "title": "Was ist der Hauptzweck von AWS AppConfig?",
+      "answers": [
+        {
+          "text": "Bereitstellung von virtuellen Maschinen",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung von Laufzeitkonfigurationen",
+          "isCorrect": true
+        },
+        {
+          "text": "Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Speicherung von Objektdaten",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-2-iam-vpc-devtools-frontend-mobile-management-governance_wie-k-nnen-sie-mit-der-aws-cli-aws-ressourcen-verwalten-mehrere-koennen-richtig-sein-",
+      "title": "Wie können Sie mit der AWS CLI AWS-Ressourcen verwalten? (mehrere koennen richtig sein)",
+      "answers": [
+        {
+          "text": "Durch manuelle Eingaben",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch Skripte",
+          "isCorrect": true
+        },
+        {
+          "text": "Über eine grafische Benutzeroberfläche",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch automatische Skalierung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-2-iam-vpc-devtools-frontend-mobile-management-governance_was-ist-die-hauptfunktion-der-aws-management-console-",
+      "title": "Was ist die Hauptfunktion der AWS Management Console?",
+      "answers": [
+        {
+          "text": "Blockspeicherlösungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Webbasierte Benutzeroberfläche für Ressourcenmanagement",
+          "isCorrect": true
+        },
+        {
+          "text": "Browserbasierte IDE",
+          "isCorrect": false
+        },
+        {
+          "text": "Tool zur Leistungsüberwachung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-2-iam-vpc-devtools-frontend-mobile-management-governance_was-erm-glicht-aws-cloud9-",
+      "title": "Was ermöglicht AWS Cloud9?",
+      "answers": [
+        {
+          "text": "Protokollierung von API-Aufrufen",
+          "isCorrect": false
+        },
+        {
+          "text": "Management von Identitäten",
+          "isCorrect": false
+        },
+        {
+          "text": "Entwicklung in einer integrierten Cloud-IDE",
+          "isCorrect": true
+        },
+        {
+          "text": "Direkter Hardwarezugriff",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-2-iam-vpc-devtools-frontend-mobile-management-governance_f-r-was-wird-aws-cloudshell-prim-r-verwendet-",
+      "title": "Für was wird AWS CloudShell primär verwendet?",
+      "answers": [
+        {
+          "text": "Direkter Shell-Zugriff auf AWS-Ressourcen",
+          "isCorrect": true
+        },
+        {
+          "text": "Datenbankmanagement",
+          "isCorrect": false
+        },
+        {
+          "text": "Machine Learning Modelltraining",
+          "isCorrect": false
+        },
+        {
+          "text": "Webanwendungshosting",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-2-iam-vpc-devtools-frontend-mobile-management-governance_was-erleichtert-aws-amplify-",
+      "title": "Was erleichtert AWS Amplify?",
+      "answers": [
+        {
+          "text": "Automatisierte Softwarebereitstellungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Erstellung von Web- und Mobilanwendungen",
+          "isCorrect": true
+        },
+        {
+          "text": "Betrieb von Kubernetes",
+          "isCorrect": false
+        },
+        {
+          "text": "Management von Cloud-Ressourcen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-2-iam-vpc-devtools-frontend-mobile-management-governance_wof-r-wird-aws-appsync-haupts-chlich-verwendet-",
+      "title": "Wofür wird AWS AppSync hauptsächlich verwendet?",
+      "answers": [
+        {
+          "text": "Management eines GraphQL-Services",
+          "isCorrect": true
+        },
+        {
+          "text": "Verwaltung von Softwarelizenzen",
+          "isCorrect": false
+        },
+        {
+          "text": "Bereitstellung von physischen Geräten",
+          "isCorrect": false
+        },
+        {
+          "text": "Überwachung von AWS-Ressourcen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-2-iam-vpc-devtools-frontend-mobile-management-governance_was-bietet-aws-device-farm-",
+      "title": "Was bietet AWS Device Farm?",
+      "answers": [
+        {
+          "text": "Datenmigrationstools",
+          "isCorrect": false
+        },
+        {
+          "text": "Analysen von Mikroservices",
+          "isCorrect": false
+        },
+        {
+          "text": "Testen auf physischen Geräten",
+          "isCorrect": true
+        },
+        {
+          "text": "Konfigurationsmanagement",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-2-iam-vpc-devtools-frontend-mobile-management-governance_wie-funktioniert-aws-auto-scaling-",
+      "title": "Wie funktioniert AWS Auto Scaling?",
+      "answers": [
+        {
+          "text": "Startet virtuelle Maschinen",
+          "isCorrect": false
+        },
+        {
+          "text": "Passt Ressourcen automatisch an",
+          "isCorrect": true
+        },
+        {
+          "text": "Verwaltet Benutzeridentitäten",
+          "isCorrect": false
+        },
+        {
+          "text": "Ermöglicht das Scripting von Operationen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-2-iam-vpc-devtools-frontend-mobile-management-governance_was-ist-die-hauptfunktion-von-aws-control-tower-",
+      "title": "Was ist die Hauptfunktion von AWS Control Tower?",
+      "answers": [
+        {
+          "text": "Direkte Bearbeitung von Code",
+          "isCorrect": false
+        },
+        {
+          "text": "Automatisierte Governance für AWS-Umgebungen",
+          "isCorrect": true
+        },
+        {
+          "text": "Analyse von Benutzerinteraktionen",
+          "isCorrect": false
+        },
+        {
+          "text": "Management von Netzwerksicherheit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-2-iam-vpc-devtools-frontend-mobile-management-governance_welchen-zweck-erf-llt-das-aws-health-dashboard-",
+      "title": "Welchen Zweck erfüllt das AWS Health Dashboard?",
+      "answers": [
+        {
+          "text": "Speicherung und Bereitstellung von Artefakten",
+          "isCorrect": false
+        },
+        {
+          "text": "Continuous Integration und Delivery",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung von Organisationsrichtlinien",
+          "isCorrect": false
+        },
+        {
+          "text": "Anzeige des Zustands von AWS-Ressourcen",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-2-iam-vpc-devtools-frontend-mobile-management-governance_was-erm-glicht-aws-cloudformation-",
+      "title": "Was ermöglicht AWS CloudFormation?",
+      "answers": [
+        {
+          "text": "Erstellung und Management von virtuellen Netzwerken",
+          "isCorrect": false
+        },
+        {
+          "text": "Leistungsanalyse und Optimierungsvorschläge",
+          "isCorrect": false
+        },
+        {
+          "text": "Automatisierte Bereitstellung von Anwendungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Infrastruktur als Code einzurichten und zu verwalten",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-2-iam-vpc-devtools-frontend-mobile-management-governance_was-bietet-aws-organizations-",
+      "title": "Was bietet AWS Organizations?",
+      "answers": [
+        {
+          "text": "Direkter Hardwarezugriff",
+          "isCorrect": false
+        },
+        {
+          "text": "Echtzeit-Datenbankmanagement",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung von Zugriff und Compliance für mehrere Konten",
+          "isCorrect": true
+        },
+        {
+          "text": "Systemintegritätsüberwachung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-2-iam-vpc-devtools-frontend-mobile-management-governance_was-ist-eine-kernfunktion-von-aws-systems-manager-",
+      "title": "Was ist eine Kernfunktion von AWS Systems Manager?",
+      "answers": [
+        {
+          "text": "Protokollierung von Sicherheitsereignissen",
+          "isCorrect": false
+        },
+        {
+          "text": "Optimierung von Netzwerkverkehr",
+          "isCorrect": false
+        },
+        {
+          "text": "Validierung von Anwendungskonfigurationen",
+          "isCorrect": false
+        },
+        {
+          "text": "Zentrales Management von AWS-Ressourcen",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-2-iam-vpc-devtools-frontend-mobile-management-governance_was-erm-glicht-das-aws-well-architected-tool-",
+      "title": "Was ermöglicht das AWS Well-Architected Tool?",
+      "answers": [
+        {
+          "text": "Bewertung und Verbesserung der Architektur nach AWS-Best Practices",
+          "isCorrect": true
+        },
+        {
+          "text": "Entwicklung und Bereitstellung von Anwendungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Überwachung der Netzwerkleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Automatisches Testen von Anwendungen",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
