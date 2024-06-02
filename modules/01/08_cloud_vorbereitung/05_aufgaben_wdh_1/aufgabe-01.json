@@ -1,0 +1,403 @@
+{
+  "id": "wiederholung-1-ec2-storage-migration-and-transfer-container",
+  "formId": "1Akt3bFcd_zqcleP8J6HAHOfMS-zAODglZ81gpwDijgk",
+  "title": "Wiederholung 1: EC2, Storage, Migration and Transfer, Container",
+  "tasks": [
+    {
+      "id": "wiederholung-1-ec2-storage-migration-and-transfer-container_was-ist-eine-hauptfunktion-von-amazon-s3-",
+      "title": "Was ist eine Hauptfunktion von Amazon S3?",
+      "answers": [
+        {
+          "text": "Dateispeicherung",
+          "isCorrect": true
+        },
+        {
+          "text": "Relationale Datenbank",
+          "isCorrect": false
+        },
+        {
+          "text": "Datenanalyse",
+          "isCorrect": false
+        },
+        {
+          "text": "Virtual Private Network",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-1-ec2-storage-migration-and-transfer-container_welcher-aws-dienst-ist-ein-blockbasierter-speicher-der-f-r-ec2-instanzen-verwendet-wird-",
+      "title": "Welcher AWS-Dienst ist ein blockbasierter Speicher, der für EC2-Instanzen verwendet wird?",
+      "answers": [
+        {
+          "text": "Amazon S3",
+          "isCorrect": false
+        },
+        {
+          "text": "Amazon Glacier",
+          "isCorrect": false
+        },
+        {
+          "text": "Amazon EBS",
+          "isCorrect": true
+        },
+        {
+          "text": "Amazon FSx",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-1-ec2-storage-migration-and-transfer-container_f-r-welchen-zweck-wird-amazon-fsx-haupts-chlich-verwendet-",
+      "title": "Für welchen Zweck wird Amazon FSx hauptsächlich verwendet?",
+      "answers": [
+        {
+          "text": "Backup-Speicher",
+          "isCorrect": false
+        },
+        {
+          "text": "Hochleistungsdateisystem",
+          "isCorrect": true
+        },
+        {
+          "text": "Kalt-Datenspeicher",
+          "isCorrect": false
+        },
+        {
+          "text": "Edge-Computing",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-1-ec2-storage-migration-and-transfer-container_was-beschreibt-amazon-efs-",
+      "title": "Was beschreibt Amazon EFS?",
+      "answers": [
+        {
+          "text": "Blockspeicher",
+          "isCorrect": false
+        },
+        {
+          "text": "Kaltlagerung",
+          "isCorrect": false
+        },
+        {
+          "text": "Eine Datenbank",
+          "isCorrect": false
+        },
+        {
+          "text": "Ein verwaltetes NAS-Dateisystem",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-1-ec2-storage-migration-and-transfer-container_wie-unterst-tzt-aws-bei-der-migration-von-anwendungen-in-die-cloud-",
+      "title": "Wie unterstützt AWS bei der Migration von Anwendungen in die Cloud?",
+      "answers": [
+        {
+          "text": "AWS Migration Hub",
+          "isCorrect": true
+        },
+        {
+          "text": "AWS Direct Connect",
+          "isCorrect": false
+        },
+        {
+          "text": "Amazon RDS",
+          "isCorrect": false
+        },
+        {
+          "text": "AWS Lambda",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-1-ec2-storage-migration-and-transfer-container_welcher-dienst-wird-f-r-die-containerverwaltung-in-aws-verwendet-",
+      "title": "Welcher Dienst wird für die Containerverwaltung in AWS verwendet?",
+      "answers": [
+        {
+          "text": "Amazon EC2",
+          "isCorrect": false
+        },
+        {
+          "text": "Amazon ECS",
+          "isCorrect": true
+        },
+        {
+          "text": "Amazon S3",
+          "isCorrect": false
+        },
+        {
+          "text": "Amazon EBS",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-1-ec2-storage-migration-and-transfer-container_welcher-storage-dienst-ist-optimal-f-r-die-archivierung-von-daten-",
+      "title": "Welcher Storage-Dienst ist optimal für die Archivierung von Daten?",
+      "answers": [
+        {
+          "text": "Amazon Glacier",
+          "isCorrect": true
+        },
+        {
+          "text": "Amazon EFS",
+          "isCorrect": false
+        },
+        {
+          "text": "Amazon EC2",
+          "isCorrect": false
+        },
+        {
+          "text": "Amazon FSx",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-1-ec2-storage-migration-and-transfer-container_was-ist-der-hauptvorteil-von-amazon-ebs-gegen-ber-amazon-ec2-lokal-gespeichertem-speicher-instance-store-",
+      "title": "Was ist der Hauptvorteil von Amazon EBS gegenüber Amazon EC2 lokal gespeichertem Speicher (Instance Store)?",
+      "answers": [
+        {
+          "text": "Preis",
+          "isCorrect": false
+        },
+        {
+          "text": "Niedrigere Latenz",
+          "isCorrect": false
+        },
+        {
+          "text": "Persistenz",
+          "isCorrect": true
+        },
+        {
+          "text": "Höhere Kapazität",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-1-ec2-storage-migration-and-transfer-container_was-erm-glicht-amazon-s3-im-bereich-der-datenspeicherung-",
+      "title": "Was ermöglicht Amazon S3 im Bereich der Datenspeicherung?",
+      "answers": [
+        {
+          "text": "Objekt-Speicherung",
+          "isCorrect": true
+        },
+        {
+          "text": "Block-Speicherung",
+          "isCorrect": false
+        },
+        {
+          "text": "Datentransfer in Echtzeit",
+          "isCorrect": false
+        },
+        {
+          "text": "Stream Processing",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-1-ec2-storage-migration-and-transfer-container_welche-option-bietet-aws-f-r-die-physische-datenmigration-",
+      "title": "Welche Option bietet AWS für die physische Datenmigration?",
+      "answers": [
+        {
+          "text": "AWS Data Pipeline",
+          "isCorrect": false
+        },
+        {
+          "text": "AWS Storage Gateway",
+          "isCorrect": false
+        },
+        {
+          "text": "AWS Snowball",
+          "isCorrect": true
+        },
+        {
+          "text": "AWS Direct Connect",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-1-ec2-storage-migration-and-transfer-container_welches-feature-von-amazon-ec2-erlaubt-das-automatische-skalieren-",
+      "title": "Welches Feature von Amazon EC2 erlaubt das automatische Skalieren?",
+      "answers": [
+        {
+          "text": "AWS Lambda",
+          "isCorrect": false
+        },
+        {
+          "text": "EBS-Optimized Instances",
+          "isCorrect": false
+        },
+        {
+          "text": "Amazon Machine Images",
+          "isCorrect": false
+        },
+        {
+          "text": "Auto Scaling",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-1-ec2-storage-migration-and-transfer-container_welche-aws-l-sung-ist-am-besten-f-r-eine-hohe-verf-gbarkeit-von-containeranwendungen-",
+      "title": "Welche AWS-Lösung ist am besten für eine hohe Verfügbarkeit von Containeranwendungen?",
+      "answers": [
+        {
+          "text": "Amazon EKS",
+          "isCorrect": true
+        },
+        {
+          "text": "Amazon SQS",
+          "isCorrect": false
+        },
+        {
+          "text": "Amazon Aurora",
+          "isCorrect": false
+        },
+        {
+          "text": "Amazon QuickSight",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-1-ec2-storage-migration-and-transfer-container_wie-wird-amazon-fsx-f-r-windows-file-server-am-h-ufigsten-verwendet-",
+      "title": "Wie wird Amazon FSx für Windows File Server am häufigsten verwendet?",
+      "answers": [
+        {
+          "text": "Als relationaler Datenbankservice",
+          "isCorrect": false
+        },
+        {
+          "text": "Als Netzwerkisolationsdienst",
+          "isCorrect": false
+        },
+        {
+          "text": "Als dedizierter Host",
+          "isCorrect": false
+        },
+        {
+          "text": "Für Windows-basierte Anwendungen",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-1-ec2-storage-migration-and-transfer-container_welche-migrationsoption-bietet-die-schnellste-daten-bertragung-zwischen-on-premises-und-aws-",
+      "title": "Welche Migrationsoption bietet die schnellste Datenübertragung zwischen On-Premises und AWS?",
+      "answers": [
+        {
+          "text": "AWS Direct Connect",
+          "isCorrect": true
+        },
+        {
+          "text": "AWS Snowmobile",
+          "isCorrect": false
+        },
+        {
+          "text": "AWS VPN",
+          "isCorrect": false
+        },
+        {
+          "text": "AWS Kinesis Data Firehose",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-1-ec2-storage-migration-and-transfer-container_wie-unterscheidet-sich-amazon-ebs-von-amazon-s3-",
+      "title": "Wie unterscheidet sich Amazon EBS von Amazon S3?",
+      "answers": [
+        {
+          "text": "SQL vs. NoSQL",
+          "isCorrect": false
+        },
+        {
+          "text": "VPN vs. Direct Connect",
+          "isCorrect": false
+        },
+        {
+          "text": "Blockspeicher vs. Objektspeicher",
+          "isCorrect": true
+        },
+        {
+          "text": "Datenanalyse vs. Datenspeicherung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-1-ec2-storage-migration-and-transfer-container_was-ist-der-vorteil-von-amazon-s3-glacier-",
+      "title": "Was ist der Vorteil von Amazon S3 Glacier?",
+      "answers": [
+        {
+          "text": "Schneller Datenzugriff",
+          "isCorrect": false
+        },
+        {
+          "text": "Kostengünstige Archivspeicherung",
+          "isCorrect": true
+        },
+        {
+          "text": "Hohe I/O-Performance",
+          "isCorrect": false
+        },
+        {
+          "text": "Maschinelles Lernen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-1-ec2-storage-migration-and-transfer-container_wie-kann-amazon-ecs-die-verwaltung-von-containern-vereinfachen-",
+      "title": "Wie kann Amazon ECS die Verwaltung von Containern vereinfachen?",
+      "answers": [
+        {
+          "text": "Indem es statische IPs zuweist",
+          "isCorrect": false
+        },
+        {
+          "text": "Indem es Funktionen als Dienst bereitstellt",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch orchestrierte Containerplatzierung",
+          "isCorrect": true
+        },
+        {
+          "text": "Durch Bereitstellung von Hardware",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-1-ec2-storage-migration-and-transfer-container_was-ist-der-prim-re-nutzungszweck-von-amazon-fsx-f-r-lustre-",
+      "title": "Was ist der primäre Nutzungszweck von Amazon FSx für Lustre?",
+      "answers": [
+        {
+          "text": "Verarbeitung von Big Data und maschinellem Lernen",
+          "isCorrect": true
+        },
+        {
+          "text": "Bereitstellung von Content Delivery Netzwerken",
+          "isCorrect": false
+        },
+        {
+          "text": "Unterstützung für grafische Anwendungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Speicherung persönlicher Daten",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
