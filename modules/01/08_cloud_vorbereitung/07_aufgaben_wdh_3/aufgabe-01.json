@@ -1,0 +1,337 @@
+{
+  "id": "wiederholung-3-networking-content-deliver-serverless-app-integration-data-ml-business-apps-iot-security-financial",
+  "formId": "1XygGRjflc13qDWDmz_YU1_Syu4WwhlxMk85NfyF2mp4",
+  "title": "Wiederholung 3: Networking / Content Deliver, Serverless, App Integration, Data, ML, Business Apps, IoT, Security, Financial",
+  "tasks": [
+    {
+      "id": "wiederholung-3-networking-content-deliver-serverless-app-integration-data-ml-business-apps-iot-security-financial_was-ist-der-hauptzweck-von-amazon-api-gateway-",
+      "title": "Was ist der Hauptzweck von Amazon API Gateway?",
+      "answers": [
+        {
+          "text": "APIs erstellen und verwalten",
+          "isCorrect": true
+        },
+        {
+          "text": "Webanwendungen hosten",
+          "isCorrect": false
+        },
+        {
+          "text": "Relationale Datenbanken bereitstellen",
+          "isCorrect": false
+        },
+        {
+          "text": "E-Mail-Dienste anbieten",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-3-networking-content-deliver-serverless-app-integration-data-ml-business-apps-iot-security-financial_welche-hauptfunktion-bietet-amazon-cloudfront-",
+      "title": "Welche Hauptfunktion bietet Amazon CloudFront?",
+      "answers": [
+        {
+          "text": "E-Mail-Marketing",
+          "isCorrect": false
+        },
+        {
+          "text": "Datenarchivierung",
+          "isCorrect": false
+        },
+        {
+          "text": "Virtuelle Netzwerkerstellung",
+          "isCorrect": false
+        },
+        {
+          "text": "Content Delivery Network",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-3-networking-content-deliver-serverless-app-integration-data-ml-business-apps-iot-security-financial_wof-r-wird-aws-direct-connect-haupts-chlich-verwendet-",
+      "title": "Wofür wird AWS Direct Connect hauptsächlich verwendet?",
+      "answers": [
+        {
+          "text": "Virtuelle private Netzwerke",
+          "isCorrect": false
+        },
+        {
+          "text": "Dedizierte Netzwerkverbindung zu AWS",
+          "isCorrect": true
+        },
+        {
+          "text": "Echtzeit-Datenstreaming",
+          "isCorrect": false
+        },
+        {
+          "text": "Analyse großer Datenmengen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-3-networking-content-deliver-serverless-app-integration-data-ml-business-apps-iot-security-financial_was-erm-glicht-aws-global-accelerator-",
+      "title": "Was ermöglicht AWS Global Accelerator?",
+      "answers": [
+        {
+          "text": "Automatisierte Softwarebereitstellungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Datensicherung in der Cloud",
+          "isCorrect": false
+        },
+        {
+          "text": "Graph-Datenbank-Management",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Anwendungsleistung durch Verkehrsumleitung",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-3-networking-content-deliver-serverless-app-integration-data-ml-business-apps-iot-security-financial_welche-dienstleistung-bietet-amazon-route-53-an-",
+      "title": "Welche Dienstleistung bietet Amazon Route 53 an?",
+      "answers": [
+        {
+          "text": "Text-in-Sprache-Umwandlung",
+          "isCorrect": false
+        },
+        {
+          "text": "DNS-Web-Service",
+          "isCorrect": true
+        },
+        {
+          "text": "Graph-Datenbank-Service",
+          "isCorrect": false
+        },
+        {
+          "text": "Hardware-Sicherheitsmodul",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-3-networking-content-deliver-serverless-app-integration-data-ml-business-apps-iot-security-financial_welche-funktion-hat-amazon-vpc-",
+      "title": "Welche Funktion hat Amazon VPC?",
+      "answers": [
+        {
+          "text": "Isolierte Netzwerkumgebung in der Cloud",
+          "isCorrect": true
+        },
+        {
+          "text": "Management von Softwarelizenzen",
+          "isCorrect": false
+        },
+        {
+          "text": "Serverlose Code-Ausführung",
+          "isCorrect": false
+        },
+        {
+          "text": "Integration von Drittanbieter-Apps",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-3-networking-content-deliver-serverless-app-integration-data-ml-business-apps-iot-security-financial_was-erm-glicht-aws-vpn-",
+      "title": "Was ermöglicht AWS VPN?",
+      "answers": [
+        {
+          "text": "Echtzeit-Analyse von Streaming-Daten",
+          "isCorrect": false
+        },
+        {
+          "text": "Content Delivery über ein Netzwerk",
+          "isCorrect": false
+        },
+        {
+          "text": "Sicheren Verbindungsaufbau zwischen Rechenzentrum und AWS Cloud",
+          "isCorrect": true
+        },
+        {
+          "text": "Erstellung und Verwaltung relationaler Datenbanken",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-3-networking-content-deliver-serverless-app-integration-data-ml-business-apps-iot-security-financial_welche-hauptfunktion-bietet-aws-fargate-",
+      "title": "Welche Hauptfunktion bietet AWS Fargate?",
+      "answers": [
+        {
+          "text": "E-Mail-Kommunikationsmanagement",
+          "isCorrect": false
+        },
+        {
+          "text": "Serverless Computing für Container",
+          "isCorrect": true
+        },
+        {
+          "text": "Erstellung und Verwaltung von Nutzeridentitäten und -zugriffen",
+          "isCorrect": false
+        },
+        {
+          "text": "Schutz vor DDoS-Angriffen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-3-networking-content-deliver-serverless-app-integration-data-ml-business-apps-iot-security-financial_was-ist-eine-hauptfunktion-von-aws-lambda-",
+      "title": "Was ist eine Hauptfunktion von AWS Lambda?",
+      "answers": [
+        {
+          "text": "Management von Web-Firewalls",
+          "isCorrect": false
+        },
+        {
+          "text": "Direkte SQL-Abfragen auf S3-Daten",
+          "isCorrect": false
+        },
+        {
+          "text": "Ausführung von Code in Reaktion auf Ereignisse",
+          "isCorrect": true
+        },
+        {
+          "text": "Analyse und Debugging von Anwendungen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-3-networking-content-deliver-serverless-app-integration-data-ml-business-apps-iot-security-financial_was-ist-die-hauptfunktion-von-amazon-eventbridge-",
+      "title": "Was ist die Hauptfunktion von Amazon EventBridge?",
+      "answers": [
+        {
+          "text": "Verbindung von Anwendungsdaten über einen serverlosen Event-Bus",
+          "isCorrect": true
+        },
+        {
+          "text": "Datenbank-Clustering in der Cloud",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung von Netzwerkverkehr",
+          "isCorrect": false
+        },
+        {
+          "text": "Überwachung der Anwendungsleistung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-3-networking-content-deliver-serverless-app-integration-data-ml-business-apps-iot-security-financial_was-bietet-amazon-sns-",
+      "title": "Was bietet Amazon SNS?",
+      "answers": [
+        {
+          "text": "Objekt-basierte Speicherung",
+          "isCorrect": false
+        },
+        {
+          "text": "Relationale Datenbank-Dienste",
+          "isCorrect": false
+        },
+        {
+          "text": "Pub/Sub-Nachrichtendienst",
+          "isCorrect": true
+        },
+        {
+          "text": "Überwachung von Netzwerksicherheit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-3-networking-content-deliver-serverless-app-integration-data-ml-business-apps-iot-security-financial_wof-r-wird-amazon-sqs-verwendet-",
+      "title": "Wofür wird Amazon SQS verwendet?",
+      "answers": [
+        {
+          "text": "Content Delivery Optimization",
+          "isCorrect": false
+        },
+        {
+          "text": "Workflow-Automatisierung",
+          "isCorrect": false
+        },
+        {
+          "text": "Nachrichtenwarteschlangendienst zur Entkopplung von Anwendungen",
+          "isCorrect": true
+        },
+        {
+          "text": "Graph-Datenverarbeitung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-3-networking-content-deliver-serverless-app-integration-data-ml-business-apps-iot-security-financial_was-erm-glicht-aws-step-functions-",
+      "title": "Was ermöglicht AWS Step Functions?",
+      "answers": [
+        {
+          "text": "Verwaltung von Verschlüsselungsschlüsseln",
+          "isCorrect": false
+        },
+        {
+          "text": "Bereitstellung von Webanwendungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Koordination von Komponenten durch Workflows",
+          "isCorrect": true
+        },
+        {
+          "text": "Sammeln und Analysieren von Streaming-Daten",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-3-networking-content-deliver-serverless-app-integration-data-ml-business-apps-iot-security-financial_was-ist-eine-hauptfunktion-von-amazon-aurora-",
+      "title": "Was ist eine Hauptfunktion von Amazon Aurora?",
+      "answers": [
+        {
+          "text": "Bereitstellung einer relationalen Datenbank",
+          "isCorrect": true
+        },
+        {
+          "text": "Erkennung sensibler Daten",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung von IoT-Geräten",
+          "isCorrect": false
+        },
+        {
+          "text": "Integration und Visualisierung von Business-Intelligence-Daten",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-3-networking-content-deliver-serverless-app-integration-data-ml-business-apps-iot-security-financial_welche-funktion-erf-llt-amazon-dynamodb-",
+      "title": "Welche Funktion erfüllt Amazon DynamoDB?",
+      "answers": [
+        {
+          "text": "Automatisierung von ETL-Jobs",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung von Cloud-Ressourcen",
+          "isCorrect": false
+        },
+        {
+          "text": "Vollständig verwaltete NoSQL-Datenbank",
+          "isCorrect": true
+        },
+        {
+          "text": "Erstellung von Machine-Learning-Modellen",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
