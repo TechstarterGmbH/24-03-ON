@@ -1,4 +1,4 @@
-frage,antwort_1,antwort_2,antwort_3,antwort_4,richtige_antwort_1,richtige_antwort_2
+question,answer_1,answer_2,answer_3,answer_4,correct_answer_1,correct_answer_2
 Was ist der Hauptzweck von AWS Lambda?,Ausführung von Code in Reaktion auf Ereignisse,Automatisierung von Netzwerkprozessen,Management von Datenbanken,Direkte Anbindung an physische Netzwerke,Ausführung von Code in Reaktion auf Ereignisse,
 Was ermöglicht Amazon API Gateway?,Erstellen, veröffentlichen, verwalten und sichern von APIs,Verbesserung der Netzwerksicherheit,Speicherung von Objektdaten,Verbesserung der Datenbanksicherheit,Erstellen, veröffentlichen, verwalten und sichern von APIs,
 Wie unterstützt AWS Fargate serverlose Architekturen?,Durch Automatisierung der Server- und Cluster-Verwaltung für Container,Ermöglichung von Hochgeschwindigkeitsdatenübertragungen,Optimierung der Speicherkosten,Erhöhung der Netzwerkbandbreite,Durch Automatisierung der Server- und Cluster-Verwaltung für Container,

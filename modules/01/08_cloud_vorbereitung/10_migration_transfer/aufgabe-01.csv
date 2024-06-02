@@ -1,4 +1,4 @@
-frage,antwort_1,antwort_2,antwort_3,antwort_4,richtige_antwort_1,richtige_antwort_2
+question,answer_1,answer_2,answer_3,answer_4,correct_answer_1,correct_answer_2
 Was ist der Hauptzweck von AWS Migration Hub?,Zentralisierung und Überwachung von Migrationsaufgaben,Speicherung von Objektdaten,Netzwerk-Performance-Analyse,Email-Sicherheitsmanagement,Zentralisierung und Überwachung von Migrationsaufgaben,
 Was bietet AWS DataSync?,Automatisierte Datenübertragung zwischen On-Premises und AWS,Content Delivery Network,Verbesserte Netzwerksicherheit,Cloud-basierte Videokonferenzen,Automatisierte Datenübertragung zwischen On-Premises und AWS,
 Für was wird AWS Transfer Family verwendet?,Sichere Übertragung von Daten über Protokolle wie SFTP, FTPS und FTP,Langfristige Datenspeicherung,Webanwendungsschutz,Anwendungsentwicklung,Sichere Übertragung von Daten über Protokolle wie SFTP, FTPS und FTP,

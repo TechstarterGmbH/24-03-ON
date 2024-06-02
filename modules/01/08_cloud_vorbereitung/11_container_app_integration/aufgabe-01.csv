@@ -1,4 +1,4 @@
-frage,antwort_1,antwort_2,antwort_3,antwort_4,richtige_antwort_1,richtige_antwort_2
+question,answer_1,answer_2,answer_3,answer_4,correct_answer_1,correct_answer_2
 Was ist der Hauptzweck von Amazon ECS (Elastic Container Service)?,Orchestrierung von Docker-Containern,Speicherung von Big Data,Durchführung von Machine Learning Modellen,Verschlüsselung von Daten,Orchestrierung von Docker-Containern,
 Was bietet AWS Fargate?,Serverlose Ausführung von Containern,Automatisierte Datenanalyse,Verbesserte Netzwerksicherheit,Cloud-basierte Videokonferenzen,Serverlose Ausführung von Containern,
 Welche Funktion hat Amazon EKS (Elastic Kubernetes Service)?,Verwaltung von Kubernetes-Clustern in AWS,Langfristige Datenspeicherung,Webanwendungsschutz,Anwendungsentwicklung,Verwaltung von Kubernetes-Clustern in AWS,

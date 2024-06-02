@@ -1,4 +1,4 @@
-frage,antwort_1,antwort_2,antwort_3,antwort_4,richtige_antwort_1,richtige_antwort_2
+question,answer_1,answer_2,answer_3,answer_4,correct_answer_1,correct_answer_2
 Was ist der Hauptzweck von Amazon Redshift?,Schnelles, vollständig verwaltetes Data-Warehouse,Speicherung von Big Data,Datenverschlüsselung,Verbesserung der Netzwerksicherheit,Schnelles, vollständig verwaltetes Data-Warehouse,
 Was ermöglicht Amazon Athena?,SQL-Abfragen direkt auf Daten in Amazon S3 ausführen,Verbesserung der Videoqualität von Streaming-Diensten,Beschleunigt die Auslieferung von Webinhalten,Stellt eine zusätzliche Sicherheitsebene für Netzwerke bereit,SQL-Abfragen direkt auf Daten in Amazon S3 ausführen,
 Wie unterstützt AWS Glue die Datenintegration?,Als serverloser Datenintegrationsdienst zur Vorbereitung und Beladung von Daten für Analysen,Optimierung der Speicherkosten,Erhöhung der Netzwerkbandbreite,Verbesserung der Anwendungssicherheit,Als serverloser Datenintegrationsdienst zur Vorbereitung und Beladung von Daten für Analysen,

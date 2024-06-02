@@ -1,4 +1,4 @@
-frage,antwort_1,antwort_2,antwort_3,antwort_4,richtige_antwort_1,richtige_antwort_2
+question,answer_1,answer_2,answer_3,answer_4,correct_answer_1,correct_answer_2
 Was ist der Hauptzweck von Amazon Connect?,Cloud-basiertes Contact-Center, das einfache Skalierung und Anpassung ermöglicht,Verbesserung der Netzwerksicherheit,Management von Datenbanken,Direkte Anbindung an physische Netzwerke,Cloud-basiertes Contact-Center, das einfache Skalierung und Anpassung ermöglicht,
 Was ermöglicht Amazon SES (Simple Email Service)?,Plattform für das E-Mail-Marketing und die Transaktions-E-Mail-Kommunikation,Verbesserung der Videoqualität von Streaming-Diensten,Beschleunigt die Auslieferung von Webinhalten,Stellt eine zusätzliche Sicherheitsebene für Netzwerke bereit,Plattform für das E-Mail-Marketing und die Transaktions-E-Mail-Kommunikation,
 Wie unterstützt AWS IoT Core die IoT-Integration?,Verbindung von Internet-of-Things-Geräten sicher und einfach mit der Cloud,Optimierung von Netzwerkhardware,Steigerung der Datenbankleistung,Verbesserung der Anwendungssicherheit,Verbindung von Internet-of-Things-Geräten sicher und einfach mit der Cloud,

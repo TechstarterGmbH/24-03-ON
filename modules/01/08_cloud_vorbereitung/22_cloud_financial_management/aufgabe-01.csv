@@ -1,4 +1,4 @@
-frage,antwort_1,antwort_2,antwort_3,antwort_4,richtige_antwort_1,richtige_antwort_2
+question,answer_1,answer_2,answer_3,answer_4,correct_answer_1,correct_answer_2
 Was ist der Hauptzweck von AWS Cost Explorer?,Visualisierung, Verständnis und Verwaltung von AWS-Kosten und -Nutzung über die Zeit,Verbesserung der Netzwerksicherheit,Management von Datenbanken,Erhöhung der Netzwerkbandbreite,Visualisierung, Verständnis und Verwaltung von AWS-Kosten und -Nutzung über die Zeit,
 Wie unterstützt AWS Budgets die Kostenkontrolle?,Erstellung von benutzerdefinierten Budgets zur Überwachung von AWS-Kosten und -Nutzung,Optimierung der Datenbankleistung,Verbesserung der Netzwerksicherheit,Management von Datenbanken,Erstellung von benutzerdefinierten Budgets zur Überwachung von AWS-Kosten und -Nutzung,
 Welche Funktion bietet AWS Cost and Usage Report?,Detaillierte Informationen über die Nutzung und Kosten von AWS-Ressourcen,Steigerung der Datenbankleistung,Verbesserung der Anwendungssicherheit,Erhöhung der Netzwerkbandbreite,Detaillierte Informationen über die Nutzung und Kosten von AWS-Ressourcen,

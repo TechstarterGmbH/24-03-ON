@@ -1,4 +1,4 @@
-frage,antwort_1,antwort_2,antwort_3,antwort_4,richtige_antwort_1,richtige_antwort_2
+question,answer_1,answer_2,answer_3,answer_4,correct_answer_1,correct_answer_2
 Was ist der Hauptzweck von Amazon S3?,Objekt-basierte Datenspeicherung,Bereitstellung von virtuellen Servern,Netzwerkmanagement,E-Mail-Dienste,Objekt-basierte Datenspeicherung,
 Welches Feature bietet Amazon EBS?,Block-basierter Speicher,Funktionalität zur automatischen Skalierung,Graph-Datenbank-Dienste,Entwicklung von Machine Learning Modellen,Block-basierter Speicher,
 Was ist die primäre Funktion von Amazon EFS?,Bereitstellung eines verwalteten Dateisystems,Speicherung von NoSQL-Daten,Content Delivery Network,Web Application Firewall,Bereitstellung eines verwalteten Dateisystems,
