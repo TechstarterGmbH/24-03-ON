@@ -1,0 +1,315 @@
+{
+  "id": "wiederholung-iam",
+  "formId": "1FvweXSIxnHponXBGKkqppGcNG6rQUehOOfmbsGmtPU0",
+  "title": "Wiederholung: IAM",
+  "tasks": [
+    {
+      "id": "wiederholung-iam_was-ist-der-hauptzweck-von-aws-iam-",
+      "title": "Was ist der Hauptzweck von AWS IAM?",
+      "answers": [
+        {
+          "text": "Speicherung von Daten",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung von Identitäten und Zugriffsrechten für AWS-Ressourcen",
+          "isCorrect": true
+        },
+        {
+          "text": "Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung von AWS-Preisen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-iam_was-erm-glicht-eine-iam-rolle-in-aws-",
+      "title": "Was ermöglicht eine IAM-Rolle in AWS?",
+      "answers": [
+        {
+          "text": "Verwaltung von Netzwerkressourcen",
+          "isCorrect": false
+        },
+        {
+          "text": "Speicherung großer Datenmengen",
+          "isCorrect": false
+        },
+        {
+          "text": "Zuweisung von Berechtigungen an AWS-Dienste oder -Anwendungen ohne die Notwendigkeit, langfristige Zugangsdaten zu verwenden",
+          "isCorrect": true
+        },
+        {
+          "text": "Optimierung von Datenbankanfragen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-iam_was-ist-der-unterschied-zwischen-iam-benutzern-und-iam-rollen-",
+      "title": "Was ist der Unterschied zwischen IAM-Benutzern und IAM-Rollen?",
+      "answers": [
+        {
+          "text": "Benutzer sind für Netzwerkmanagement, Rollen für Datenspeicherung",
+          "isCorrect": false
+        },
+        {
+          "text": "Benutzer kontrollieren physische Geräte, Rollen steuern Softwareanwendungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Benutzer bieten Zugriff auf Desktop-Anwendungen, Rollen auf Cloud-Anwendungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Benutzer repräsentieren eine Person oder einen Dienst, der AWS-Ressourcen verwendet, während Rollen temporäre Berechtigungen bieten, die zwischen mehreren Benutzern geteilt werden können.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-iam_was-definiert-eine-iam-richtlinie-",
+      "title": "Was definiert eine IAM-Richtlinie?",
+      "answers": [
+        {
+          "text": "Die spezifischen Berechtigungen, die einem Benutzer oder einer Rolle zugewiesen werden",
+          "isCorrect": true
+        },
+        {
+          "text": "Das Format von gespeicherten Daten",
+          "isCorrect": false
+        },
+        {
+          "text": "Die Art der Netzwerkverbindung",
+          "isCorrect": false
+        },
+        {
+          "text": "Die Geschwindigkeit des Datenzugriffs",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-iam_wie-k-nnen-iam-benutzer-sich-sicher-bei-aws-anmelden-",
+      "title": "Wie können IAM-Benutzer sich sicher bei AWS anmelden?",
+      "answers": [
+        {
+          "text": "Über ungesicherte Netzwerke",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch direkte SQL-Zugriffe",
+          "isCorrect": false
+        },
+        {
+          "text": "Mithilfe von Multi-Faktor-Authentifizierung (MFA)",
+          "isCorrect": true
+        },
+        {
+          "text": "Verwendung einer Single Sign-On-Lösung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-iam_welche-aws-dienstfunktion-erm-glicht-das-verwalten-von-zugriffsrichtlinien-zentralisiert-f-r-mehrere-aws-konten-",
+      "title": "Welche AWS-Dienstfunktion ermöglicht das Verwalten von Zugriffsrichtlinien zentralisiert für mehrere AWS-Konten?",
+      "answers": [
+        {
+          "text": "AWS Organizations",
+          "isCorrect": true
+        },
+        {
+          "text": "AWS Security Hub",
+          "isCorrect": false
+        },
+        {
+          "text": "Amazon CloudWatch",
+          "isCorrect": false
+        },
+        {
+          "text": "AWS Lambda",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-iam_was-ist-der-vorteil-der-verwendung-von-iam-gruppen-",
+      "title": "Was ist der Vorteil der Verwendung von IAM-Gruppen?",
+      "answers": [
+        {
+          "text": "Erleichtert die Verwaltung von Berechtigungen für mehrere Benutzer durch Zuweisung von Richtlinien zu Gruppen",
+          "isCorrect": true
+        },
+        {
+          "text": "Verbessert die Netzwerkleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Optimiert die Speicherkosten",
+          "isCorrect": false
+        },
+        {
+          "text": "Reduziert die Zeit für Datenanalysen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-iam_wie-hilft-iam-bei-der-einhaltung-von-compliance-vorschriften-",
+      "title": "Wie hilft IAM bei der Einhaltung von Compliance-Vorschriften?",
+      "answers": [
+        {
+          "text": "Zur Reduzierung von Cloud-Speicherkosten",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch Bereitstellung detaillierter Protokolle über die Nutzung von Ressourcen durch Benutzer",
+          "isCorrect": true
+        },
+        {
+          "text": "Zur Verbesserung der Datenbankleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Zur Beschleunigung von Webanwendungen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-iam_wie-wird-der-zugriff-auf-aws-ressourcen-mit-iam-gesteuert-",
+      "title": "Wie wird der Zugriff auf AWS-Ressourcen mit IAM gesteuert?",
+      "answers": [
+        {
+          "text": "Zugriff basiert auf der physischen Standortverifizierung",
+          "isCorrect": false
+        },
+        {
+          "text": "Zugriff wird gewährt basierend auf der Zeit des Zugriffs",
+          "isCorrect": false
+        },
+        {
+          "text": "Zugriff basierend auf der Menge der übertragenen Daten",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch Berechtigungspolicies, die definieren, wer auf was zugreifen darf",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-iam_was-ist-die-hauptfunktion-von-iam-identity-center-fr-her-aws-single-sign-on-",
+      "title": "Was ist die Hauptfunktion von IAM Identity Center (früher AWS Single Sign-On)?",
+      "answers": [
+        {
+          "text": "Datenverschlüsselung",
+          "isCorrect": false
+        },
+        {
+          "text": "Bereitstellung einer zentralen Verwaltung des Zugriffs auf AWS und Drittanbieter-Anwendungen",
+          "isCorrect": true
+        },
+        {
+          "text": "Bereitstellung von E-Mail-Diensten",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung von Netzwerkleistungen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-iam_wie-unterst-tzt-iam-die-automatisierung-von-aufgaben-bez-glich-des-benutzerzugriffs-",
+      "title": "Wie unterstützt IAM die Automatisierung von Aufgaben bezüglich des Benutzerzugriffs?",
+      "answers": [
+        {
+          "text": "Durch die Integration mit AWS Lambda, um Aktionen basierend auf IAM-Ereignissen auszuführen",
+          "isCorrect": true
+        },
+        {
+          "text": "Durch direkte Verbindung zu physischen Netzwerkgeräten",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch Verbesserung der Leistung von Anwendungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch Senkung der Kosten für Datenübertragung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-iam_welche-funktion-bietet-der-iam-access-advisor-",
+      "title": "Welche Funktion bietet der IAM Access Advisor?",
+      "answers": [
+        {
+          "text": "Ermöglicht höhere Geschwindigkeiten bei der Datenübertragung",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltet die physikalische Sicherheit von Servern",
+          "isCorrect": false
+        },
+        {
+          "text": "Zeigt an, welche Dienste ein Benutzer tatsächlich genutzt hat und hilft, nicht benötigte Berechtigungen zu identifizieren",
+          "isCorrect": true
+        },
+        {
+          "text": "Bietet verbesserte Fehlererkennung bei Netzwerken",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-iam_was-sind-iam-zugriffsschl-ssel-",
+      "title": "Was sind IAM-Zugriffsschlüssel?",
+      "answers": [
+        {
+          "text": "Eine Methode zur Verbesserung der Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Daten, die zum Signieren von Anfragen an AWS-Dienste verwendet werden, um Identität und Authentizität zu bestätigen",
+          "isCorrect": true
+        },
+        {
+          "text": "Ein Tool zur Beschleunigung der Cloud-Datenmigration",
+          "isCorrect": false
+        },
+        {
+          "text": "Ein Protokoll zur Überwachung der Netzwerkintegrität",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-iam_was-ist-die-empfohlene-methode-zur-sicheren-speicherung-von-iam-zugriffsschl-sseln-",
+      "title": "Was ist die empfohlene Methode zur sicheren Speicherung von IAM-Zugriffsschlüsseln?",
+      "answers": [
+        {
+          "text": "Die Verwendung von AWS Secrets Manager zum Verwalten und Drehen der Schlüssel",
+          "isCorrect": true
+        },
+        {
+          "text": "Speicherung in einer öffentlich zugänglichen Datenbank",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwendung von unverschlüsselten Textdateien",
+          "isCorrect": false
+        },
+        {
+          "text": "E-Mail-Versand der Schlüssel an Benutzer",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

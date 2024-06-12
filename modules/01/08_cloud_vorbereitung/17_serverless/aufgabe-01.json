@@ -1,0 +1,271 @@
+{
+  "id": "wiederholung-serverless",
+  "formId": "1NRWSpr4mcVEgsmJSsaJZ6JhQxU_ZnprKGp3Vr-VL__8",
+  "title": "Wiederholung: Serverless",
+  "tasks": [
+    {
+      "id": "wiederholung-serverless_was-ist-der-hauptzweck-von-aws-lambda-",
+      "title": "Was ist der Hauptzweck von AWS Lambda?",
+      "answers": [
+        {
+          "text": "Automatisierung von Netzwerkprozessen",
+          "isCorrect": false
+        },
+        {
+          "text": "Ausführung von Code in Reaktion auf Ereignisse",
+          "isCorrect": true
+        },
+        {
+          "text": "Management von Datenbanken",
+          "isCorrect": false
+        },
+        {
+          "text": "Direkte Anbindung an physische Netzwerke",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-serverless_wie-unterst-tzt-aws-fargate-serverlose-architekturen-",
+      "title": "Wie unterstützt AWS Fargate serverlose Architekturen?",
+      "answers": [
+        {
+          "text": "Ermöglichung von Hochgeschwindigkeitsdatenübertragungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Optimierung der Speicherkosten",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch Automatisierung der Server- und Cluster-Verwaltung für Container",
+          "isCorrect": true
+        },
+        {
+          "text": "Erhöhung der Netzwerkbandbreite",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-serverless_welche-funktion-bietet-amazon-s3-in-einer-serverlosen-architektur-",
+      "title": "Welche Funktion bietet Amazon S3 in einer serverlosen Architektur?",
+      "answers": [
+        {
+          "text": "Speicherung und Abruf jeglicher Menge von Daten zu jeder Zeit",
+          "isCorrect": true
+        },
+        {
+          "text": "Speicherung von SQL-Datenbanken",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung von Netzwerkressourcen",
+          "isCorrect": false
+        },
+        {
+          "text": "Direkte Steuerung von physischen Geräten",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-serverless_wie-interagiert-amazon-dynamodb-mit-serverlosen-anwendungen-",
+      "title": "Wie interagiert Amazon DynamoDB mit serverlosen Anwendungen?",
+      "answers": [
+        {
+          "text": "Verbesserung der physischen Serverleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der E-Mail-Datensicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Automatisierung von Marketingkampagnen",
+          "isCorrect": false
+        },
+        {
+          "text": "Bietet eine vollständig verwaltete NoSQL-Datenbanklösung",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-serverless_was-erm-glicht-aws-step-functions-in-serverlosen-workflows-",
+      "title": "Was ermöglicht AWS Step Functions in serverlosen Workflows?",
+      "answers": [
+        {
+          "text": "Optimierung der Netzwerkleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Erhöhung der Datenbanksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Koordination von Funktionen und automatisierte Abläufe",
+          "isCorrect": true
+        },
+        {
+          "text": "Reduzierung der Kosten für Cloud-Speicherung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-serverless_was-ist-der-vorteil-von-aws-sam-serverless-application-model-",
+      "title": "Was ist der Vorteil von AWS SAM (Serverless Application Model)?",
+      "answers": [
+        {
+          "text": "Verbesserung der Anwendungssicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Beschleunigung der Datenmigration",
+          "isCorrect": false
+        },
+        {
+          "text": "Vereinfachung der Entwicklung und Bereitstellung von serverlosen Anwendungen",
+          "isCorrect": true
+        },
+        {
+          "text": "Optimierung der physischen Netzwerkinfrastruktur",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-serverless_welche-rolle-spielt-amazon-kinesis-in-einer-serverlosen-architektur-",
+      "title": "Welche Rolle spielt Amazon Kinesis in einer serverlosen Architektur?",
+      "answers": [
+        {
+          "text": "Verarbeitung und Analyse von Streaming-Daten in Echtzeit",
+          "isCorrect": true
+        },
+        {
+          "text": "Verbesserung der Netzwerkleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Management von Cloud-basierten Datenbanken",
+          "isCorrect": false
+        },
+        {
+          "text": "Optimierung von Anwendungsantwortzeiten",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-serverless_wie-interagiert-amazon-sqs-mit-aws-lambda-",
+      "title": "Wie interagiert Amazon SQS mit AWS Lambda?",
+      "answers": [
+        {
+          "text": "Verbesserung der Sicherheit von Webanwendungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Optimierung der Datenübertragungsgeschwindigkeit",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung von Netzwerkswitches",
+          "isCorrect": false
+        },
+        {
+          "text": "Kann Ereignisse an AWS Lambda senden, um Code in Reaktion auf Nachrichten auszuführen",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-serverless_was-ist-amazon-sns-im-kontext-von-serverlosen-architekturen-",
+      "title": "Was ist Amazon SNS im Kontext von serverlosen Architekturen?",
+      "answers": [
+        {
+          "text": "Ein vollständig verwalteter Pub/Sub-Nachrichtendienst, der Komponenten einer Anwendung durch Nachrichten miteinander verbindet",
+          "isCorrect": true
+        },
+        {
+          "text": "Tool zur Datenverschlüsselung",
+          "isCorrect": false
+        },
+        {
+          "text": "Service zur Verwaltung von SQL-Datenbanken",
+          "isCorrect": false
+        },
+        {
+          "text": "Dienst zur Netzwerklastverteilung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-serverless_wie-funktioniert-aws-appsync-in-serverlosen-architekturen-",
+      "title": "Wie funktioniert AWS AppSync in serverlosen Architekturen?",
+      "answers": [
+        {
+          "text": "Datenbankcluster-Management",
+          "isCorrect": false
+        },
+        {
+          "text": "Als verwalteter GraphQL-Service, der Daten von einem oder mehreren Quellen mit Echtzeit-Updatemöglichkeiten abruft",
+          "isCorrect": true
+        },
+        {
+          "text": "Optimierung der Cloud-Speicherkosten",
+          "isCorrect": false
+        },
+        {
+          "text": "Bereitstellung von Netzwerkfirewalls",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-serverless_wie-wird-amazon-api-gateway-mit-aws-lambda-verwendet-",
+      "title": "Wie wird Amazon API Gateway mit AWS Lambda verwendet?",
+      "answers": [
+        {
+          "text": "Verbesserung der Datenbankzugriffszeiten",
+          "isCorrect": false
+        },
+        {
+          "text": "API Gateway kann als HTTP-Endpunkt dienen, der Anfragen an AWS Lambda zur Verarbeitung weiterleitet",
+          "isCorrect": true
+        },
+        {
+          "text": "Bereitstellung eines VPN-Tunnels",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung von physischen Netzwerkgeräten",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-serverless_welche-funktion-hat-aws-cloudformation-in-serverlosen-architekturen-",
+      "title": "Welche Funktion hat AWS CloudFormation in serverlosen Architekturen?",
+      "answers": [
+        {
+          "text": "Steigerung der Datenverarbeitungsgeschwindigkeit",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der physischen Sicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Ermöglicht das Modellieren und Einrichten von AWS-Ressourcen und serverlosen Anwendungen mittels Code",
+          "isCorrect": true
+        },
+        {
+          "text": "Optimierung der Netzwerkinfrastruktur",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

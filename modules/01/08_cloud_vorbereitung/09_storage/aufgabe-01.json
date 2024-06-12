@@ -1,0 +1,337 @@
+{
+  "id": "wiederholung-storage",
+  "formId": "1WupOiFtci_nDoZSy-Hht1GLdV3Ka4ONrzolRUQ7gxls",
+  "title": "Wiederholung: Storage",
+  "tasks": [
+    {
+      "id": "wiederholung-storage_was-ist-der-hauptzweck-von-amazon-s3-",
+      "title": "Was ist der Hauptzweck von Amazon S3?",
+      "answers": [
+        {
+          "text": "Bereitstellung von virtuellen Servern",
+          "isCorrect": false
+        },
+        {
+          "text": "Netzwerkmanagement",
+          "isCorrect": false
+        },
+        {
+          "text": "Objekt-basierte Datenspeicherung",
+          "isCorrect": true
+        },
+        {
+          "text": "E-Mail-Dienste",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-storage_welches-feature-bietet-amazon-ebs-",
+      "title": "Welches Feature bietet Amazon EBS?",
+      "answers": [
+        {
+          "text": "Funktionalität zur automatischen Skalierung",
+          "isCorrect": false
+        },
+        {
+          "text": "Block-basierter Speicher",
+          "isCorrect": true
+        },
+        {
+          "text": "Graph-Datenbank-Dienste",
+          "isCorrect": false
+        },
+        {
+          "text": "Entwicklung von Machine Learning Modellen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-storage_was-ist-die-prim-re-funktion-von-amazon-efs-",
+      "title": "Was ist die primäre Funktion von Amazon EFS?",
+      "answers": [
+        {
+          "text": "Speicherung von NoSQL-Daten",
+          "isCorrect": false
+        },
+        {
+          "text": "Bereitstellung eines verwalteten Dateisystems",
+          "isCorrect": true
+        },
+        {
+          "text": "Content Delivery Network",
+          "isCorrect": false
+        },
+        {
+          "text": "Web Application Firewall",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-storage_welcher-aws-dienst-ist-optimal-f-r-die-skalierung-von-datenbankanwendungen-in-der-cloud-",
+      "title": "Welcher AWS-Dienst ist optimal für die Skalierung von Datenbankanwendungen in der Cloud?",
+      "answers": [
+        {
+          "text": "Amazon CloudFront",
+          "isCorrect": false
+        },
+        {
+          "text": "Amazon EC2",
+          "isCorrect": false
+        },
+        {
+          "text": "Amazon RDS",
+          "isCorrect": true
+        },
+        {
+          "text": "Amazon CloudSearch",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-storage_was-bietet-amazon-glacier-",
+      "title": "Was bietet Amazon Glacier?",
+      "answers": [
+        {
+          "text": "Direkte Ausführung von Code",
+          "isCorrect": false
+        },
+        {
+          "text": "Optimierte Bereitstellung von Inhalten",
+          "isCorrect": false
+        },
+        {
+          "text": "Langfristige Datenspeicherung mit niedrigen Kosten",
+          "isCorrect": true
+        },
+        {
+          "text": "Management von Netzwerksicherheit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-storage_welche-vorteile-bietet-amazon-fsx-",
+      "title": "Welche Vorteile bietet Amazon FSx?",
+      "answers": [
+        {
+          "text": "E-Mail-Sicherheitsdienste",
+          "isCorrect": false
+        },
+        {
+          "text": "Spezialisierte Dateispeicheroptionen für Anwendungen",
+          "isCorrect": true
+        },
+        {
+          "text": "Serverless-Computing",
+          "isCorrect": false
+        },
+        {
+          "text": "Datensynchronisation zwischen Geräten",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-storage_was-ist-die-hauptfunktion-von-amazon-neptune-",
+      "title": "Was ist die Hauptfunktion von Amazon Neptune?",
+      "answers": [
+        {
+          "text": "Speicherung von Blockdaten",
+          "isCorrect": false
+        },
+        {
+          "text": "Anbieten von Content Delivery Netzwerk",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung von Graph-Datenbanken",
+          "isCorrect": true
+        },
+        {
+          "text": "Durchführung von Online-Werbekampagnen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-storage_welches-feature-macht-amazon-dynamodb-besonders-geeignet-f-r-web-scale-anwendungen-",
+      "title": "Welches Feature macht Amazon DynamoDB besonders geeignet für Web-Scale-Anwendungen?",
+      "answers": [
+        {
+          "text": "Bereitstellung von Betriebssystemen",
+          "isCorrect": false
+        },
+        {
+          "text": "Automatische Skalierung von Durchsatzkapazitäten",
+          "isCorrect": true
+        },
+        {
+          "text": "Langzeitarchivierung von E-Mails",
+          "isCorrect": false
+        },
+        {
+          "text": "Direkte Serverbereitstellung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-storage_was-sind-die-hauptvorteile-der-nutzung-von-amazon-aurora-",
+      "title": "Was sind die Hauptvorteile der Nutzung von Amazon Aurora?",
+      "answers": [
+        {
+          "text": "Hohe Leistung und Kompatibilität mit MySQL und PostgreSQL",
+          "isCorrect": true
+        },
+        {
+          "text": "Automatisierte Netzwerküberwachung",
+          "isCorrect": false
+        },
+        {
+          "text": "Datenverschlüsselung auf Anwendungsebene",
+          "isCorrect": false
+        },
+        {
+          "text": "Integration mit Direktwerbung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-storage_f-r-welche-art-von-daten-ist-amazon-redshift-optimiert-",
+      "title": "Für welche Art von Daten ist Amazon Redshift optimiert?",
+      "answers": [
+        {
+          "text": "Sicherheitsmanagement",
+          "isCorrect": false
+        },
+        {
+          "text": "Datenanalyse und Data-Warehouse-Szenarien",
+          "isCorrect": true
+        },
+        {
+          "text": "Performance Monitoring",
+          "isCorrect": false
+        },
+        {
+          "text": "Softwarelizenzverwaltung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-storage_welche-aws-dienstleistung-bietet-dedizierten-hardwarezugang-f-r-datenbanken-",
+      "title": "Welche AWS-Dienstleistung bietet dedizierten Hardwarezugang für Datenbanken?",
+      "answers": [
+        {
+          "text": "Amazon EC2 Auto Scaling",
+          "isCorrect": false
+        },
+        {
+          "text": "Amazon S3 Glacier",
+          "isCorrect": false
+        },
+        {
+          "text": "Amazon RDS on VMware",
+          "isCorrect": true
+        },
+        {
+          "text": "Amazon CloudFront",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-storage_wie-unterst-tzt-amazon-memorydb-for-redis-die-datenverarbeitung-",
+      "title": "Wie unterstützt Amazon MemoryDB for Redis die Datenverarbeitung?",
+      "answers": [
+        {
+          "text": "Erstellung und Verwaltung von Sicherheitsrichtlinien",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch Bereitstellung eines Redis-kompatiblen In-Memory-Datenspeichers",
+          "isCorrect": true
+        },
+        {
+          "text": "Langzeitdatenspeicherung",
+          "isCorrect": false
+        },
+        {
+          "text": "Skalierung von Netzwerkressourcen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-storage_welche-funktion-hat-amazon-documentdb-",
+      "title": "Welche Funktion hat Amazon DocumentDB?",
+      "answers": [
+        {
+          "text": "E-Mail-Verschlüsselung",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung von dokumentenorientierten Datenbanken",
+          "isCorrect": true
+        },
+        {
+          "text": "Automatisches Löschen von Dateien",
+          "isCorrect": false
+        },
+        {
+          "text": "Netzwerkkonfiguration",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-storage_was-ist-eine-typische-anwendung-f-r-amazon-quantum-ledger-database-qldb-",
+      "title": "Was ist eine typische Anwendung für Amazon Quantum Ledger Database (QLDB)?",
+      "answers": [
+        {
+          "text": "Führung eines manipulationssicheren Transaktionsprotokolls",
+          "isCorrect": true
+        },
+        {
+          "text": "Speicherung großer Mediendateien",
+          "isCorrect": false
+        },
+        {
+          "text": "Management von Netzwerkverkehr",
+          "isCorrect": false
+        },
+        {
+          "text": "Hosting von dynamischen Webseiten",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-storage_was-ist-amazon-keyspaces-",
+      "title": "Was ist Amazon Keyspaces?",
+      "answers": [
+        {
+          "text": "Ein verwalteter Cassandra-kompatibler Datenbankservice",
+          "isCorrect": true
+        },
+        {
+          "text": "Cloud-basierte Softwareentwicklung",
+          "isCorrect": false
+        },
+        {
+          "text": "Erweiterte E-Mail-Sicherheitsfunktionen",
+          "isCorrect": false
+        },
+        {
+          "text": "VPN-Dienste",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "id": "wiederholung-ec2-und-compute",
+  "formId": "17OaV4fUYatio_T8q-fZ1Tp1r30F_e54B3j2uA_bRSgs",
+  "title": "Wiederholung: EC2 und Compute",
+  "tasks": [
+    {
+      "id": "wiederholung-ec2-und-compute_was-ist-die-prim-re-funktion-von-amazon-ec2-",
+      "title": "Was ist die primäre Funktion von Amazon EC2?",
+      "answers": [
+        {
+          "text": "Bereitstellung skalierbarer virtueller Server",
+          "isCorrect": true
+        },
+        {
+          "text": "Speicherung von Daten",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung von Netzwerkverkehr",
+          "isCorrect": false
+        },
+        {
+          "text": "Hosting von Webseiten",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-ec2-und-compute_welches-merkmal-unterscheidet-amazon-ec2-am-meisten-von-anderen-aws-computing-services-",
+      "title": "Welches Merkmal unterscheidet Amazon EC2 am meisten von anderen AWS Computing Services?",
+      "answers": [
+        {
+          "text": "Die Möglichkeit, Betriebssystem und Anwendungen frei zu wählen",
+          "isCorrect": true
+        },
+        {
+          "text": "Die Nutzung von serverlosem Computing",
+          "isCorrect": false
+        },
+        {
+          "text": "Das Hosting statischer Webseiten",
+          "isCorrect": false
+        },
+        {
+          "text": "Die Bereitstellung von Machine Learning Modellen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-ec2-und-compute_was-erm-glicht-die-ec2-auto-scaling-funktion-",
+      "title": "Was ermöglicht die EC2 Auto Scaling Funktion?",
+      "answers": [
+        {
+          "text": "Automatische Anpassung der Instanzenzahl an die Last",
+          "isCorrect": true
+        },
+        {
+          "text": "Einrichten einer relationalen Datenbank",
+          "isCorrect": false
+        },
+        {
+          "text": "Erstellung von Backup-Kopien",
+          "isCorrect": false
+        },
+        {
+          "text": "Management von API-Gateway",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-ec2-und-compute_wie-wird-der-preis-f-r-die-nutzung-von-amazon-ec2-haupts-chlich-bestimmt-",
+      "title": "Wie wird der Preis für die Nutzung von Amazon EC2 hauptsächlich bestimmt?",
+      "answers": [
+        {
+          "text": "Durch die Instanzgröße und die Betriebszeit",
+          "isCorrect": true
+        },
+        {
+          "text": "Durch die Menge der gespeicherten Daten",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch die Anzahl der API-Aufrufe",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch die Bandbreite der Internetverbindung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-ec2-und-compute_welche-amazon-ec2-kaufoption-erm-glicht-den-gr-ten-rabatt-bei-langfristiger-nutzung-",
+      "title": "Welche Amazon EC2-Kaufoption ermöglicht den größten Rabatt bei langfristiger Nutzung?",
+      "answers": [
+        {
+          "text": "Reservierte Instanzen",
+          "isCorrect": true
+        },
+        {
+          "text": "On-Demand-Instanzen",
+          "isCorrect": false
+        },
+        {
+          "text": "Spot-Instanzen",
+          "isCorrect": false
+        },
+        {
+          "text": "Dedicated Hosts",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-ec2-und-compute_was-sind-amazon-ec2-spot-instanzen-",
+      "title": "Was sind Amazon EC2 Spot-Instanzen?",
+      "answers": [
+        {
+          "text": "Instanzen, die zu einem reduzierten Preis verfügbar sind, wenn AWS Kapazitäten übrig hat",
+          "isCorrect": true
+        },
+        {
+          "text": "Standard-Instanzen mit fester Preisgestaltung",
+          "isCorrect": false
+        },
+        {
+          "text": "Instanzen mit erweiterten Sicherheitsfunktionen",
+          "isCorrect": false
+        },
+        {
+          "text": "Instanzen für spezifische Anwendungen wie Gaming",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-ec2-und-compute_was-ist-eine-amazon-ec2-dedicated-host-",
+      "title": "Was ist eine Amazon EC2 Dedicated Host?",
+      "answers": [
+        {
+          "text": "Ein physischer Server mit EC2 Instanzkapazität exklusiv reserviert für Ihre Nutzung",
+          "isCorrect": true
+        },
+        {
+          "text": "Eine öffentliche Datenbankplattform",
+          "isCorrect": false
+        },
+        {
+          "text": "Ein spezialisierter Service für Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Ein Dienst zur Datenverschlüsselung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-ec2-und-compute_f-r-welchen-zweck-k-nnte-man-amazon-ec2-elastic-gpus-verwenden-",
+      "title": "Für welchen Zweck könnte man Amazon EC2 Elastic GPUs verwenden?",
+      "answers": [
+        {
+          "text": "Zur Bereitstellung zusätzlicher Grafikverarbeitungskapazität für Instanzen",
+          "isCorrect": true
+        },
+        {
+          "text": "Zur Verbesserung der Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Zur automatischen Skalierung von Datenbankdiensten",
+          "isCorrect": false
+        },
+        {
+          "text": "Zur Analyse großer Datenmengen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-ec2-und-compute_welche-funktion-bietet-amazon-ec2-elastic-ip-",
+      "title": "Welche Funktion bietet Amazon EC2 Elastic IP?",
+      "answers": [
+        {
+          "text": "Bietet eine statische IP-Adresse für dynamisches Cloud-Computing",
+          "isCorrect": true
+        },
+        {
+          "text": "Ermöglicht die schnelle Skalierung von Datenbankdiensten",
+          "isCorrect": false
+        },
+        {
+          "text": "Bietet zusätzlichen Speicherplatz für Instanzen",
+          "isCorrect": false
+        },
+        {
+          "text": "Vereinfacht die Verwaltung von Benutzeridentitäten",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-ec2-und-compute_welche-sicherheitsfunktion-ist-direkt-in-amazon-ec2-integriert-",
+      "title": "Welche Sicherheitsfunktion ist direkt in Amazon EC2 integriert?",
+      "answers": [
+        {
+          "text": "Sicherheitsgruppen zur Kontrolle des eingehenden und ausgehenden Netzwerkverkehrs",
+          "isCorrect": true
+        },
+        {
+          "text": "Automatisierte Datenverschlüsselung",
+          "isCorrect": false
+        },
+        {
+          "text": "Integrierte Virenschutzsoftware",
+          "isCorrect": false
+        },
+        {
+          "text": "Cloud-basierte Firewall-Dienste",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-ec2-und-compute_welche-option-bietet-aws-zur-verwaltung-von-ec2-instanzen-",
+      "title": "Welche Option bietet AWS zur Verwaltung von EC2-Instanzen?",
+      "answers": [
+        {
+          "text": "AWS Management Console",
+          "isCorrect": true
+        },
+        {
+          "text": "Eine dedizierte Desktop-Anwendung",
+          "isCorrect": false
+        },
+        {
+          "text": "Ein hardwarebasiertes Management-Tool",
+          "isCorrect": false
+        },
+        {
+          "text": "Ein spezialisierter externer Dienstleister",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-ec2-und-compute_wie-kann-man-amazon-ec2-instanzen-in-bezug-auf-netzwerkverkehr-isolieren-",
+      "title": "Wie kann man Amazon EC2 Instanzen in Bezug auf Netzwerkverkehr isolieren?",
+      "answers": [
+        {
+          "text": "Durch die Verwendung von Amazon VPC",
+          "isCorrect": true
+        },
+        {
+          "text": "Durch die Verwendung einer öffentlichen IP-Adresse",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch die Anbindung an Amazon S3",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch die Bereitstellung in AWS Global Accelerator",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-ec2-und-compute_was-ist-das-aws-ec2-instance-store-feature-",
+      "title": "Was ist das AWS EC2 Instance Store Feature?",
+      "answers": [
+        {
+          "text": "Temporärer Speicher auf physischen Laufwerken, die direkt an die Host-Computer angeschlossen sind",
+          "isCorrect": true
+        },
+        {
+          "text": "Dauerhafter Datenspeicher in der Cloud",
+          "isCorrect": false
+        },
+        {
+          "text": "Ein Datenbankverwaltungsservice",
+          "isCorrect": false
+        },
+        {
+          "text": "Ein Backup-Service für Daten",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-ec2-und-compute_was-beschreibt-die-funktion-von-amazon-ec2-reserved-instances-",
+      "title": "Was beschreibt die Funktion von Amazon EC2 Reserved Instances?",
+      "answers": [
+        {
+          "text": "Reduzierte Kosten durch Verpflichtung zu einer Nutzungsdauer von einem oder mehreren Jahren",
+          "isCorrect": true
+        },
+        {
+          "text": "Beschleunigte Datenanalyse",
+          "isCorrect": false
+        },
+        {
+          "text": "Optimierte Netzwerkverbindungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Erweiterte Sicherheitsprotokolle",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-ec2-und-compute_wie-funktionieren-amazon-ec2-spot-instanzen-im-vergleich-zu-anderen-instanztypen-",
+      "title": "Wie funktionieren Amazon EC2 Spot-Instanzen im Vergleich zu anderen Instanztypen?",
+      "answers": [
+        {
+          "text": "Sie bieten ungenutzte EC2-Kapazitäten zu niedrigeren Preisen an",
+          "isCorrect": true
+        },
+        {
+          "text": "Ermöglichen den dauerhaften Zugriff auf physische Server",
+          "isCorrect": false
+        },
+        {
+          "text": "Erhöhen die Geschwindigkeit der Datenverarbeitung",
+          "isCorrect": false
+        },
+        {
+          "text": "Bieten erweiterte Netzwerksicherheit",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

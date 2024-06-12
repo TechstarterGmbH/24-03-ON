@@ -1,0 +1,95 @@
+{
+  "id": "wiederholung-business-apss-iot",
+  "formId": "1g8t6NQgwSwne5LuLTi5o17Tp_M0vf06SDL6VXudOukY",
+  "title": "Wiederholung: Business Apss / IoT",
+  "tasks": [
+    {
+      "id": "wiederholung-business-apss-iot_was-erm-glicht-amazon-ses-simple-email-service-",
+      "title": "Was ermöglicht Amazon SES (Simple Email Service)?",
+      "answers": [
+        {
+          "text": "Verbesserung der Videoqualität von Streaming-Diensten",
+          "isCorrect": false
+        },
+        {
+          "text": "Beschleunigt die Auslieferung von Webinhalten",
+          "isCorrect": false
+        },
+        {
+          "text": "Plattform für das E-Mail-Marketing und die Transaktions-E-Mail-Kommunikation",
+          "isCorrect": true
+        },
+        {
+          "text": "Stellt eine zusätzliche Sicherheitsebene für Netzwerke bereit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-business-apss-iot_wie-unterst-tzt-aws-iot-core-die-iot-integration-",
+      "title": "Wie unterstützt AWS IoT Core die IoT-Integration?",
+      "answers": [
+        {
+          "text": "Verbindung von Internet-of-Things-Geräten sicher und einfach mit der Cloud",
+          "isCorrect": true
+        },
+        {
+          "text": "Optimierung von Netzwerkhardware",
+          "isCorrect": false
+        },
+        {
+          "text": "Steigerung der Datenbankleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Anwendungssicherheit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-business-apss-iot_was-erm-glicht-aws-iot-greengrass-",
+      "title": "Was ermöglicht AWS IoT Greengrass?",
+      "answers": [
+        {
+          "text": "Erhöhung der Netzwerkbandbreite",
+          "isCorrect": false
+        },
+        {
+          "text": "Lokale Ausführung von AWS Lambda-Funktionen und Daten-Caching auf IoT-Geräten",
+          "isCorrect": true
+        },
+        {
+          "text": "Bereitstellung von dedizierten Datenbankservices",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der physischen Sicherheitsmaßnahmen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-business-apss-iot_wie-hilft-aws-iot-analytics-bei-der-verarbeitung-von-iot-daten-",
+      "title": "Wie hilft AWS IoT Analytics bei der Verarbeitung von IoT-Daten?",
+      "answers": [
+        {
+          "text": "Bereitstellung eines Dienstes zur Analyse von IoT-Gerätedaten",
+          "isCorrect": true
+        },
+        {
+          "text": "Verbesserung der Datenbankzugriffszeiten",
+          "isCorrect": false
+        },
+        {
+          "text": "Bereitstellung eines VPN-Tunnels",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung von physischen Netzwerkgeräten",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

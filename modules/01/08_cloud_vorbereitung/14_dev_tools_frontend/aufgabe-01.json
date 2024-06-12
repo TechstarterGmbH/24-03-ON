@@ -1,0 +1,337 @@
+{
+  "id": "wiederholung-developer-tools",
+  "formId": "1jd4elccmnm2pR7E5ftC98qoy-jy5yFAZKH1nEDL9MmM",
+  "title": "Wiederholung: Developer Tools",
+  "tasks": [
+    {
+      "id": "wiederholung-developer-tools_was-ist-der-hauptzweck-von-aws-codecommit-",
+      "title": "Was ist der Hauptzweck von AWS CodeCommit?",
+      "answers": [
+        {
+          "text": "Webanwendungshosting",
+          "isCorrect": false
+        },
+        {
+          "text": "Vollständig verwaltetes Quellkontrollservice",
+          "isCorrect": true
+        },
+        {
+          "text": "Netzwerküberwachung",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Datenbanksicherheit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-developer-tools_was-erm-glicht-aws-codebuild-",
+      "title": "Was ermöglicht AWS CodeBuild?",
+      "answers": [
+        {
+          "text": "Erstellen von Datenvisualisierungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung von Netzwerkressourcen",
+          "isCorrect": false
+        },
+        {
+          "text": "Kompilieren und Testen von Code",
+          "isCorrect": true
+        },
+        {
+          "text": "Datenverschlüsselung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-developer-tools_welche-funktion-erf-llt-aws-codedeploy-",
+      "title": "Welche Funktion erfüllt AWS CodeDeploy?",
+      "answers": [
+        {
+          "text": "Automatisierung von Softwarebereitstellungen auf beliebigen Instanzen",
+          "isCorrect": true
+        },
+        {
+          "text": "Erhöhung der Netzwerkgeschwindigkeit",
+          "isCorrect": false
+        },
+        {
+          "text": "Bereitstellung von SQL-Datenbankdiensten",
+          "isCorrect": false
+        },
+        {
+          "text": "Optimierung der Webanwendungssicherheit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-developer-tools_was-ist-der-hauptzweck-von-aws-codepipeline-",
+      "title": "Was ist der Hauptzweck von AWS CodePipeline?",
+      "answers": [
+        {
+          "text": "Analyse großer Datenmengen",
+          "isCorrect": false
+        },
+        {
+          "text": "Cloud-basierte Videokonferenzen",
+          "isCorrect": false
+        },
+        {
+          "text": "Direkte Anbindung an physische Netzwerke",
+          "isCorrect": false
+        },
+        {
+          "text": "Kontinuierliche Integration und kontinuierliche Bereitstellung (CI/CD) von Software",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-developer-tools_wie-unterst-tzt-aws-amplify-die-frontend-web-und-mobilentwicklung-",
+      "title": "Wie unterstützt AWS Amplify die Frontend-Web- und Mobilentwicklung?",
+      "answers": [
+        {
+          "text": "Erhöhung der E-Mail-Sicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Datenbankleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Netzwerktraffic-Management",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch Bereitstellung eines Entwicklungssatzes für schnelles Erstellen von Anwendungen",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-developer-tools_was-bietet-aws-appsync-",
+      "title": "Was bietet AWS AppSync?",
+      "answers": [
+        {
+          "text": "Verwaltung eines GraphQL-Service für flexibles API-Design",
+          "isCorrect": true
+        },
+        {
+          "text": "Erstellung von physischen Netzwerkverbindungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Anwendungssicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Optimierung der Datenspeicherungskosten",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-developer-tools_was-ist-eine-hauptfunktion-von-amazon-api-gateway-",
+      "title": "Was ist eine Hauptfunktion von Amazon API Gateway?",
+      "answers": [
+        {
+          "text": "E-Mail-Verschlüsselung",
+          "isCorrect": false
+        },
+        {
+          "text": "Erstellen, veröffentlichen, verwalten und sichern von APIs",
+          "isCorrect": true
+        },
+        {
+          "text": "Datenbankclustering",
+          "isCorrect": false
+        },
+        {
+          "text": "Direkte Steuerung von physischen Geräten",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-developer-tools_welchen-vorteil-bietet-aws-device-farm-",
+      "title": "Welchen Vorteil bietet AWS Device Farm?",
+      "answers": [
+        {
+          "text": "Testdienst für Web- und Mobilanwendungen auf physischen Geräten",
+          "isCorrect": true
+        },
+        {
+          "text": "Verschlüsselung von Netzwerkdaten",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der E-Mail-Zustellung",
+          "isCorrect": false
+        },
+        {
+          "text": "Schnellere Datenmigration",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-developer-tools_wie-unterst-tzt-aws-cloud9-die-entwicklung-",
+      "title": "Wie unterstützt AWS Cloud9 die Entwicklung?",
+      "answers": [
+        {
+          "text": "Beschleunigung der Datenbankantwortzeiten",
+          "isCorrect": false
+        },
+        {
+          "text": "Optimierung der Netzwerklastverteilung",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch Bereitstellung einer integrierten Entwicklungsumgebung (IDE) in der Cloud",
+          "isCorrect": true
+        },
+        {
+          "text": "Verbesserung der Hardware-Sicherheit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-developer-tools_welche-aws-l-sung-ist-am-besten-f-r-die-echtzeit-zusammenarbeit-an-code-projekten-geeignet-",
+      "title": "Welche AWS-Lösung ist am besten für die Echtzeit-Zusammenarbeit an Code-Projekten geeignet?",
+      "answers": [
+        {
+          "text": "Amazon S3",
+          "isCorrect": false
+        },
+        {
+          "text": "Amazon EC2",
+          "isCorrect": false
+        },
+        {
+          "text": "AWS Cloud9",
+          "isCorrect": true
+        },
+        {
+          "text": "Amazon RDS",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-developer-tools_was-ist-ein-hauptmerkmal-von-aws-codeartifact-",
+      "title": "Was ist ein Hauptmerkmal von AWS CodeArtifact?",
+      "answers": [
+        {
+          "text": "Verbesserung der E-Mail-Datenübertragung",
+          "isCorrect": false
+        },
+        {
+          "text": "Datenbankleistungsmanagement",
+          "isCorrect": false
+        },
+        {
+          "text": "Netzwerk-Firewall-Management",
+          "isCorrect": false
+        },
+        {
+          "text": "Artefaktmanagement-Service, der die Speicherung, Verwaltung und Sicherung von Softwarepaketen erleichtert",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-developer-tools_wie-kann-aws-codestar-die-entwicklungsprozesse-verbessern-",
+      "title": "Wie kann AWS CodeStar die Entwicklungsprozesse verbessern?",
+      "answers": [
+        {
+          "text": "Durch eine einheitliche Benutzeroberfläche zur schnellen Entwicklung, Erstellung und Bereitstellung von Anwendungen",
+          "isCorrect": true
+        },
+        {
+          "text": "Durch Beschleunigung der Netzwerkübertragungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch Bereitstellung von dedizierten Datenbankservices",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch Verbesserung der physischen Sicherheitsmaßnahmen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-developer-tools_welche-rolle-spielt-aws-x-ray-in-der-entwicklung-von-anwendungen-",
+      "title": "Welche Rolle spielt AWS X-Ray in der Entwicklung von Anwendungen?",
+      "answers": [
+        {
+          "text": "Optimierung von Netzwerkhardware",
+          "isCorrect": false
+        },
+        {
+          "text": "Kostenmanagement für Cloud-Ressourcen",
+          "isCorrect": false
+        },
+        {
+          "text": "Analyse und Debugging von Mikroservices-Architekturen",
+          "isCorrect": true
+        },
+        {
+          "text": "Verbesserung der Benutzerauthentifizierung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-developer-tools_wie-hilft-aws-amplify-bei-der-verwaltung-von-backend-diensten-f-r-mobile-anwendungen-",
+      "title": "Wie hilft AWS Amplify bei der Verwaltung von Backend-Diensten für mobile Anwendungen?",
+      "answers": [
+        {
+          "text": "Durch automatische Skalierung und Verwaltung der Infrastruktur",
+          "isCorrect": true
+        },
+        {
+          "text": "Beschleunigung von Webseitenladezeiten",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Optimierung von Datenbankabfragen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-developer-tools_welche-funktion-bietet-aws-appsync-in-bezug-auf-datenabfragen-",
+      "title": "Welche Funktion bietet AWS AppSync in Bezug auf Datenabfragen?",
+      "answers": [
+        {
+          "text": "Echtzeit-Datenabfragen und Offline-Datensynchronisation",
+          "isCorrect": true
+        },
+        {
+          "text": "Verwaltung von SQL-Datenbanktransaktionen",
+          "isCorrect": false
+        },
+        {
+          "text": "Direkte Kontrolle über physische Netzwerke",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Datenverschlüsselung",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

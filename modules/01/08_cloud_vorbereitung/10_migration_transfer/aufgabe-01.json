@@ -1,0 +1,337 @@
+{
+  "id": "wiederholung-migration-und-transfer",
+  "formId": "1mJSasJQ4092v0yBu6-18s8Fl7LbEZhUYxEtCwC4T2CE",
+  "title": "Wiederholung: Migration und Transfer",
+  "tasks": [
+    {
+      "id": "wiederholung-migration-und-transfer_was-ist-der-hauptzweck-von-aws-migration-hub-",
+      "title": "Was ist der Hauptzweck von AWS Migration Hub?",
+      "answers": [
+        {
+          "text": "Speicherung von Objektdaten",
+          "isCorrect": false
+        },
+        {
+          "text": "Zentralisierung und Überwachung von Migrationsaufgaben",
+          "isCorrect": true
+        },
+        {
+          "text": "Netzwerk-Performance-Analyse",
+          "isCorrect": false
+        },
+        {
+          "text": "Email-Sicherheitsmanagement",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-migration-und-transfer_was-bietet-aws-datasync-",
+      "title": "Was bietet AWS DataSync?",
+      "answers": [
+        {
+          "text": "Automatisierte Datenübertragung zwischen On-Premises und AWS",
+          "isCorrect": true
+        },
+        {
+          "text": "Content Delivery Network",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserte Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Cloud-basierte Videokonferenzen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-migration-und-transfer_f-r-was-wird-aws-transfer-family-verwendet-",
+      "title": "Für was wird AWS Transfer Family verwendet?",
+      "answers": [
+        {
+          "text": "Langfristige Datenspeicherung",
+          "isCorrect": false
+        },
+        {
+          "text": "Webanwendungsschutz",
+          "isCorrect": false
+        },
+        {
+          "text": "Anwendungsentwicklung",
+          "isCorrect": false
+        },
+        {
+          "text": "Sichere Übertragung von Daten über Protokolle wie SFTP, FTPS und FTP",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-migration-und-transfer_welchen-vorteil-bietet-aws-snowball-",
+      "title": "Welchen Vorteil bietet AWS Snowball?",
+      "answers": [
+        {
+          "text": "Optimierung von SQL-Datenbankabfragen",
+          "isCorrect": false
+        },
+        {
+          "text": "Physische Datentransfergeräte für große Datenmengen",
+          "isCorrect": true
+        },
+        {
+          "text": "Datenanalyse in Echtzeit",
+          "isCorrect": false
+        },
+        {
+          "text": "Schnelle Anwendungsentwicklung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-migration-und-transfer_was-erm-glicht-aws-database-migration-service-dms-",
+      "title": "Was ermöglicht AWS Database Migration Service (DMS)?",
+      "answers": [
+        {
+          "text": "Einfache Migration von Datenbanken zu AWS, ohne Ausfallzeiten",
+          "isCorrect": true
+        },
+        {
+          "text": "Verbesserte Datenverschlüsselung",
+          "isCorrect": false
+        },
+        {
+          "text": "Datenbankabfrage-Optimierung",
+          "isCorrect": false
+        },
+        {
+          "text": "Automatisierte Netzwerküberwachung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-migration-und-transfer_wie-unterst-tzt-aws-application-discovery-service-die-migration-",
+      "title": "Wie unterstützt AWS Application Discovery Service die Migration?",
+      "answers": [
+        {
+          "text": "Durch Bereitstellung neuer Anwendungen in der Cloud",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch Erhöhung der Internetgeschwindigkeit",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch Sammeln von Informationen über On-Premises-Datenzentren zur Planung von Migrationsprojekten",
+          "isCorrect": true
+        },
+        {
+          "text": "Durch Optimierung der Cloud-Speicherkosten",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-migration-und-transfer_was-ist-die-funktion-von-aws-snowmobile-",
+      "title": "Was ist die Funktion von AWS Snowmobile?",
+      "answers": [
+        {
+          "text": "Streaming von Videodaten",
+          "isCorrect": false
+        },
+        {
+          "text": "Transfer extrem großer Datenmengen, wie Exabytes, in die Cloud",
+          "isCorrect": true
+        },
+        {
+          "text": "Verbesserung der Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Analyse von Kundenverhaltensdaten",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-migration-und-transfer_welche-rolle-spielt-aws-server-migration-service-",
+      "title": "Welche Rolle spielt AWS Server Migration Service?",
+      "answers": [
+        {
+          "text": "Automatisierung der Migration von virtuellen Maschinen zur AWS Cloud",
+          "isCorrect": true
+        },
+        {
+          "text": "Verwaltung von Netzwerkeinstellungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Bereitstellung von Software-Updates",
+          "isCorrect": false
+        },
+        {
+          "text": "E-Mail-Archivierung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-migration-und-transfer_was-ist-aws-snowcone-",
+      "title": "Was ist AWS Snowcone?",
+      "answers": [
+        {
+          "text": "Eine große Datenbank für Cloud-Dienste",
+          "isCorrect": false
+        },
+        {
+          "text": "Ein Tool zur Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Eine Plattform für die Entwicklung mobiler Anwendungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Ein kleines, tragbares Edge-Computing und Datenübertragungsgerät",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-migration-und-transfer_wie-funktioniert-aws-direct-connect-",
+      "title": "Wie funktioniert AWS Direct Connect?",
+      "answers": [
+        {
+          "text": "Bietet eine dedizierte Netzwerkverbindung von On-Premises zu AWS",
+          "isCorrect": true
+        },
+        {
+          "text": "Verbessert die Videoqualität von Streaming-Diensten",
+          "isCorrect": false
+        },
+        {
+          "text": "Beschleunigt die Auslieferung von Webinhalten",
+          "isCorrect": false
+        },
+        {
+          "text": "Stellt eine zusätzliche Sicherheitsebene für Netzwerke bereit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-migration-und-transfer_welchen-zweck-hat-aws-application-migration-service-",
+      "title": "Welchen Zweck hat AWS Application Migration Service?",
+      "answers": [
+        {
+          "text": "Automatisiert Marketingkampagnen",
+          "isCorrect": false
+        },
+        {
+          "text": "Optimiert Datenbankleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Vereinfacht die Migration von Anwendungen zur AWS Cloud",
+          "isCorrect": true
+        },
+        {
+          "text": "Verwaltet Cloud-basierte Mitarbeiterressourcen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-migration-und-transfer_was-ist-eine-hauptfunktion-von-aws-cloudendure-migration-",
+      "title": "Was ist eine Hauptfunktion von AWS CloudEndure Migration?",
+      "answers": [
+        {
+          "text": "Verbessert die Analyse von Geschäftsdaten",
+          "isCorrect": false
+        },
+        {
+          "text": "Ermöglicht minimale Ausfallzeiten während der Cloud-Migration",
+          "isCorrect": true
+        },
+        {
+          "text": "Bietet spezielle Speicheroptionen für Medieninhalte",
+          "isCorrect": false
+        },
+        {
+          "text": "Erhöht die Anzahl der Benutzerzugriffe",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-migration-und-transfer_was-ist-das-hauptmerkmal-von-aws-snowball-edge-",
+      "title": "Was ist das Hauptmerkmal von AWS Snowball Edge?",
+      "answers": [
+        {
+          "text": "Erhöht die Speicherkapazität von Datenbanken",
+          "isCorrect": false
+        },
+        {
+          "text": "Ein Datentransfergerät mit Onboard-Storage und Rechenkapazität",
+          "isCorrect": true
+        },
+        {
+          "text": "Verschlüsselt Datenübertragungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Optimiert das Netzwerk-Routing",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-migration-und-transfer_wof-r-wird-aws-transfer-for-sftp-haupts-chlich-eingesetzt-",
+      "title": "Wofür wird AWS Transfer for SFTP hauptsächlich eingesetzt?",
+      "answers": [
+        {
+          "text": "Zur Speicherung von Webseiten-Daten",
+          "isCorrect": false
+        },
+        {
+          "text": "Zur Analyse von Nutzungsdaten",
+          "isCorrect": false
+        },
+        {
+          "text": "Zur sicheren Übertragung von Daten über das SFTP-Protokoll",
+          "isCorrect": true
+        },
+        {
+          "text": "Zur Überwachung von Netzwerkleistung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-migration-und-transfer_was-ist-aws-snowball-edge-storage-optimized-",
+      "title": "Was ist AWS Snowball Edge Storage Optimized?",
+      "answers": [
+        {
+          "text": "Spezialisiert auf lokale Speicher- und Verarbeitungsanforderungen mit hoher Kapazität",
+          "isCorrect": true
+        },
+        {
+          "text": "Zur Optimierung der Datenbankleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Zur Reduzierung der Latenz bei Netzwerkverbindungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Zur Verbesserung der Datenvisualisierung",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

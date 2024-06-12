@@ -1,0 +1,337 @@
+{
+  "id": "wiederholung-security-identity-and-compliance",
+  "formId": "1b6XDvo-RK4cJWiGycQwwNb2wPMV2gN7-HT8gUoADZdY",
+  "title": "Wiederholung: Security, Identity and Compliance",
+  "tasks": [
+    {
+      "id": "wiederholung-security-identity-and-compliance_was-ist-der-hauptzweck-von-aws-iam-",
+      "title": "Was ist der Hauptzweck von AWS IAM?",
+      "answers": [
+        {
+          "text": "Speicherung von Daten",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung von Identitäten und Zugriffsrechten für AWS-Ressourcen",
+          "isCorrect": true
+        },
+        {
+          "text": "Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung von AWS-Preisen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-security-identity-and-compliance_welche-funktion-bietet-aws-artifact-",
+      "title": "Welche Funktion bietet AWS Artifact?",
+      "answers": [
+        {
+          "text": "Management von Datenbanken",
+          "isCorrect": false
+        },
+        {
+          "text": "Optimierung der Datenbankleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Zugriff auf Compliance-Berichte und Sicherheitsdokumentationen von AWS",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-security-identity-and-compliance_wie-unterst-tzt-aws-cloudtrail-die-sicherheits-berwachung-",
+      "title": "Wie unterstützt AWS CloudTrail die Sicherheitsüberwachung?",
+      "answers": [
+        {
+          "text": "Durch Protokollierung und Überwachung von API-Aufrufen für AWS-Konten",
+          "isCorrect": true
+        },
+        {
+          "text": "Verbesserung der Videoqualität von Streaming-Diensten",
+          "isCorrect": false
+        },
+        {
+          "text": "Steigerung der Datenbankleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Netzwerksicherheit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-security-identity-and-compliance_was-erm-glicht-aws-shield-",
+      "title": "Was ermöglicht AWS Shield?",
+      "answers": [
+        {
+          "text": "Verbesserung der Anwendungssicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Optimierung der Speicherkosten",
+          "isCorrect": false
+        },
+        {
+          "text": "Erhöhung der Netzwerkbandbreite",
+          "isCorrect": false
+        },
+        {
+          "text": "Schutz vor Distributed Denial of Service (DDoS)-Angriffen",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-security-identity-and-compliance_welche-funktion-bietet-aws-waf-web-application-firewall-",
+      "title": "Welche Funktion bietet AWS WAF (Web Application Firewall)?",
+      "answers": [
+        {
+          "text": "Verbesserung der Datenbankzugriffszeiten",
+          "isCorrect": false
+        },
+        {
+          "text": "Schutz von Webanwendungen vor häufigen Web-Exploits und -Angriffen",
+          "isCorrect": true
+        },
+        {
+          "text": "Verwaltung von Netzwerkswitches",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Sicherheit von Webanwendungen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-security-identity-and-compliance_wie-hilft-aws-config-bei-der-compliance-",
+      "title": "Wie hilft AWS Config bei der Compliance?",
+      "answers": [
+        {
+          "text": "Überwachung und Aufzeichnung von AWS-Ressourcenkonfigurationen und Änderungen zur Unterstützung der Compliance",
+          "isCorrect": true
+        },
+        {
+          "text": "Optimierung der Datenübertragungsgeschwindigkeit",
+          "isCorrect": false
+        },
+        {
+          "text": "Steigerung der Datenbankleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Netzwerksicherheit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-security-identity-and-compliance_was-ist-aws-key-management-service-kms-",
+      "title": "Was ist AWS Key Management Service (KMS)?",
+      "answers": [
+        {
+          "text": "Verbesserung der Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Management von Datenbanken",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung von Verschlüsselungsschlüsseln für Daten in AWS-Diensten",
+          "isCorrect": true
+        },
+        {
+          "text": "Erhöhung der Netzwerkbandbreite",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-security-identity-and-compliance_wie-unterst-tzt-aws-security-hub-die-sicherheits-berwachung-",
+      "title": "Wie unterstützt AWS Security Hub die Sicherheitsüberwachung?",
+      "answers": [
+        {
+          "text": "Optimierung der Datenbankleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch Aggregation und Priorisierung von Sicherheitswarnungen und Compliance-Status",
+          "isCorrect": true
+        },
+        {
+          "text": "Management von Datenbanken",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-security-identity-and-compliance_was-ist-der-zweck-von-amazon-guardduty-",
+      "title": "Was ist der Zweck von Amazon GuardDuty?",
+      "answers": [
+        {
+          "text": "Bedrohungsüberwachung und -erkennung zum Schutz von AWS-Konten und Workloads",
+          "isCorrect": true
+        },
+        {
+          "text": "Verbesserung der Videoqualität von Streaming-Diensten",
+          "isCorrect": false
+        },
+        {
+          "text": "Steigerung der Datenbankleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Anwendungssicherheit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-security-identity-and-compliance_welche-funktion-bietet-aws-inspector-",
+      "title": "Welche Funktion bietet AWS Inspector?",
+      "answers": [
+        {
+          "text": "Verbesserung der Sicherheit von Webanwendungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Optimierung der Datenbankzugriffszeiten",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung von Netzwerkswitches",
+          "isCorrect": false
+        },
+        {
+          "text": "Automatisierte Sicherheitsbewertung zur Verbesserung der Sicherheit und Compliance von Anwendungen",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-security-identity-and-compliance_wie-unterst-tzt-aws-certificate-manager-acm-die-sicherheit-",
+      "title": "Wie unterstützt AWS Certificate Manager (ACM) die Sicherheit?",
+      "answers": [
+        {
+          "text": "Provision, Management und Bereitstellung von SSL/TLS-Zertifikaten",
+          "isCorrect": true
+        },
+        {
+          "text": "Optimierung der Datenübertragungsgeschwindigkeit",
+          "isCorrect": false
+        },
+        {
+          "text": "Steigerung der Datenbankleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Netzwerksicherheit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-security-identity-and-compliance_wie-hilft-aws-cloudhsm-bei-der-sicherheit-",
+      "title": "Wie hilft AWS CloudHSM bei der Sicherheit?",
+      "answers": [
+        {
+          "text": "Verbesserung der Sicherheit von Webanwendungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Datenbankzugriffszeiten",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung von Netzwerkswitches",
+          "isCorrect": false
+        },
+        {
+          "text": "Bietet Hardware-Sicherheitsmodule (HSM) zur sicheren Speicherung und Verwaltung von Verschlüsselungsschlüsseln",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-security-identity-and-compliance_welche-funktion-bietet-aws-identity-and-access-management-iam-",
+      "title": "Welche Funktion bietet AWS Identity and Access Management (IAM)?",
+      "answers": [
+        {
+          "text": "Optimierung der Datenübertragungsgeschwindigkeit",
+          "isCorrect": false
+        },
+        {
+          "text": "Steigerung der Datenbankleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung des Zugriffs auf AWS-Ressourcen durch Benutzer und Gruppen",
+          "isCorrect": true
+        },
+        {
+          "text": "Verbesserung der Netzwerksicherheit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-security-identity-and-compliance_was-ist-aws-directory-service-",
+      "title": "Was ist AWS Directory Service?",
+      "answers": [
+        {
+          "text": "Verbesserung der Datenbankzugriffszeiten",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung von Netzwerkswitches",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung von Benutzeridentitäten und Gruppen mit Microsoft Active Directory in der AWS Cloud",
+          "isCorrect": true
+        },
+        {
+          "text": "Verbesserung der Sicherheit von Webanwendungen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-security-identity-and-compliance_wie-unterst-tzt-aws-audit-manager-die-compliance-",
+      "title": "Wie unterstützt AWS Audit Manager die Compliance?",
+      "answers": [
+        {
+          "text": "Durch Automatisierung der Sammlung von Compliance-bezogenen Beweisen",
+          "isCorrect": true
+        },
+        {
+          "text": "Optimierung der Datenübertragungsgeschwindigkeit",
+          "isCorrect": false
+        },
+        {
+          "text": "Steigerung der Datenbankleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Netzwerksicherheit",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "id": "wiederholung-networking-and-content-delivery",
+  "formId": "1oWvImZ4Tms8ai0KAs4GKs_ur9HrDgWnX3-VXqhMS65c",
+  "title": "Wiederholung: Networking and Content Delivery",
+  "tasks": [
+    {
+      "id": "wiederholung-networking-and-content-delivery_was-ist-der-hauptzweck-von-amazon-vpc-",
+      "title": "Was ist der Hauptzweck von Amazon VPC?",
+      "answers": [
+        {
+          "text": "Speicherung von Daten",
+          "isCorrect": false
+        },
+        {
+          "text": "Bereitstellung eines isolierten Abschnitts der AWS Cloud",
+          "isCorrect": true
+        },
+        {
+          "text": "Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung von AWS-Preisen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-networking-and-content-delivery_welche-funktion-bietet-amazon-route-53-",
+      "title": "Welche Funktion bietet Amazon Route 53?",
+      "answers": [
+        {
+          "text": "Text-in-Sprache-Umwandlung",
+          "isCorrect": false
+        },
+        {
+          "text": "DNS-Web-Service",
+          "isCorrect": true
+        },
+        {
+          "text": "Graph-Datenbank-Service",
+          "isCorrect": false
+        },
+        {
+          "text": "Hardware-Sicherheitsmodul",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-networking-and-content-delivery_was-erm-glicht-aws-direct-connect-",
+      "title": "Was ermöglicht AWS Direct Connect?",
+      "answers": [
+        {
+          "text": "Verbesserung der Videoqualität von Streaming-Diensten",
+          "isCorrect": false
+        },
+        {
+          "text": "Beschleunigt die Auslieferung von Webinhalten",
+          "isCorrect": false
+        },
+        {
+          "text": "Dedizierte Netzwerkverbindung von On-Premises zu AWS",
+          "isCorrect": true
+        },
+        {
+          "text": "Stellt eine zusätzliche Sicherheitsebene für Netzwerke bereit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-networking-and-content-delivery_was-ist-der-hauptzweck-von-amazon-cloudfront-",
+      "title": "Was ist der Hauptzweck von Amazon CloudFront?",
+      "answers": [
+        {
+          "text": "Management von AWS-Preisen",
+          "isCorrect": false
+        },
+        {
+          "text": "Speicherung von Big Data",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Datenbanksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Content Delivery Network (CDN) zur schnellen Auslieferung von Daten, Videos, Anwendungen",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-networking-and-content-delivery_welche-funktion-hat-aws-global-accelerator-",
+      "title": "Welche Funktion hat AWS Global Accelerator?",
+      "answers": [
+        {
+          "text": "Speicherung von Daten in der Cloud",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Anwendungsverfügbarkeit und Leistung durch Verkehrsumleitung auf optimierte Pfade",
+          "isCorrect": true
+        },
+        {
+          "text": "Direkte Ausführung von SQL-Abfragen auf S3-Daten",
+          "isCorrect": false
+        },
+        {
+          "text": "Erstellung und Verwaltung relationaler Datenbanken",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-networking-and-content-delivery_was-ist-ein-aws-transit-gateway-",
+      "title": "Was ist ein AWS Transit Gateway?",
+      "answers": [
+        {
+          "text": "Verbindet mehrere VPCs und On-Premises-Netzwerke über ein zentrales Hub",
+          "isCorrect": true
+        },
+        {
+          "text": "Erhöht die Geschwindigkeit der Datenverarbeitung",
+          "isCorrect": false
+        },
+        {
+          "text": "Bietet verbesserte Sicherheitsfunktionen für Webanwendungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Stellt eine Plattform für maschinelles Lernen bereit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-networking-and-content-delivery_wie-hilft-amazon-cloudfront-bei-der-sicherheit-",
+      "title": "Wie hilft Amazon CloudFront bei der Sicherheit?",
+      "answers": [
+        {
+          "text": "Verbesserung der Performance von Datenbanken",
+          "isCorrect": false
+        },
+        {
+          "text": "Erhöhung der Speicherkapazität",
+          "isCorrect": false
+        },
+        {
+          "text": "Integration mit AWS-Sicherheitsservices wie AWS Shield für DDoS-Schutz",
+          "isCorrect": true
+        },
+        {
+          "text": "Reduzierung der Kosten für Cloud-Speicherung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-networking-and-content-delivery_was-ist-ein-vpc-peering-",
+      "title": "Was ist ein VPC Peering?",
+      "answers": [
+        {
+          "text": "Eine Performance-Verbesserungstechnik",
+          "isCorrect": false
+        },
+        {
+          "text": "Ein Datenbankverwaltungssystem",
+          "isCorrect": false
+        },
+        {
+          "text": "Eine Methode zur Datenverschlüsselung",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbindung zwischen zwei VPCs, die es ermöglicht, dass Ressourcen in den verschiedenen VPCs miteinander kommunizieren, als wären sie im gleichen Netzwerk",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-networking-and-content-delivery_was-ist-aws-privatelink-",
+      "title": "Was ist AWS PrivateLink?",
+      "answers": [
+        {
+          "text": "Ermöglicht privaten Zugang zu AWS-Services und VPC Endpoints ohne Nutzung des Internets",
+          "isCorrect": true
+        },
+        {
+          "text": "Erhöht die Geschwindigkeit der Datenübertragung",
+          "isCorrect": false
+        },
+        {
+          "text": "Bietet verbesserte Sicherheitsfeatures für Webanwendungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbessert die Netzwerkleistung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-networking-and-content-delivery_was-ist-eine-amazon-route-53-resolver-",
+      "title": "Was ist eine Amazon Route 53 Resolver?",
+      "answers": [
+        {
+          "text": "Tool zur Verbesserung der Datenbankperformance",
+          "isCorrect": false
+        },
+        {
+          "text": "Service zur Datenvisualisierung",
+          "isCorrect": false
+        },
+        {
+          "text": "DNS-Service, der die Namensauflösung zwischen VPCs und On-Premises-Netzwerken erleichtert",
+          "isCorrect": true
+        },
+        {
+          "text": "Methode zur Reduzierung der Datenübertragungskosten",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-networking-and-content-delivery_wie-funktioniert-amazon-cloudfront-zur-beschleunigung-der-inhaltsauslieferung-",
+      "title": "Wie funktioniert Amazon CloudFront zur Beschleunigung der Inhaltsauslieferung?",
+      "answers": [
+        {
+          "text": "Optimierung von Netzwerkhardware",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch Verwendung eines weltweit verteilten Netzwerks von Cachespeichern",
+          "isCorrect": true
+        },
+        {
+          "text": "Steigerung der Datenbankleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Anwendungssicherheit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-networking-and-content-delivery_welchen-zweck-erf-llt-der-aws-app-mesh-",
+      "title": "Welchen Zweck erfüllt der AWS App Mesh?",
+      "answers": [
+        {
+          "text": "Vereinfacht die Netzwerk- und Kommunikationssteuerung zwischen Mikroservices",
+          "isCorrect": true
+        },
+        {
+          "text": "Optimierung der physischen Netzwerkgeräte",
+          "isCorrect": false
+        },
+        {
+          "text": "Reduzierung der Cloud-Speicherkosten",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Datenverschlüsselungstechniken",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-networking-and-content-delivery_was-ist-ein-edge-standort-in-bezug-auf-amazon-cloudfront-",
+      "title": "Was ist ein Edge-Standort in Bezug auf Amazon CloudFront?",
+      "answers": [
+        {
+          "text": "Tool zur Überwachung der Netzwerkleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Platz zur Speicherung von Backups",
+          "isCorrect": false
+        },
+        {
+          "text": "Virtuelle Maschine zur Steigerung der Rechenkapazität",
+          "isCorrect": false
+        },
+        {
+          "text": "Standort, der verwendet wird, um Inhalte näher an den Benutzer zu liefern, um Latenz zu minimieren",
+          "isCorrect": true
+        }
+      ]
+    }
+  ]
+}

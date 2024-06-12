@@ -1,0 +1,359 @@
+{
+  "id": "wiederholung-container-applications-und-integration",
+  "formId": "1XcmFA10G9tNjyzdo9PPFXjF7s-y35cDZMb410tw67aA",
+  "title": "Wiederholung: Container, Applications und Integration",
+  "tasks": [
+    {
+      "id": "wiederholung-container-applications-und-integration_was-ist-der-hauptzweck-von-amazon-ecs-elastic-container-service-",
+      "title": "Was ist der Hauptzweck von Amazon ECS (Elastic Container Service)?",
+      "answers": [
+        {
+          "text": "Speicherung von Big Data",
+          "isCorrect": false
+        },
+        {
+          "text": "Orchestrierung von Docker-Containern",
+          "isCorrect": true
+        },
+        {
+          "text": "Durchführung von Machine Learning Modellen",
+          "isCorrect": false
+        },
+        {
+          "text": "Verschlüsselung von Daten",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-container-applications-und-integration_was-bietet-aws-fargate-",
+      "title": "Was bietet AWS Fargate?",
+      "answers": [
+        {
+          "text": "Automatisierte Datenanalyse",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserte Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Serverlose Ausführung von Containern",
+          "isCorrect": true
+        },
+        {
+          "text": "Cloud-basierte Videokonferenzen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-container-applications-und-integration_welche-funktion-hat-amazon-eks-elastic-kubernetes-service-",
+      "title": "Welche Funktion hat Amazon EKS (Elastic Kubernetes Service)?",
+      "answers": [
+        {
+          "text": "Langfristige Datenspeicherung",
+          "isCorrect": false
+        },
+        {
+          "text": "Webanwendungsschutz",
+          "isCorrect": false
+        },
+        {
+          "text": "Anwendungsentwicklung",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung von Kubernetes-Clustern in AWS",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-container-applications-und-integration_wie-interagiert-amazon-ecr-elastic-container-registry-mit-anderen-aws-diensten-",
+      "title": "Wie interagiert Amazon ECR (Elastic Container Registry) mit anderen AWS-Diensten?",
+      "answers": [
+        {
+          "text": "Ermöglicht das Hosting von Webanwendungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltet Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Speichert und verwaltet Docker-Container-Images",
+          "isCorrect": true
+        },
+        {
+          "text": "Führt komplexe Datenanalysen durch",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-container-applications-und-integration_wie-unterst-tzt-amazon-eventbridge-die-anwendungsintegration-",
+      "title": "Wie unterstützt Amazon EventBridge die Anwendungsintegration?",
+      "answers": [
+        {
+          "text": "Bereitstellung von Virtual Private Networks",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch das Routing von Ereignissen zwischen AWS-Diensten und Anwendungen",
+          "isCorrect": true
+        },
+        {
+          "text": "Speicherung und Verwaltung von Schlüssel-Wert-Daten",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Anwendungssicherheit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-container-applications-und-integration_was-ist-eine-hauptfunktion-von-amazon-sqs-simple-queue-service-",
+      "title": "Was ist eine Hauptfunktion von Amazon SQS (Simple Queue Service)?",
+      "answers": [
+        {
+          "text": "Nachrichtenwarteschlangendienst zur Entkopplung von Mikroservices",
+          "isCorrect": true
+        },
+        {
+          "text": "Relationale Datenbankdienste",
+          "isCorrect": false
+        },
+        {
+          "text": "Webseiten-Hosting",
+          "isCorrect": false
+        },
+        {
+          "text": "Direkte Serverbereitstellung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-container-applications-und-integration_wie-funktioniert-aws-appsync-",
+      "title": "Wie funktioniert AWS AppSync?",
+      "answers": [
+        {
+          "text": "Bietet dedizierte Hosting-Lösungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Ermöglicht die automatische Skalierung von Netzwerkressourcen",
+          "isCorrect": false
+        },
+        {
+          "text": "Verschlüsselt Datenübertragungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltet einen GraphQL-Service für flexible API-Designs",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-container-applications-und-integration_was-erm-glicht-aws-step-functions-",
+      "title": "Was ermöglicht AWS Step Functions?",
+      "answers": [
+        {
+          "text": "Automatisierte Netzwerküberwachung",
+          "isCorrect": false
+        },
+        {
+          "text": "Datensicherung in der Cloud",
+          "isCorrect": false
+        },
+        {
+          "text": "Erstellung von Content Delivery Networks",
+          "isCorrect": false
+        },
+        {
+          "text": "Koordination von Komponenten und Mikroservices durch Visualisierung als Workflows",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-container-applications-und-integration_was-ist-die-funktion-von-amazon-sns-simple-notification-service-",
+      "title": "Was ist die Funktion von Amazon SNS (Simple Notification Service)?",
+      "answers": [
+        {
+          "text": "Vollständig verwalteter Pub/Sub-Nachrichtendienst",
+          "isCorrect": true
+        },
+        {
+          "text": "Management von Datenbankverbindungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Schutz von Webanwendungen vor Angriffen",
+          "isCorrect": false
+        },
+        {
+          "text": "Cloud-basierte Speicherlösungen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-container-applications-und-integration_wie-unterst-tzt-aws-lambda-die-anwendungsintegration-",
+      "title": "Wie unterstützt AWS Lambda die Anwendungsintegration?",
+      "answers": [
+        {
+          "text": "Verbesserung der Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch Ausführung von Code in Reaktion auf Ereignisse aus anderen AWS-Services",
+          "isCorrect": true
+        },
+        {
+          "text": "Direkte Ausführung von SQL-Abfragen auf S3-Daten",
+          "isCorrect": false
+        },
+        {
+          "text": "Hosting von großen Datenbanken",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-container-applications-und-integration_welche-vorteile-bietet-amazon-eks-im-vergleich-zu-amazon-ecs-",
+      "title": "Welche Vorteile bietet Amazon EKS im Vergleich zu Amazon ECS?",
+      "answers": [
+        {
+          "text": "Kubernetes-konforme Verwaltung neben der Docker-Orchestrierung",
+          "isCorrect": true
+        },
+        {
+          "text": "Erweiterte Verschlüsselungsoptionen",
+          "isCorrect": false
+        },
+        {
+          "text": "Besseres Content-Management-System",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserte Netzwerkleistung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-container-applications-und-integration_welche-aws-dienstleistung-erm-glicht-es-verschiedene-aws-dienste-und-saas-anwendungen-durch-ereignisse-zu-verbinden-",
+      "title": "Welche AWS-Dienstleistung ermöglicht es, verschiedene AWS-Dienste und SaaS-Anwendungen durch Ereignisse zu verbinden?",
+      "answers": [
+        {
+          "text": "Amazon EC2",
+          "isCorrect": false
+        },
+        {
+          "text": "Amazon CloudFront",
+          "isCorrect": false
+        },
+        {
+          "text": "Amazon EventBridge",
+          "isCorrect": true
+        },
+        {
+          "text": "Amazon RDS",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-container-applications-und-integration_was-ist-ein-hauptmerkmal-von-aws-fargate-im-kontext-der-serverlosigkeit-",
+      "title": "Was ist ein Hauptmerkmal von AWS Fargate im Kontext der Serverlosigkeit?",
+      "answers": [
+        {
+          "text": "Automatisches Management der Server-Infrastruktur",
+          "isCorrect": true
+        },
+        {
+          "text": "Automatisierte Datenmigration",
+          "isCorrect": false
+        },
+        {
+          "text": "Höhere Datenübertragungsraten",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserte Benutzerzugriffskontrollen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-container-applications-und-integration_in-welchem-szenario-ist-amazon-sqs-besonders-n-tzlich-",
+      "title": "In welchem Szenario ist Amazon SQS besonders nützlich?",
+      "answers": [
+        {
+          "text": "In Anwendungen, die hohe Netzwerksicherheit benötigen",
+          "isCorrect": false
+        },
+        {
+          "text": "In hochskalierbaren Anwendungen, die lose gekoppelt sind",
+          "isCorrect": true
+        },
+        {
+          "text": "Bei der direkten Speicherung von Daten auf physischen Geräten",
+          "isCorrect": false
+        },
+        {
+          "text": "In statischen Website-Hosting-Umgebungen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-container-applications-und-integration_was-macht-aws-appsync-besonders-geeignet-f-r-mobile-anwendungen-",
+      "title": "Was macht AWS AppSync besonders geeignet für mobile Anwendungen?",
+      "answers": [
+        {
+          "text": "Echtzeit-Datenabfragen und Offline-Datensynchronisation",
+          "isCorrect": true
+        },
+        {
+          "text": "Beschleunigte Datenanalyse",
+          "isCorrect": false
+        },
+        {
+          "text": "Verstärkte Sicherheitsmaßnahmen",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserte Datenvisualisierung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-container-applications-und-integration_wie-unterst-tzt-amazon-ecr-die-container-workflows-",
+      "title": "Wie unterstützt Amazon ECR die Container-Workflows?",
+      "answers": [
+        {
+          "text": "Zur Verbesserung der Anwendungsentwicklungszeiten",
+          "isCorrect": false
+        },
+        {
+          "text": "Zur Erhöhung der Netzwerkverfügbarkeit",
+          "isCorrect": false
+        },
+        {
+          "text": "Zur Optimierung von Datenbankabfragen",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch Bereitstellung eines sicheren Speicherorts für Container-Images",
+          "isCorrect": true
+        }
+      ]
+    }
+  ]
+}

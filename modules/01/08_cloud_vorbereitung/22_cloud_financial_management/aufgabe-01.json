@@ -1,0 +1,315 @@
+{
+  "id": "wiederholung-cloud-financial-management",
+  "formId": "1LqcupgdikT8sP9tDXxIeG8K-tB2ZKgCgsLY4jUiHirc",
+  "title": "Wiederholung: Cloud Financial Management",
+  "tasks": [
+    {
+      "id": "wiederholung-cloud-financial-management_was-ist-der-hauptzweck-von-aws-cost-explorer-",
+      "title": "Was ist der Hauptzweck von AWS Cost Explorer?",
+      "answers": [
+        {
+          "text": "Verbesserung der Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Visualisierung, Verständnis und Verwaltung von AWS-Kosten und -Nutzung über die Zeit",
+          "isCorrect": true
+        },
+        {
+          "text": "Management von Datenbanken",
+          "isCorrect": false
+        },
+        {
+          "text": "Erhöhung der Netzwerkbandbreite",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-cloud-financial-management_wie-unterst-tzt-aws-budgets-die-kostenkontrolle-",
+      "title": "Wie unterstützt AWS Budgets die Kostenkontrolle?",
+      "answers": [
+        {
+          "text": "Erstellung von benutzerdefinierten Budgets zur Überwachung von AWS-Kosten und -Nutzung",
+          "isCorrect": true
+        },
+        {
+          "text": "Optimierung der Datenbankleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Management von Datenbanken",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-cloud-financial-management_welche-funktion-bietet-aws-cost-and-usage-report-",
+      "title": "Welche Funktion bietet AWS Cost and Usage Report?",
+      "answers": [
+        {
+          "text": "Erhöhung der Netzwerkbandbreite",
+          "isCorrect": false
+        },
+        {
+          "text": "Steigerung der Datenbankleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Anwendungssicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Detaillierte Informationen über die Nutzung und Kosten von AWS-Ressourcen",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-cloud-financial-management_was-erm-glicht-aws-cost-anomaly-detection-",
+      "title": "Was ermöglicht AWS Cost Anomaly Detection?",
+      "answers": [
+        {
+          "text": "Optimierung der Speicherkosten",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Automatische Erkennung ungewöhnlicher Ausgabenmuster",
+          "isCorrect": true
+        },
+        {
+          "text": "Steigerung der Datenbankleistung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-cloud-financial-management_wie-hilft-aws-pricing-calculator-bei-der-kostenplanung-",
+      "title": "Wie hilft AWS Pricing Calculator bei der Kostenplanung?",
+      "answers": [
+        {
+          "text": "Ermöglicht die Schätzung der Kosten von AWS-Diensten basierend auf den spezifischen Anforderungen",
+          "isCorrect": true
+        },
+        {
+          "text": "Verbesserung der Videoqualität von Streaming-Diensten",
+          "isCorrect": false
+        },
+        {
+          "text": "Erhöhung der Netzwerkbandbreite",
+          "isCorrect": false
+        },
+        {
+          "text": "Management von Datenbanken",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-cloud-financial-management_was-ist-der-zweck-von-reserved-instance-reporting-in-aws-cost-explorer-",
+      "title": "Was ist der Zweck von Reserved Instance Reporting in AWS Cost Explorer?",
+      "answers": [
+        {
+          "text": "Erhöhung der Netzwerkbandbreite",
+          "isCorrect": false
+        },
+        {
+          "text": "Optimierung der Datenübertragungsgeschwindigkeit",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Anwendungssicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Anzeige der Nutzung und der Kosteneinsparungen durch reservierte Instanzen",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-cloud-financial-management_welche-funktion-bietet-aws-savings-plans-",
+      "title": "Welche Funktion bietet AWS Savings Plans?",
+      "answers": [
+        {
+          "text": "Flexibles Preismodell, das niedrigere Preise im Austausch für eine Zusage zu einer konsistenten Nutzung bietet",
+          "isCorrect": true
+        },
+        {
+          "text": "Optimierung der Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Steigerung der Datenbankleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Anwendungssicherheit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-cloud-financial-management_wie-unterst-tzt-das-aws-billing-dashboard-die-finanzverwaltung-",
+      "title": "Wie unterstützt das AWS Billing Dashboard die Finanzverwaltung?",
+      "answers": [
+        {
+          "text": "Verbesserung der Datenbankleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Optimierung der Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch Bereitstellung einer zentralen Ansicht aller AWS-Ausgaben und -Nutzung",
+          "isCorrect": true
+        },
+        {
+          "text": "Management von Datenbanken",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-cloud-financial-management_was-ist-der-hauptvorteil-der-nutzung-von-aws-free-tier-",
+      "title": "Was ist der Hauptvorteil der Nutzung von AWS Free Tier?",
+      "answers": [
+        {
+          "text": "Verbesserung der Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Steigerung der Datenbankleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Kostenloses Testen von AWS-Diensten innerhalb bestimmter Nutzungslimits",
+          "isCorrect": true
+        },
+        {
+          "text": "Erhöhung der Netzwerkbandbreite",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-cloud-financial-management_wie-unterst-tzt-aws-trusted-advisor-die-kostenoptimierung-",
+      "title": "Wie unterstützt AWS Trusted Advisor die Kostenoptimierung?",
+      "answers": [
+        {
+          "text": "Bietet Empfehlungen zur Reduzierung von Kosten und zur Verbesserung der Leistung",
+          "isCorrect": true
+        },
+        {
+          "text": "Optimierung der Speicherkosten",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Steigerung der Datenbankleistung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-cloud-financial-management_welche-funktion-bietet-aws-billing-conductor-",
+      "title": "Welche Funktion bietet AWS Billing Conductor?",
+      "answers": [
+        {
+          "text": "Erhöhung der Netzwerkbandbreite",
+          "isCorrect": false
+        },
+        {
+          "text": "Personalisierte und vorhersehbare AWS-Kostenrechnung und Abrechnungsinformationen",
+          "isCorrect": true
+        },
+        {
+          "text": "Verbesserung der Anwendungssicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Steigerung der Datenbankleistung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-cloud-financial-management_wie-hilft-aws-cost-categories-bei-der-verwaltung-von-ausgaben-",
+      "title": "Wie hilft AWS Cost Categories bei der Verwaltung von Ausgaben?",
+      "answers": [
+        {
+          "text": "Ermöglicht die Gruppierung von Kosten nach benutzerdefinierten Kategorien zur besseren Ausgabenübersicht",
+          "isCorrect": true
+        },
+        {
+          "text": "Verbesserung der Datenbankleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Optimierung der Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Management von Datenbanken",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-cloud-financial-management_wie-unterst-tzt-aws-consolidated-billing-die-kostenverwaltung-f-r-unternehmen-mit-mehreren-aws-konten-",
+      "title": "Wie unterstützt AWS Consolidated Billing die Kostenverwaltung für Unternehmen mit mehreren AWS-Konten?",
+      "answers": [
+        {
+          "text": "Optimierung der Datenübertragungsgeschwindigkeit",
+          "isCorrect": false
+        },
+        {
+          "text": "Bietet eine konsolidierte Rechnung für mehrere Konten innerhalb einer Organisation",
+          "isCorrect": true
+        },
+        {
+          "text": "Steigerung der Datenbankleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Anwendungssicherheit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-cloud-financial-management_welche-funktion-bietet-der-aws-service-catalog-in-bezug-auf-kostenkontrolle-",
+      "title": "Welche Funktion bietet der AWS Service Catalog in Bezug auf Kostenkontrolle?",
+      "answers": [
+        {
+          "text": "Verbesserung der Sicherheit von Webanwendungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Datenbankzugriffszeiten",
+          "isCorrect": false
+        },
+        {
+          "text": "Management von Netzwerkswitches",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung und Bereitstellung von genehmigten IT-Services zur besseren Kontrolle der Kosten",
+          "isCorrect": true
+        }
+      ]
+    }
+  ]
+}

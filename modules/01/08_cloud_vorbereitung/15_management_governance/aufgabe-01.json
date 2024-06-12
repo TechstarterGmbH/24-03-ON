@@ -1,0 +1,337 @@
+{
+  "id": "wiederholung-management-and-governance",
+  "formId": "1BH8jpx6X_3qcSWaOj74l5Z0IDRHsQUEJyKgAz8i-oRo",
+  "title": "Wiederholung: Management and Governance",
+  "tasks": [
+    {
+      "id": "wiederholung-management-and-governance_was-ist-der-hauptzweck-von-aws-control-tower-",
+      "title": "Was ist der Hauptzweck von AWS Control Tower?",
+      "answers": [
+        {
+          "text": "Verbesserung der Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Automatisierte Einrichtung und Governance für AWS-Umgebungen",
+          "isCorrect": true
+        },
+        {
+          "text": "Datenbankverwaltung",
+          "isCorrect": false
+        },
+        {
+          "text": "Cloud-Speicheroptimierung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-management-and-governance_was-erm-glicht-aws-organizations-",
+      "title": "Was ermöglicht AWS Organizations?",
+      "answers": [
+        {
+          "text": "Optimierung der Anwendungsbereitstellung",
+          "isCorrect": false
+        },
+        {
+          "text": "Datenvisualisierung",
+          "isCorrect": false
+        },
+        {
+          "text": "Zentrale Verwaltung von Rechnungsstellung, Zugriffskontrolle und Compliance über mehrere AWS-Konten",
+          "isCorrect": true
+        },
+        {
+          "text": "Netzwerkkonfiguration",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-management-and-governance_welche-funktion-bietet-aws-systems-manager-",
+      "title": "Welche Funktion bietet AWS Systems Manager?",
+      "answers": [
+        {
+          "text": "Performance-Monitoring von Netzwerken",
+          "isCorrect": false
+        },
+        {
+          "text": "Zentrales Management von AWS-Ressourcen",
+          "isCorrect": true
+        },
+        {
+          "text": "Beschleunigung von Datenbankabfragen",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Anwendungssicherheit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-management-and-governance_was-ist-die-hauptfunktion-von-aws-config-",
+      "title": "Was ist die Hauptfunktion von AWS Config?",
+      "answers": [
+        {
+          "text": "Überwachung und Aufzeichnung von AWS-Ressourcenkonfigurationen und Änderungen",
+          "isCorrect": true
+        },
+        {
+          "text": "Direktes Servermanagement",
+          "isCorrect": false
+        },
+        {
+          "text": "Speicherplatzoptimierung",
+          "isCorrect": false
+        },
+        {
+          "text": "Netzwerktraffic-Analyse",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-management-and-governance_wie-unterst-tzt-aws-cloudtrail-die-governance-",
+      "title": "Wie unterstützt AWS CloudTrail die Governance?",
+      "answers": [
+        {
+          "text": "Durch Protokollierung und Überwachung von API-Aufrufen für AWS-Konten",
+          "isCorrect": true
+        },
+        {
+          "text": "Durch Bereitstellung von Echtzeitdatenanalyse",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch Optimierung der Cloud-Speicherung",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch Verbesserung der Netzwerksicherheit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-management-and-governance_was-erm-glicht-aws-service-catalog-",
+      "title": "Was ermöglicht AWS Service Catalog?",
+      "answers": [
+        {
+          "text": "Automatisierung von Netzwerkprozessen",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Anwendungsleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Reduzierung der Datenübertragungskosten",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung und Bereitstellung von genehmigten IT-Services in AWS",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-management-and-governance_was-ist-der-hauptvorteil-der-nutzung-von-aws-trusted-advisor-",
+      "title": "Was ist der Hauptvorteil der Nutzung von AWS Trusted Advisor?",
+      "answers": [
+        {
+          "text": "Beschleunigt Webanwendungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbessert die Datenbankzugriffszeiten",
+          "isCorrect": false
+        },
+        {
+          "text": "Bietet Empfehlungen zur Optimierung der AWS-Umgebung",
+          "isCorrect": true
+        },
+        {
+          "text": "Erhöht die Netzwerkbandbreite",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-management-and-governance_wie-hilft-aws-well-architected-tool-bei-der-verwaltung-von-aws-architekturen-",
+      "title": "Wie hilft AWS Well-Architected Tool bei der Verwaltung von AWS-Architekturen?",
+      "answers": [
+        {
+          "text": "Durch Bewertung der Architekturen gegen Best Practices",
+          "isCorrect": true
+        },
+        {
+          "text": "Zur Verbesserung der Datenvisualisierung",
+          "isCorrect": false
+        },
+        {
+          "text": "Für schnellere Software-Entwicklung",
+          "isCorrect": false
+        },
+        {
+          "text": "Um die Effizienz der Teamkommunikation zu erhöhen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-management-and-governance_was-ist-aws-personal-health-dashboard-",
+      "title": "Was ist AWS Personal Health Dashboard?",
+      "answers": [
+        {
+          "text": "Tool zur Verbesserung der Anwendungsleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Bietet personalisierte Übersicht über den Zustand der AWS-Services und Ressourcen",
+          "isCorrect": true
+        },
+        {
+          "text": "Netzwerk-Monitoring-Tool",
+          "isCorrect": false
+        },
+        {
+          "text": "Datenarchivierungs-Lösung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-management-and-governance_wie-verbessert-aws-license-manager-die-governance-",
+      "title": "Wie verbessert AWS License Manager die Governance?",
+      "answers": [
+        {
+          "text": "Durch zentrales Management von Softwarelizenzen innerhalb von AWS",
+          "isCorrect": true
+        },
+        {
+          "text": "Ermöglicht schnelleres Daten-Backup",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbessert die Netzwerkleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Optimiert die Hardwareauslastung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-management-and-governance_welchen-zweck-erf-llt-aws-budgets-",
+      "title": "Welchen Zweck erfüllt AWS Budgets?",
+      "answers": [
+        {
+          "text": "Verbessert die Anwendungsbereitstellung",
+          "isCorrect": false
+        },
+        {
+          "text": "Reduziert den Bedarf an IT-Support",
+          "isCorrect": false
+        },
+        {
+          "text": "Ermöglicht das Erstellen von benutzerdefinierten Budgets zur Überwachung der AWS-Kosten und -Nutzung",
+          "isCorrect": true
+        },
+        {
+          "text": "Ermöglicht schnelleren Datenzugriff",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-management-and-governance_wie-tr-gt-aws-cost-explorer-zur-verwaltung-bei-",
+      "title": "Wie trägt AWS Cost Explorer zur Verwaltung bei?",
+      "answers": [
+        {
+          "text": "Steigerung der Datenbankleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Optimierung der Anwendungsantwortzeiten",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch Visualisierung und Verständnis von AWS-Ausgaben über die Zeit",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-management-and-governance_was-ist-die-hauptfunktion-von-aws-resource-groups-",
+      "title": "Was ist die Hauptfunktion von AWS Resource Groups?",
+      "answers": [
+        {
+          "text": "Organisieren von AWS-Ressourcen nach Tags und anderen Kriterien",
+          "isCorrect": true
+        },
+        {
+          "text": "Steigerung der Datenverarbeitungsgeschwindigkeit",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Anwendungs-Skalierbarkeit",
+          "isCorrect": false
+        },
+        {
+          "text": "Optimierung der Netzwerk-Architektur",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-management-and-governance_wie-hilft-aws-tag-editor-bei-der-governance-",
+      "title": "Wie hilft AWS Tag Editor bei der Governance?",
+      "answers": [
+        {
+          "text": "Zur Kostenreduktion für Speicherplatz",
+          "isCorrect": false
+        },
+        {
+          "text": "Zur Beschleunigung von Netzwerkverbindungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch Verbesserung der Datenverschlüsselung",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch Vereinfachung der Tag-Verwaltung für AWS-Ressourcen",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-management-and-governance_welche-rolle-spielt-aws-backup-im-kontext-der-governance-",
+      "title": "Welche Rolle spielt AWS Backup im Kontext der Governance?",
+      "answers": [
+        {
+          "text": "Automatisiertes Backup von AWS-Ressourcen zur Unterstützung der Compliance-Anforderungen",
+          "isCorrect": true
+        },
+        {
+          "text": "Verbesserung der Datenverarbeitungsgeschwindigkeit",
+          "isCorrect": false
+        },
+        {
+          "text": "Reduzierung der Kosten für Cloud-Speicherung",
+          "isCorrect": false
+        },
+        {
+          "text": "Erhöhung der Netzwerksicherheit",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "id": "wiederholung-machine-learning",
+  "formId": "1GNcyMdtnl8-uPvklhSo-dOKqCSVt2dtVCFTBrDXw-yg",
+  "title": "Wiederholung: Machine Learning",
+  "tasks": [
+    {
+      "id": "wiederholung-machine-learning_was-ist-der-hauptzweck-von-amazon-sagemaker-",
+      "title": "Was ist der Hauptzweck von Amazon SageMaker?",
+      "answers": [
+        {
+          "text": "Verbesserung der Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Plattform zum Erstellen, Trainieren und Bereitstellen von Machine-Learning-Modellen in jeder Größenordnung",
+          "isCorrect": true
+        },
+        {
+          "text": "Management von Datenbanken",
+          "isCorrect": false
+        },
+        {
+          "text": "Direkte Anbindung an physische Netzwerke",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-machine-learning_wie-unterst-tzt-aws-deeplens-entwickler-beim-erlernen-von-machine-learning-",
+      "title": "Wie unterstützt AWS DeepLens Entwickler beim Erlernen von Machine Learning?",
+      "answers": [
+        {
+          "text": "Durch Bereitstellung einer voll integrierten Deep Learning-Kamera zum Erstellen von ML-Projekten",
+          "isCorrect": true
+        },
+        {
+          "text": "Optimierung von Netzwerkhardware",
+          "isCorrect": false
+        },
+        {
+          "text": "Steigerung der Datenbankleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Anwendungssicherheit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-machine-learning_was-ist-amazon-polly-",
+      "title": "Was ist Amazon Polly?",
+      "answers": [
+        {
+          "text": "Management von AWS-Preisen",
+          "isCorrect": false
+        },
+        {
+          "text": "Speicherung von Big Data",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Datenbanksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Text-in-Sprache-Service, der Text in lebensechte Sprache umwandelt",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-machine-learning_welche-funktion-bietet-amazon-lex-",
+      "title": "Welche Funktion bietet Amazon Lex?",
+      "answers": [
+        {
+          "text": "Speicherung von Objektdaten",
+          "isCorrect": false
+        },
+        {
+          "text": "Nutzung der gleichen tiefen Lernfunktionalität wie Alexa",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Erstellung von Konversations-Schnittstellen für Anwendungen",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-machine-learning_wie-hilft-aws-deepracer-entwicklern-bei-machine-learning-",
+      "title": "Wie hilft AWS DeepRacer Entwicklern bei Machine Learning?",
+      "answers": [
+        {
+          "text": "Erhöhung der Netzwerkbandbreite",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch die Bereitstellung einer autonomen 1/18-Skala-Rennwagenplattform zum Erlernen von Reinforcement Learning",
+          "isCorrect": true
+        },
+        {
+          "text": "Bereitstellung von dedizierten Datenbankservices",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der physischen Sicherheitsmaßnahmen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-machine-learning_was-ist-amazon-comprehend-",
+      "title": "Was ist Amazon Comprehend?",
+      "answers": [
+        {
+          "text": "Natürliche Sprachverarbeitung (NLP) zur Extraktion von Informationen",
+          "isCorrect": true
+        },
+        {
+          "text": "Identifizierung von Schlüsselphrasen, Orten, Personen, Marken oder Ereignissen",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Anwendungssicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Beschleunigung der Datenmigration",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-machine-learning_wie-interagiert-amazon-textract-mit-machine-learning-",
+      "title": "Wie interagiert Amazon Textract mit Machine Learning?",
+      "answers": [
+        {
+          "text": "Extrahiert Text und Daten aus gescannten Dokumenten mit Machine Learning",
+          "isCorrect": true
+        },
+        {
+          "text": "Optimierung von Netzwerkhardware",
+          "isCorrect": false
+        },
+        {
+          "text": "Steigerung der Datenbankleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Anwendungssicherheit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-machine-learning_was-erm-glicht-amazon-forecast-",
+      "title": "Was ermöglicht Amazon Forecast?",
+      "answers": [
+        {
+          "text": "Stellt eine zusätzliche Sicherheitsebene für Netzwerke bereit",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Videoqualität von Streaming-Diensten",
+          "isCorrect": false
+        },
+        {
+          "text": "Beschleunigt die Auslieferung von Webinhalten",
+          "isCorrect": false
+        },
+        {
+          "text": "Erstellung präziser Zeitreihenvorhersagen mit Machine Learning",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-machine-learning_was-bietet-amazon-kendra-",
+      "title": "Was bietet Amazon Kendra?",
+      "answers": [
+        {
+          "text": "Intelligente Suchfunktion auf Basis von Machine Learning",
+          "isCorrect": true
+        },
+        {
+          "text": "Bietet relevante Antworten auf natürliche Sprachfragen",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Speicherung von Objektdaten",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-machine-learning_was-ist-amazon-neptune-",
+      "title": "Was ist Amazon Neptune?",
+      "answers": [
+        {
+          "text": "Ermöglicht einfache Erstellung und Ausführung von Anwendungen, die mit hoch verbundenen Datensätzen arbeiten",
+          "isCorrect": false
+        },
+        {
+          "text": "Optimierung der Cloud-Speicherkosten",
+          "isCorrect": false
+        },
+        {
+          "text": "Vollständig verwalteter Graph-Datenbank-Service, der das maschinelle Lernen unterstützt",
+          "isCorrect": true
+        },
+        {
+          "text": "Bereitstellung von Netzwerkfirewalls",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

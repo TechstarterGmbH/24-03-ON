@@ -1,0 +1,337 @@
+{
+  "id": "wiederholung-vpc",
+  "formId": "1t6RqomQ_lfzqt6-mH2Uw4JfqcxZ_oT_MbvBcoc8gxQs",
+  "title": "Wiederholung: VPC",
+  "tasks": [
+    {
+      "id": "wiederholung-vpc_was-ist-der-hauptzweck-von-amazon-vpc-",
+      "title": "Was ist der Hauptzweck von Amazon VPC?",
+      "answers": [
+        {
+          "text": "Speicherung von Daten",
+          "isCorrect": false
+        },
+        {
+          "text": "Bereitstellung eines isolierten Abschnitts der AWS Cloud",
+          "isCorrect": true
+        },
+        {
+          "text": "Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung von AWS-Preisen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-vpc_was-erm-glicht-eine-amazon-vpc-",
+      "title": "Was ermöglicht eine Amazon VPC?",
+      "answers": [
+        {
+          "text": "Vollständige Kontrolle über das virtuelle Netzwerkumgebung",
+          "isCorrect": true
+        },
+        {
+          "text": "Optimierung von Datenbankanfragen",
+          "isCorrect": false
+        },
+        {
+          "text": "Schnellere Datenübertragung",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserte Anwendungssicherheit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-vpc_was-sind-subnetze-in-einer-amazon-vpc-",
+      "title": "Was sind Subnetze in einer Amazon VPC?",
+      "answers": [
+        {
+          "text": "Datenbankverwaltungssysteme",
+          "isCorrect": false
+        },
+        {
+          "text": "Methoden zur Datenverschlüsselung",
+          "isCorrect": false
+        },
+        {
+          "text": "Partitionen innerhalb einer VPC zur Organisation und Kontrolle des Netzwerkverkehrs",
+          "isCorrect": true
+        },
+        {
+          "text": "Tools zur Netzwerkleistungsoptimierung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-vpc_was-ist-eine-internet-gateway-in-einer-amazon-vpc-",
+      "title": "Was ist eine Internet-Gateway in einer Amazon VPC?",
+      "answers": [
+        {
+          "text": "Ein System zur Verwaltung von Datenbankverbindungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Eine Methode zur Beschleunigung von Cloud-Anwendungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Ein Tool zur Überwachung der Anwendungssicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Ein Gateway, das den Zugang zum und vom Internet ermöglicht",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-vpc_was-beschreibt-eine-route-tabelle-in-einer-amazon-vpc-",
+      "title": "Was beschreibt eine Route Tabelle in einer Amazon VPC?",
+      "answers": [
+        {
+          "text": "Eine Datenstruktur zur Speicherung von Benutzerdaten",
+          "isCorrect": false
+        },
+        {
+          "text": "Ein Tool zur Verwaltung von Anwendungsabhängigkeiten",
+          "isCorrect": false
+        },
+        {
+          "text": "Eine Tabelle, die bestimmt, wie der Netzwerkverkehr von Subnetzen oder Gateways weitergeleitet wird",
+          "isCorrect": true
+        },
+        {
+          "text": "Eine Liste von Anwendungen, die in der Cloud ausgeführt werden",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-vpc_wie-verbessern-netzwerk-acls-die-sicherheit-in-einer-amazon-vpc-",
+      "title": "Wie verbessern Netzwerk-ACLs die Sicherheit in einer Amazon VPC?",
+      "answers": [
+        {
+          "text": "Durch Bereitstellung einer zusätzlichen Schicht staatloser Zugriffskontrolle zwischen Subnetzen",
+          "isCorrect": true
+        },
+        {
+          "text": "Durch Verschlüsselung von Daten",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch Performance-Verbesserungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Durch Kostenmanagement",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-vpc_was-ist-der-unterschied-zwischen-einem-nat-gateway-und-einem-internet-gateway-",
+      "title": "Was ist der Unterschied zwischen einem NAT-Gateway und einem Internet-Gateway?",
+      "answers": [
+        {
+          "text": "Ein NAT-Gateway ermöglicht es Instanzen in einem privaten Subnetz, den Zugang zum Internet zu haben, ohne von außen erreichbar zu sein, während ein Internet-Gateway bidirektionalen Internetzugang bietet.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ein NAT-Gateway beschleunigt die Internetverbindung, ein Internet-Gateway nicht.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ein NAT-Gateway ist für interne Netzwerktests, ein Internet-Gateway für externe.",
+          "isCorrect": false
+        },
+        {
+          "text": "NAT-Gateways verwalten Datenbanken, Internet-Gateways nicht.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-vpc_was-ist-ein-vpc-peering-",
+      "title": "Was ist ein VPC Peering?",
+      "answers": [
+        {
+          "text": "Eine Methode zur Datenverschlüsselung",
+          "isCorrect": false
+        },
+        {
+          "text": "Eine Verbindung zwischen zwei VPCs, die es ermöglicht, dass Ressourcen in den verschiedenen VPCs miteinander kommunizieren als wären sie im gleichen Netzwerk",
+          "isCorrect": true
+        },
+        {
+          "text": "Eine Performance-Verbesserungstechnik",
+          "isCorrect": false
+        },
+        {
+          "text": "Eine Kostenreduzierungsmethode",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-vpc_welche-funktion-hat-ein-vpc-endpunkt-",
+      "title": "Welche Funktion hat ein VPC Endpunkt?",
+      "answers": [
+        {
+          "text": "Eine Methode zur Beschleunigung von Anwendungen",
+          "isCorrect": false
+        },
+        {
+          "text": "Ein Sicherheitstool zur Überwachung von Netzwerken",
+          "isCorrect": false
+        },
+        {
+          "text": "Ein Tool zur Datenmigration",
+          "isCorrect": false
+        },
+        {
+          "text": "Ermöglicht privaten Zugang zu AWS-Services ohne Nutzung des Internets",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-vpc_was-ist-eine-sicherheitsgruppe-in-einer-amazon-vpc-",
+      "title": "Was ist eine Sicherheitsgruppe in einer Amazon VPC?",
+      "answers": [
+        {
+          "text": "Ein System zur Datenverschlüsselung",
+          "isCorrect": false
+        },
+        {
+          "text": "Eine Kostenmanagement-Lösung",
+          "isCorrect": false
+        },
+        {
+          "text": "Ein Tool zur Netzwerkleistungsoptimierung",
+          "isCorrect": false
+        },
+        {
+          "text": "Eine virtuelle Firewall für Instanzen zur Steuerung des eingehenden und ausgehenden Verkehrs",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-vpc_wie-funktioniert-der-flow-log-in-einer-amazon-vpc-",
+      "title": "Wie funktioniert der Flow Log in einer Amazon VPC?",
+      "answers": [
+        {
+          "text": "Ein Tool zur Messung der Datenbankperformance",
+          "isCorrect": false
+        },
+        {
+          "text": "Protokolliert Informationen über den ein- und ausgehenden Netzwerkverkehr innerhalb der VPC",
+          "isCorrect": true
+        },
+        {
+          "text": "Ein System zur automatischen Skalierung",
+          "isCorrect": false
+        },
+        {
+          "text": "Eine Methode zur Datenverschlüsselung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-vpc_was-erm-glicht-ein-vpc-traffic-mirroring-",
+      "title": "Was ermöglicht ein VPC Traffic Mirroring?",
+      "answers": [
+        {
+          "text": "Das Duplizieren des Netzwerkverkehrs von einer Quelle zu einem Ziel für die Überwachung oder Fehlerbehebung",
+          "isCorrect": true
+        },
+        {
+          "text": "Eine Methode zur Lastverteilung",
+          "isCorrect": false
+        },
+        {
+          "text": "Eine Kostenmanagementstrategie",
+          "isCorrect": false
+        },
+        {
+          "text": "Ein Tool zur Beschleunigung von Anwendungsantwortzeiten",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-vpc_was-ist-ein-vpc-transit-gateway-",
+      "title": "Was ist ein VPC Transit Gateway?",
+      "answers": [
+        {
+          "text": "Ein Tool zur Netzwerkleistungsoptimierung",
+          "isCorrect": false
+        },
+        {
+          "text": "Ein Datenmanagement-Tool",
+          "isCorrect": false
+        },
+        {
+          "text": "Ein Gateway, das mehrere VPCs und On-Premises-Netzwerke miteinander verbindet, ohne separate Peering-Verbindungen zu benötigen",
+          "isCorrect": true
+        },
+        {
+          "text": "Eine Sicherheitslösung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-vpc_wie-hilft-der-aws-resource-access-manager-beim-umgang-mit-vpcs-",
+      "title": "Wie hilft der AWS Resource Access Manager beim Umgang mit VPCs?",
+      "answers": [
+        {
+          "text": "Ein Tool zur Überwachung der Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Ermöglicht das Teilen von Netzwerkressourcen über mehrere AWS-Konten hinweg",
+          "isCorrect": true
+        },
+        {
+          "text": "Eine Methode zur Datenverschlüsselung",
+          "isCorrect": false
+        },
+        {
+          "text": "Eine Performance-Verbesserungstechnik",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-vpc_wie-k-nnen-elastic-ip-adressen-in-einer-amazon-vpc-verwendet-werden-",
+      "title": "Wie können Elastic IP-Adressen in einer Amazon VPC verwendet werden?",
+      "answers": [
+        {
+          "text": "Zur Bereitstellung einer statischen IP-Adresse für dynamisches Cloud-Computing",
+          "isCorrect": true
+        },
+        {
+          "text": "Eine Methode zur Verbesserung der Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Eine Lösung zur Datenübertragung",
+          "isCorrect": false
+        },
+        {
+          "text": "Ein Tool zur Verbesserung der Anwendungsperformance",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

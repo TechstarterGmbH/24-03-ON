@@ -1,0 +1,205 @@
+{
+  "id": "wiederholung-analytics-and-databases",
+  "formId": "16_x4rVvSxkvBvu5RJl-bV9kysr7IEi4qVKSc9DafVS4",
+  "title": "Wiederholung: Analytics and Databases",
+  "tasks": [
+    {
+      "id": "wiederholung-analytics-and-databases_was-erm-glicht-amazon-athena-",
+      "title": "Was ermöglicht Amazon Athena?",
+      "answers": [
+        {
+          "text": "Verbesserung der Videoqualität von Streaming-Diensten",
+          "isCorrect": false
+        },
+        {
+          "text": "SQL-Abfragen direkt auf Daten in Amazon S3 ausführen",
+          "isCorrect": true
+        },
+        {
+          "text": "Beschleunigt die Auslieferung von Webinhalten",
+          "isCorrect": false
+        },
+        {
+          "text": "Stellt eine zusätzliche Sicherheitsebene für Netzwerke bereit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-analytics-and-databases_wie-unterst-tzt-aws-glue-die-datenintegration-",
+      "title": "Wie unterstützt AWS Glue die Datenintegration?",
+      "answers": [
+        {
+          "text": "Optimierung der Speicherkosten",
+          "isCorrect": false
+        },
+        {
+          "text": "Erhöhung der Netzwerkbandbreite",
+          "isCorrect": false
+        },
+        {
+          "text": "Als serverloser Datenintegrationsdienst zur Vorbereitung und Beladung von Daten für Analysen",
+          "isCorrect": true
+        },
+        {
+          "text": "Verbesserung der Anwendungssicherheit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-analytics-and-databases_was-ist-amazon-emr-",
+      "title": "Was ist Amazon EMR?",
+      "answers": [
+        {
+          "text": "Hadoop-Framework zur Verarbeitung großer Datenmengen",
+          "isCorrect": true
+        },
+        {
+          "text": "Netzwerküberwachung",
+          "isCorrect": false
+        },
+        {
+          "text": "Management von Datenbanken",
+          "isCorrect": false
+        },
+        {
+          "text": "Direkte Anbindung an physische Netzwerke",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-analytics-and-databases_was-ist-amazon-quicksight-",
+      "title": "Was ist Amazon QuickSight?",
+      "answers": [
+        {
+          "text": "Plattform für maschinelles Lernen",
+          "isCorrect": false
+        },
+        {
+          "text": "Tool zur Verbesserung der Datenbankleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Service zur Datenvisualisierung",
+          "isCorrect": false
+        },
+        {
+          "text": "Business Intelligence-Service zur visuellen Erstellung von Analysen und Dashboards",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-analytics-and-databases_wie-interagiert-amazon-kinesis-mit-analytics-",
+      "title": "Wie interagiert Amazon Kinesis mit Analytics?",
+      "answers": [
+        {
+          "text": "Streaming-Daten in Echtzeit sammeln, verarbeiten und analysieren",
+          "isCorrect": true
+        },
+        {
+          "text": "Optimierung von Netzwerkhardware",
+          "isCorrect": false
+        },
+        {
+          "text": "Steigerung der Datenbankleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der Anwendungssicherheit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-analytics-and-databases_was-ist-amazon-msk-managed-streaming-for-apache-kafka-",
+      "title": "Was ist Amazon MSK (Managed Streaming for Apache Kafka)?",
+      "answers": [
+        {
+          "text": "Verbesserung der Netzwerkleistung",
+          "isCorrect": false
+        },
+        {
+          "text": "Vollständig verwaltetes Apache Kafka, das den Aufbau und die Ausführung von Anwendungen erleichtert, die Daten in Echtzeit verarbeiten",
+          "isCorrect": true
+        },
+        {
+          "text": "Management von Cloud-basierten Datenbanken",
+          "isCorrect": false
+        },
+        {
+          "text": "Optimierung von Anwendungsantwortzeiten",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-analytics-and-databases_wie-unterst-tzt-aws-lake-formation-den-aufbau-von-data-lakes-",
+      "title": "Wie unterstützt AWS Lake Formation den Aufbau von Data Lakes?",
+      "answers": [
+        {
+          "text": "Durch Vereinfachung und Automatisierung des Prozesses zum Aufbau, Sichern und Verwalten von Data Lakes",
+          "isCorrect": true
+        },
+        {
+          "text": "Steigerung der Datenverarbeitungsgeschwindigkeit",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbesserung der physischen Sicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Optimierung der Netzwerkinfrastruktur",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-analytics-and-databases_wie-kann-amazon-elasticsearch-service-in-analytics-eingesetzt-werden-",
+      "title": "Wie kann Amazon Elasticsearch Service in Analytics eingesetzt werden?",
+      "answers": [
+        {
+          "text": "Bietet eine vollständig verwaltete Elasticsearch-Umgebung für Echtzeitsuchen und Analysen",
+          "isCorrect": true
+        },
+        {
+          "text": "Verbesserung der Netzwerksicherheit",
+          "isCorrect": false
+        },
+        {
+          "text": "Bereitstellung eines VPN-Tunnels",
+          "isCorrect": false
+        },
+        {
+          "text": "Verwaltung von physischen Netzwerkgeräten",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "wiederholung-analytics-and-databases_welchen-vorteil-bietet-aws-data-pipeline-",
+      "title": "Welchen Vorteil bietet AWS Data Pipeline?",
+      "answers": [
+        {
+          "text": "Erhöhung der Geschwindigkeit der Webanwendungsentwicklung",
+          "isCorrect": false
+        },
+        {
+          "text": "Bietet verbesserte Sicherheit für Datenbanktransaktionen",
+          "isCorrect": false
+        },
+        {
+          "text": "Automatisierung der Bewegung und Transformation von Daten",
+          "isCorrect": true
+        },
+        {
+          "text": "Verbessert die Effizienz der Teamkommunikation",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
