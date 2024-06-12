@@ -33,7 +33,7 @@
           pre-commit
           python3Packages.deepl
           python3Packages.mdformat
-
+          yq
           # gfi
           gfi.defaultPackage.${system}
         ];

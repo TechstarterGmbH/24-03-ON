@@ -42,6 +42,9 @@ TRANS_OUT_MD_EXT := en.md
 
 TRANS_OUT_LANG ?= EN-US
 
+FORM_TMP_FILE ?= $(TMP_DIR)/form.csv
+FORM_TMP_FILE_TMP ?= $(FORM_TMP_FILE).tmp
+
 # ---( Dynamic Variables )------------------------------------------------------
 
 # All the markdown files to process
@@ -66,10 +69,18 @@ ALL_FILES_TO_TRANSLATE := $(shell cat $(FULL_TRANS_FILE))
 # All files that are translated
 ALL_TRANS_OUT_FILES := $(ALL_FILES_TO_TRANSLATE:%.$(MD_EXT)=%.$(TRANS_OUT_MD_EXT))
 
+# All quiz csv files that will be imported into google forms
+ALL_QUIZ_CSV_FILES := $(shell find $(PROCESS_DIR) -name "aufgabe-*.csv" | grep -v node_modules)
+
+ALL_QUIZ_JSON_FILES := $(ALL_QUIZ_CSV_FILES:%.csv=%.json)
+
+ALL_LESSON_FILES := $(shell find $(PROCESS_DIR) -name "lesson.yaml" | grep -v node_modules)
+
+ALL_QUIZ_ACTIVE_FILES := $(ALL_LESSON_FILES:%.yaml=%-active.yaml)
 
 # ---( Targets )---------------------------------------------------------------
 
-.PHONY: all clean test help debug check docs slides trans run-always
+.PHONY: all clean test help debug check docs slides trans run-always quiz
 
 # ---( Misc )------------------------------------------------------------------
 
@@ -91,6 +102,9 @@ debug:
 	@echo "ALL_TRANSL_FILES: $(ALL_TRANSL_FILES)"
 	@echo "ALL_FILES_TO_TRANSLATE: $(ALL_FILES_TO_TRANSLATE)"
 	@echo "ALL_TRANS_OUT_FILES: $(ALL_TRANS_OUT_FILES)"
+	@echo "ALL_QUIZ_CSV_FILES: $(ALL_QUIZ_CSV_FILES)"
+	@echo "ALL_QUIZ_JSON_FILES: $(ALL_QUIZ_JSON_FILES)"
+	@echo "ALL_LESSON_FILES: $(ALL_LESSON_FILES)"
 
 
 # ---( Check )------------------------------------------------------------------
@@ -165,6 +179,13 @@ $(ALL_TRANS_OUT_FILES): %.$(TRANS_OUT_MD_EXT): %.$(MD_EXT)
 	@test -z $$DEEPL_AUTH_KEY && echo "Error: DEEPL_AUTH_KEY is not set" && exit 1 || true
 	@deepl text --to $(TRANS_OUT_LANG) --from DE --preserve-formatting - < $< > $@
 
+# ---( Quiz )-----------------------------------------------------------------------
+
+# Convert csv to json
+# $(ALL_QUIZ_JSON_FILES): %.json: %.csv
+# 	@echo "Converting csv to json: $<"
+# 	@echo $< $@
+
 #---( Collections )------------------------------------------------------------------
 
 docs: $(ALL_PDF_FILES)
@@ -182,6 +203,8 @@ slides-clean:
 trans-prepare: $(FULL_TRANS_FILE)
 
 trans: $(ALL_TRANS_OUT_FILES)
+
+quiz-prepare: $(FORM_TMP_FILE)
 
 all: check docs slides
 	@echo "All files built"
