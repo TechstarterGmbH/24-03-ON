@@ -1,0 +1,36 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: blue;
+  color: white;
+  padding: 20px;
+}
+
+#hallo {
+  font-size: 20px;
+}
+
+#wie {
+  font-size: 12px;
+}
+
+#geht {
+  font-size: 24px;
+}
+
+#es {
+  font-size: 32px;
+}
+
+#dir {
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
