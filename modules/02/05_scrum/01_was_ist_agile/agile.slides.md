@@ -94,6 +94,9 @@ class: invert
 4. **Tägliche Zusammenarbeit:** Tägliche Zusammenarbeit zwischen Fachleuten und Entwicklern.
 5. **Motivierte Individuen:** Unterstützung und Vertrauen für die Beteiligten.
 6. **Effektive Kommunikation:** Die effizienteste und effektivste Methode der Informationsübermittlung ist das Gespräch von Angesicht zu Angesicht.
+
+---
+
 7. **Fortschrittsmaß:** Funktionierende Software ist das primäre Fortschrittsmaß.
 8. **Nachhaltige Entwicklung:** Agile Prozesse fördern eine nachhaltige Entwicklung.
 9. **Technische Exzellenz:** Ständige Aufmerksamkeit auf technische Exzellenz und gutes Design verbessert die Agilität.
