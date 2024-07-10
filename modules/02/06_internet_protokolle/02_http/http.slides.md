@@ -25,14 +25,54 @@ class: invert
 
 ### HTTP Methoden
 
-- **Einführung in HTTP Methoden**: Methoden sind wie verschiedene Arten von Anfragen in einem Restaurant (zum Beispiel Bestellung aufgeben, Änderungen vornehmen, eine Rechnung anfordern).
-- **GET Methode**: Wie das Fragen nach einer Menükarte. Es holt Informationen, ohne sie zu ändern.
-- **POST Methode**: Wie das Bestellen von Essen. Es sendet Daten an den Server, um neue Informationen zu erstellen.
-- **HEAD Methode**: Wie das Fragen nach dem Tagesangebot, ohne es zu bestellen. Es holt Metadaten einer Ressource.
-- **PUT Methode**: Wie das Zurücksenden eines Gerichts zur Änderung. Es ersetzt eine bestehende Ressource.
-- **DELETE Methode**: Wie das Stornieren einer Bestellung. Es löscht eine bestehende Ressource.
-- **TRACE Methode**: Verfolgt den Weg einer Anfrage durch das Netzwerk.
-- **CONNECT Methode**: Etabliert einen Tunnel zu einem Server, oft verwendet in SSL.
+---
+
+#### GET Methode
+
+- Wie das Fragen nach einer Menükarte. Es holt Informationen, ohne sie zu ändern.
+- Beispiel: `GET /menu`
+
+---
+
+#### POST Methode
+
+- Wie das Bestellen von Essen. Es sendet Daten an den Server, um neue Informationen zu erstellen.
+- Beispiel: `POST /order`
+
+---
+
+#### HEAD Methode
+
+- Wie das Fragen nach dem Tagesangebot, ohne es zu bestellen. Es holt Metadaten einer Ressource.
+- Beispiel: `HEAD /specials`
+
+---
+
+#### PUT Methode
+
+- Wie das Zurücksenden eines Gerichts zur Änderung. Es ersetzt eine bestehende Ressource.
+- Beispiel: `PUT /order/123`
+
+---
+
+#### DELETE Methode
+
+- Wie das Stornieren einer Bestellung. Es löscht eine bestehende Ressource.
+- Beispiel: `DELETE /order/123`
+
+---
+
+#### TRACE Methode
+
+- Verfolgt den Weg einer Anfrage durch das Netzwerk.
+- Beispiel: `TRACE /`
+
+---
+
+#### CONNECT Methode
+
+- Etabliert einen Tunnel zu einem Server, oft verwendet in SSL.
+- Beispiel: `CONNECT www.example.com:443`
 
 ---
 
@@ -88,11 +128,3 @@ class: invert
 
 - **Anwendungsschicht des OSI Modells**: HTTP arbeitet hier, wo Endbenutzer-Services wie Webbrowser und -server interagieren.
 - **Transport- und Netzwerkschicht**: Unter HTTP arbeiten TCP/IP, die wie die Lieferwagen sind, die deine Bestellung (Daten) durch das Internet fahren.
-
-![OSI Modell](https://upload.wikimedia.org/wikipedia/commons/9/9b/OSI_Model_v1.svg)
-
----
-
-### Wie HTTP mit dem OSI Modell verbindet
-
-- Stell dir das OSI Modell wie ein mehrstöckiges Restaurant vor. HTTP bedient die oberste Etage (Anwendungsschicht), während die mittleren Etagen (Transport- und Netzwerkschicht) durch TCP/IP besetzt sind, die sicherstellen, dass deine Bestellung (Daten) den richtigen Weg findet.
