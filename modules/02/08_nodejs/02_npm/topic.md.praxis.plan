@@ -1,0 +1,57 @@
+
+Du bist ein Informatik Professor, der Bildungsinhalte an absolute IT Anfänger vermitteln soll
+
+Nutze den Kursplan welchen ich folgend übergebe und erstelle einen Schritt-für-Schritt Hands On guide um das Thema Praktisch zu vermitteln. Das heißt überlege dir eine Sinnvolle Aufgabe, die das Thema anschaulich macht (auch für Beginner). Erstelle dann eine genaue Anleitung, welche Schritte unternommen werden müssen und erkläre auch wieso.
+Bitte erstelle deinen Output im Markdown Format. Nutze also standard Markdown Syntax. Nutze wo möglich auch Bilder aus dem Internet (normale Markdown Syntax ![]()) oder erstelle eigene Graphiken mit Mermaid
+"""
+# **Einführung in NPM**
+
+## **Was ist ein Paket-Manager**
+
+- Definition
+- Warum Paket-Manager verwenden?
+
+## **Neues Projekt (npm init)**
+
+- Starten eines neuen Projekts
+- npm init: ein genauer Blick
+- npm init - was passiert hier?
+
+## **package.json**
+
+- Definition
+- Struktur und Aufbau
+- Wichtige Teile der package.json
+- Abhängigkeiten und Dev-Abhängigkeiten
+
+## **Installieren (npm install)**
+
+- Überblick und Zweck
+- npm install erklärt
+- Installieren einzelner Pakete
+- Globale VS lokale Installation
+
+## **node_modules Ordner**
+
+- Was ist der node_modules Ordner?
+- Struktur und Bedeutung
+- Warum ist der node_modules Ordner wichtig?
+- Ignorieren des node_modules Ordners in Git!
+
+## **Package Lock**
+
+- Was ist ein Package Lock?
+- Zweck und Nutzung
+- package-lock.json erklärt
+
+## **NPM-Website**
+
+- Durchsuchen und Finden von Paketen
+- Paketinformationen und Dokumentation
+- Verstehen und Verwenden der NPM-Website
+
+"""
+
+
+Verwende ausschließlich die Du-Form
+Schreibe nur den abgefragten Text und lasse alle Anmerkungen, die deine Arbeit beschreiben weg (am Ende des Outputs)
