@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Einfacher HTML-Counter</title>
+  <style>
+    .counter {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    button {
+      font-size: 20px;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="counter" id="counterDisplay">0</div>
+  <button onclick="incrementCounter()">Zähler erhöhen</button>
+
+  <script>
+    let counter = 0;
+
+    function incrementCounter() {
+      counter++;
+      // Es reicht nicht, nur den Wert des Zählers zu erhöhen, sondern wir müssen auch den Wert im HTML-Dokument aktualisieren
+      document.getElementById('counterDisplay').innerText = counter;
+    }
+  </script>
+
+</body>
+
+</html>
