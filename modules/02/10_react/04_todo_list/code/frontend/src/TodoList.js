@@ -3,51 +3,75 @@ import { useState, useEffect } from 'react';
 import TodoItem from './TodoItem';
 import TodoInput from './TodoInput';
 
+const API_HOST = 'http://127.0.0.1';
+const API_PORT = '5000';
+const API_URL = `${API_HOST}:${API_PORT}/todos`;
+
 function TodoList() {
-
-  useEffect(() => {
-    // Hier werden die Daten vom Server geladen
-
-    setTimeout(() => {
-      setTodos([
-        { id: 0, text: 'Learn React', isComplete: false },
-        { id: 1, text: 'Learn Vue', isComplete: false },
-        { id: 2, text: 'Learn Angular', isComplete: false },
-      ]);
-      setLoading(false);
-    }, 2000);
-  });
-
   const [todos, setTodos] = useState([]);
 
   const [loading, setLoading] = useState(true);
 
-  function todoToggleDone(index) {
-    const newTodos = todos.slice();
-    newTodos[index].isComplete = !newTodos[index].isComplete;
-    setTodos(newTodos);
+  function fetchTodos() {
+    fetch(API_URL)
+      .then(response => response.json())
+      .then(data => {
+        setTodos(data);
+        setLoading(false);
+      });
   }
+
+  useEffect(() => {
+    // Hier werden die Daten vom Server geladen
+    fetchTodos();
+
+  }, []);
+
 
   function addTodo(todo) {
-    const newId = todos.length;
-    todo.id = newId;
-    setTodos([...todos, todo]);
+
+    fetch(API_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(todo)
+    })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Failed to create todo');
+        }
+        fetchTodos();
+
+      });
   }
 
-  function deleteTodo(index) {
-    const newTodos = todos.slice();
-    newTodos.splice(index, 1);
-    setTodos(newTodos);
+  function deleteTodo(todo) {
+    fetch(`${API_URL}/${todo.id}`, {
+      method: 'DELETE'
+    })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Failed to delete todo');
+        }
+        fetchTodos();
+      });
   }
 
   function updateTodo(updatedTodo) {
-    const newTodos = todos.map(todo => {
-      if (todo.id === updatedTodo.id) {
-        return updatedTodo;
-      }
-      return todo;
-    });
-    setTodos(newTodos);
+    fetch(`${API_URL}/${updatedTodo.id}`, {
+      method: 'PUT',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(updatedTodo)
+    })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Failed to update todo');
+        }
+        fetchTodos();
+      });
   }
 
   return (
@@ -67,8 +91,7 @@ function TodoList() {
             <TodoItem
               key={index}
               todo={todo}
-              onToggleDone={() => todoToggleDone(index)}
-              onDelete={() => deleteTodo(index)}
+              onDelete={deleteTodo}
               onUpdate={updateTodo}
             />
           ))}

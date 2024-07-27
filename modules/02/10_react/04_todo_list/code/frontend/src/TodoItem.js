@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import "./TodoItem.css";
 
-function TodoItem({ todo, onToggleDone, onDelete, onUpdate }) {
+function TodoItem({ todo, onDelete, onUpdate }) {
 
   const [isEditing, setIsEditing] = useState(false);
 
@@ -10,6 +10,19 @@ function TodoItem({ todo, onToggleDone, onDelete, onUpdate }) {
 
   const todoStrikeClass = todo.isComplete ? 'todo-strikethrough' : '';
   const updateButtonText = isEditing ? 'Save' : 'Update';
+
+  function handleToggleDone() {
+    const updatedTodo = {
+      ...todo,
+      isComplete: !todo.isComplete
+    };
+
+    onUpdate(updatedTodo);
+  }
+
+  function handleDelete() {
+    onDelete(todo);
+  }
 
   function handleUpdate() {
     if (isEditing) {
@@ -29,7 +42,7 @@ function TodoItem({ todo, onToggleDone, onDelete, onUpdate }) {
 
   return (
     <div className="todo">
-      <input type="checkbox" checked={todo.isComplete} onChange={onToggleDone} />
+      <input type="checkbox" checked={todo.isComplete} onChange={handleToggleDone} />
       {isEditing ? (
         <input type="text" value={updatedText} onChange={(e) => setUpdatedText(e.target.value)} />
       ) : (
@@ -38,7 +51,7 @@ function TodoItem({ todo, onToggleDone, onDelete, onUpdate }) {
 
       <div className="todo-btns">
         <button onClick={handleUpdate}>{updateButtonText}</button>
-        <button onClick={onDelete}>Delete</button>
+        <button onClick={handleDelete}>Delete</button>
       </div>
 
     </div>
