@@ -77,22 +77,21 @@
 
 ---
 
-### Installieren und Einrichten von Postman
-
-- Download von [Postman's offizieller Website](https://www.postman.com/downloads/).
-- Installation ähnlich wie bei anderen Apps, mit Setup-Assistenten zum Starten.
-
----
-
 ### Die Benutzeroberfläche von Postman verwenden
 
 - Überblick über wichtige Bereiche: Anfrage-Erstellung, Antwort-Bereich, Sammlungen und Umgebungsvariablen.
+- Eine Sammlung von Anfragen nennt man eine `Collection`.
+- Jede `Collection` kann mehrere Anfragen enthalten
+- Eine Anfrage besteht aus einer Methode, einer URL, Headern und Body-Daten.
+- Die Antwort enthält einen Statuscode, Header und Body-Daten.
 
 ---
 
 ### Erstellen einer neuen Anfrage in Postman
 
-- Auswahl der Methode, Eingabe der URL und optional das Hinzufügen von Headern und Body-Daten.
+- Auswahl der Methode
+- Eingabe der URL
+- (optional) Hinzufügen von Headern und Body-Daten
 
 ---
 
@@ -103,6 +102,8 @@
 ### Collections in Postman
 
 - Sammlungen in Postman sind wie ein Rezeptbuch, in dem man verschiedene Anfragen organisieren und speichern kann.
+- Wenn wir eine API testen wollen, erstellen wir normalerweise eine Collection mit allen Endpunkten.
+- Jede Anfrage in der Collection kann mit verschiedenen Parametern und Daten konfiguriert werden.
 
 ---
 
@@ -112,19 +113,9 @@
 
 ---
 
-### Verwenden von HTTP-Methoden in Postman
-
-- Praktische Beispiele für jede Methode: Wie man sie einsetzt und was man erwarten kann.
-
----
-
-### HTTP-Antworten analysieren in Postman
-
-- Erlernen, wie man Statuscodes interpretiert und die Daten in den Antworten versteht.
-
----
-
 ### Übertragen von Daten mit Postman
+
+---
 
 #### Formulardaten
 
@@ -134,3 +125,4 @@
 
 - Senden von Daten im JSON-Format, vergleichbar mit einer speziell formatierten Bestellung.
 
+---

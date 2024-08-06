@@ -3,7 +3,7 @@
 ## Ziel
 
 - Erstelle eine simple CRUD API mit Express
-- Jeder Endpunkt soll mit Postbank getestet werden
+- Jeder Endpunkt soll mit Postman getestet werden
 - Ziel soll es sein eine Buchliste zu erstellen
 - Es soll keine Datenbank erstellt werden, sondern die Daten sollen in einem Array gespeichert werden
 
